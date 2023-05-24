@@ -9,7 +9,7 @@ import Colors from '../constants/Colors';
 function DrawerMenuIcon(data: any) {
     const { props } = data;
     return (
-        <TouchableOpacity onPress={() => { }}>
+        <TouchableOpacity onPress={() => {props.navigation.toggleDrawer() }}>
             <Ionicons name="ios-menu" size={32} color="white" />
         </TouchableOpacity>
     );
