@@ -1,5 +1,4 @@
 import { FlatList, StyleSheet, Image, View, Text } from 'react-native';
-import { Button } from '@rneui/themed';
 
 import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
@@ -9,29 +8,49 @@ export default function HomeScreen(props: any) {
     const buttons = [
         {
             colors: ['#FF9800', '#F44336'],
-            text: 'Texto mas largo',
-            route: 'Test'
+            text: 'Violencia',
+            route: 'Violence'
         },
         {
             colors: ['#d10074', '#192f6a'],
-            text: ' prueba 2',
+            text: 'Salud integral',
+            route: 'Health'
+        },
+        {
+            colors: ['#4c669f', '#468499'],
+            text: 'Alimentacion',
+            route: 'Feeding'
+        },
+        {
+            colors: ['#0f8d47', '#192f6a'],
+            text: 'Trámites y documentos',
+            route: 'Documents'
+        },
+        {
+            colors: ['#4c669f', '#192f6a'],
+            text: 'Habitar Quito',
             route: 'Test'
         },
         {
             colors: ['#4c669f', '#468499'],
-            text: ' prueba 3',
+            text: 'Alimentacion',
             route: 'Test'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
-            text: ' prueba 4',
+            colors: ['#4c669f', '#468499'],
+            text: 'Inserción escolar',
             route: 'Test'
         },
         {
-            colors: ['#4c669f', '#192f6a'],
-            text: ' prueba 5',
+            colors: ['#4c669f', '#468499'],
+            text: 'Mis derechos',
             route: 'Test'
-        }
+        },
+        {
+            colors: ['#4c669f', '#468499'],
+            text: 'Regularización',
+            route: 'Test'
+        },
     ]
 
     function wellcomeImage() {
@@ -46,14 +65,12 @@ export default function HomeScreen(props: any) {
     return (
         <MainLayout  {...props} headerTitle={"INICIO"}>
             <View style={styles.container}>
-                {/* <Button title="Navegar" onPress={() => { navigation.navigate('Test') }} /> */}
-
                 <FlatList
                     data={buttons}
                     columnWrapperStyle={styles.row}
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
-                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} onPres={() => { navigation.navigate('Test') }} />}
+                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} onPres={() => { navigation.navigate(item.item.route) }} />}
                     ListFooterComponent={<GradientButton text={'Super botton'} colors={['#395961', '#F44336']} onPres={() => { navigation.navigate('Test') }} />}
                     ListHeaderComponent={wellcomeImage()}
                 />
