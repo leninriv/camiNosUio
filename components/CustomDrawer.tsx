@@ -7,14 +7,18 @@ import {
 } from '@react-navigation/drawer';
 
 export default function DrawerMenuContent(props: any) {
+    const { navigation } = props;
     return (
         <View style={styles.container}>
             <DrawerContentScrollView {...props} style={styles.container}>
                 {/* <DrawerItemList {...props} /> */}
-                <DrawerItem label="Derechos" onPress={() => { }} />
-                <DrawerItem label="Rutas" onPress={() => { }} />
-                <DrawerItem label="Instituciones" onPress={() => { }} />
-                <DrawerItem label="Cuadrante Sur" onPress={() => { }} />
+                <DrawerItem label="Inicio" onPress={() => { navigation.navigate('Home'); }} />
+                <DrawerItem label="¿Qué es camiNOS.uio?" onPress={() => { navigation.navigate('WhatIs'); }} />
+                <DrawerItem label="Rutas de protección de derechos" onPress={() => { navigation.navigate('RightsProtection'); }} />
+                <DrawerItem label="Información clave" onPress={() => { navigation.navigate('Information'); }} />
+                <DrawerItem label="Directorio" onPress={() => { navigation.navigate('Directory'); }} />
+                <DrawerItem label="Mis favoritos" onPress={() => { }} />
+                <DrawerItem label="Acerca de Cuadrante Sur" onPress={() => { }} />
             </DrawerContentScrollView>
             <View style={styles.logoContent}>
                 <Text>Powered by:</Text>

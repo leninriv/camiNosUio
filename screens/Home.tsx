@@ -29,27 +29,22 @@ export default function HomeScreen(props: any) {
         {
             colors: ['#4c669f', '#192f6a'],
             text: 'Habitar Quito',
-            route: 'Test'
-        },
-        {
-            colors: ['#4c669f', '#468499'],
-            text: 'Alimentacion',
-            route: 'Test'
+            route: 'City'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Inserción escolar',
-            route: 'Test'
+            route: 'Scholar'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Mis derechos',
-            route: 'Test'
+            route: 'Rights'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Regularización',
-            route: 'Test'
+            route: 'Regularization'
         },
     ]
 
