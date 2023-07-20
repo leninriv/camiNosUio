@@ -32,7 +32,7 @@ export default function RegularizationContainer(props: any) {
     useEffect(() => {
     }, []);
     return (
-        <MainLayout  {...props} headerTitle={"Mis Derechos"} backButton>
+        <MainLayout  {...props} headerTitle={"Regularizacion"} backButton>
             <View style={styles.container}>
                 <FlatList
                     data={buttons}

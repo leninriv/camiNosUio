@@ -123,8 +123,6 @@ function DirectoryNav(props: any) {
     )
 };
 
-
-
 export default function Routing() {
     return (
         <NavigationContainer>

@@ -9,54 +9,63 @@ export default function HomeScreen(props: any) {
         {
             colors: ['#FF9800', '#F44336'],
             text: 'Violencia',
-            route: 'Violence'
+            route: 'Violence',
+            iconName: 'heart'
         },
         {
             colors: ['#d10074', '#192f6a'],
             text: 'Salud integral',
-            route: 'Health'
+            route: 'Health',
+            iconName: 'fitness'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Alimentacion',
-            route: 'Feeding'
+            route: 'Feeding',
+            iconName: 'fast-food'
         },
         {
             colors: ['#0f8d47', '#192f6a'],
             text: 'Trámites y documentos',
-            route: 'Documents'
+            route: 'Documents',
+            iconName: 'document-text'
         },
         {
             colors: ['#4c669f', '#192f6a'],
             text: 'Habitar Quito',
-            route: 'City'
+            route: 'City',
+            iconName: 'business'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Inserción escolar',
-            route: 'Scholar'
+            route: 'Scholar',
+            iconName: 'school'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Mis derechos',
-            route: 'Rights'
+            route: 'Rights',
+            iconName: 'shield-checkmark'
         },
         {
             colors: ['#4c669f', '#468499'],
             text: 'Regularización',
-            route: 'Regularization'
+            route: 'Regularization',
+            iconName: 'card'
         },
     ]
 
     function wellcomeImage() {
-        return <View style={{alignItems:'center'}}>
-            <Text>Vamos a empezar!</Text>
+        return <View style={{ alignItems: 'center' }}>
+            {/* <Text>Vamos a empezar!</Text> */}
             <Image
                 style={styles.stretch}
                 source={require('../assets/images/start.png')}
             />
         </View>
-    }
+    };
+
     return (
         <MainLayout  {...props} headerTitle={"INICIO"}>
             <View style={styles.container}>
@@ -65,7 +74,7 @@ export default function HomeScreen(props: any) {
                     columnWrapperStyle={styles.row}
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
-                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} onPres={() => { navigation.navigate(item.item.route) }} />}
+                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
                     ListFooterComponent={<GradientButton text={'Super botton'} colors={['#395961', '#F44336']} onPres={() => { navigation.navigate('Test') }} />}
                     ListHeaderComponent={wellcomeImage()}
                 />
@@ -78,7 +87,7 @@ export default function HomeScreen(props: any) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: 'transparent',
         alignItems: 'center',
         justifyContent: 'center',
     },
