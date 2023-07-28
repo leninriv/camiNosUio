@@ -4,14 +4,15 @@ import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
 import { useEffect } from 'react';
 
-export default function WhatIsContainer(props: any) {
+export default function OrganizationContainer(props: any) {
+
     useEffect(() => {
     }, []);
     return (
-        <MainLayout  {...props} headerTitle={"¿Qué es camiNOS.uio?"}>
+        <MainLayout  {...props} headerTitle={"Cuadrante Sur"}>
             <View style={styles.container}>
                 <Text style={styles.text}>
-                    Es una aplicación que facilita el ejercicio de derechos de las personas en situación de movilidad humana en Quito. Solo requiere de conexión a internet al momento de descargarla. En adelante tendrás acceso a todo el contenido que incluye información clave, rutas de protección de derechos y directorio de organizaciones sin necesidad de estar conectado a internet.
+                Organización de la sociedad civil que busca impulsar el desarrollo social a través de proyectos, iniciativas e investigaciones que promuevan el ejercicio de derechos humanos y de la naturaleza, la justicia social, la democratización del conocimiento, la deliberación pública, la participación ciudadana y modelos innovadores de gestión organizacional.
                 </Text>
             </View>
         </MainLayout>
@@ -36,6 +37,6 @@ const styles = StyleSheet.create({
         fontSize: 30,
         // color: '#fff',
         textAlign: 'justify',
-        justifyContent: 'center'
+        justifyContent:'center'
     },
 });

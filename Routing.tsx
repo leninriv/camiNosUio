@@ -16,6 +16,8 @@ import WhatIsContainer from './screens/WhatIs';
 import RightsProtectionContainer from './screens/RightsProtectionContainer';
 import InformationContainer from './screens/InformationContainer';
 import DirectoryContainer from './screens/DirectoryContainer';
+import OrganizationContainer from './screens/OrganizationContainer';
+import SearchContainer from './screens/SearchContainer';
 
 const ViolenceStack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -123,6 +125,16 @@ function DirectoryNav(props: any) {
     )
 };
 
+function SearchNav(props: any) {
+    return (
+        <ViolenceStack.Navigator initialRouteName="SearchContainer" screenOptions={InspectionTabBarOptions}>
+            <ViolenceStack.Screen name='SearchContainer' component={SearchContainer} />
+            <ViolenceStack.Screen name='SearchTest' component={TestScreen} />
+        </ViolenceStack.Navigator>
+    )
+};
+
+
 export default function Routing() {
     return (
         <NavigationContainer>
@@ -132,6 +144,7 @@ export default function Routing() {
                 drawerContent={(props) => <DrawerMenuContent {...props} />} >
                 <Drawer.Screen name="Home" component={HomeScreen} />
                 <Drawer.Screen name="WhatIs" component={WhatIsContainer} />
+                <Drawer.Screen name="Organization" component={OrganizationContainer} />
                 <Drawer.Screen name="RightsProtection" component={RightsProtectionNav} />
                 <Drawer.Screen name="Information" component={InformationNav} />
                 <Drawer.Screen name="Directory" component={DirectoryNav} />
@@ -144,6 +157,7 @@ export default function Routing() {
                 <Drawer.Screen name="Scholar" component={ScholarNav} />
                 <Drawer.Screen name="Rights" component={RightsNav} />
                 <Drawer.Screen name="Regularization" component={RegularizationNav} />
+                <Drawer.Screen name="Search" component={SearchNav} />
             </Drawer.Navigator>
         </NavigationContainer>
     );
