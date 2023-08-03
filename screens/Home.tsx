@@ -1,5 +1,6 @@
 import { FlatList, StyleSheet, Image, View, Text } from 'react-native';
 
+
 import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
 
@@ -26,7 +27,7 @@ export default function HomeScreen(props: any) {
         },
         {
             colors: ['#0f8d47', '#192f6a'],
-            text: 'Trámites y documentos',
+            text: 'Documentos y denuncias',
             route: 'Documents',
             iconName: 'document-text'
         },

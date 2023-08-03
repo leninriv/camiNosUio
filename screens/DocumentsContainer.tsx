@@ -19,12 +19,12 @@ export default function DocumentsContainer(props: any) {
         },
         {
             colors: ['#0f8d47', '#192f6a'],
-            text: 'Registro y homologación te títulos ed. superior',
+            text: 'Trámites',
             route: 'DocumentsTest'
         },
         {
             colors: ['#0f8d47', '#192f6a'],
-            text: 'Embajadas y consulados',
+            text: 'Asesoría legal',
             route: 'DocumentsTest'
         }
     ]
@@ -32,7 +32,7 @@ export default function DocumentsContainer(props: any) {
     useEffect(() => {
     }, []);
     return (
-        <MainLayout  {...props} headerTitle={"Trámites y documentación"} backButton>
+        <MainLayout  {...props} headerTitle={"Documentos y denuncias"} backButton>
             <View style={styles.container}>
                 <FlatList
                     data={buttons}

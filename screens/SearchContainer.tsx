@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import { FlatList, StyleSheet, View } from 'react-native';
 import { SearchBar } from '@rneui/themed';
+
+
+import { database } from '../data/directory.json'
 
 import MainLayout from '../components/MainLayout';
 import DirectoryItem from '../components/DirectoryItem';
@@ -11,6 +14,7 @@ export default function SearchContainer(props: any) {
     const [search, setSearch] = useState("");
 
     useEffect(() => {
+        // console.log(database);
     }, []);
 
     const updateSearch = (query: string) => {
@@ -28,9 +32,13 @@ export default function SearchContainer(props: any) {
                         platform='ios'
                         containerStyle={{ backgroundColor: 'transparent' }}
                     />
-                    <DirectoryItem />
-                    <DirectoryItem />
-                    <DirectoryItem />
+
+                    <FlatList
+                        data={database}
+                        renderItem={(item: any) => <DirectoryItem organization={item.item} />}
+                        keyExtractor={(item: any) => item.id}
+                        initialNumToRender={6}
+                    />
                 </View>
             </View>
         </MainLayout>

@@ -5,7 +5,7 @@ import { Chip, ListItem } from '@rneui/themed';
 import { LinearGradient } from 'expo-linear-gradient';
 
 export default function DirectoryItem(props: any) {
-
+    const { organization } = props;
     return (
         <ListItem
             linearGradientProps={{
@@ -17,9 +17,9 @@ export default function DirectoryItem(props: any) {
             containerStyle={styles.container}
         >
             <ListItem.Content>
-                <ListItem.Title style={{ color: 'white', fontWeight: 'bold' }}>AKUANUNA</ListItem.Title>
-                <ListItem.Subtitle style={{ color: 'white' }}>Entidad sin fines de lucro, independiente, feminista, apartidista y laica. </ListItem.Subtitle>
-                <Chip title="Informacion" containerStyle={{ marginTop: 5 }} size='sm' />
+                <ListItem.Title style={{ color: 'white', fontWeight: 'bold' }}>{organization.name}</ListItem.Title>
+                <ListItem.Subtitle style={{ color: 'white' }}>{organization.description} </ListItem.Subtitle>
+                <Chip title={organization.tag1} containerStyle={{ marginTop: 5 }} size='sm' />
             </ListItem.Content>
             <ListItem.Chevron color="white" />
         </ListItem>
