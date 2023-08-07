@@ -8,17 +8,17 @@ export default function RightsProtectionContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencia basada en género',
             route: 'RightsProtectionTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Inserción escolar',
             route: 'RightsProtectionTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Niños, niñas y adolescentes',
             route: 'RightsProtectionTest'
         }

@@ -8,32 +8,32 @@ export default function InformationContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Cambio divisas',
             route: 'InformationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Cuentas de banco',
             route: 'InformationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Consulados y embajadas',
             route: 'InformationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Oportunidades laborales',
             route: 'InformationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Redes y comunidad',
             route: 'InformationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Glosario',
             route: 'InformationTest'
         },

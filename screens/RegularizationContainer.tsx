@@ -8,22 +8,22 @@ export default function RegularizationContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Soy de Venezuela',
             route: 'RegularizationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Soy de Colombia',
             route: 'RegularizationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Otras nacionalidades',
             route: 'RegularizationTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'No tengo pasaporte',
             route: 'RegularizationTest'
         }

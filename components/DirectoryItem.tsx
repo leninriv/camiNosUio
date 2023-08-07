@@ -5,7 +5,7 @@ import { Chip, ListItem } from '@rneui/themed';
 import { LinearGradient } from 'expo-linear-gradient';
 
 export default function DirectoryItem(props: any) {
-    const { organization } = props;
+    const { organization, navigation } = props;
     return (
         <ListItem
             linearGradientProps={{
@@ -15,6 +15,7 @@ export default function DirectoryItem(props: any) {
             }}
             ViewComponent={LinearGradient}
             containerStyle={styles.container}
+            onPress={() => { navigation.navigate('DirectoryView', { id: organization.id}) }}
         >
             <ListItem.Content>
                 <ListItem.Title style={{ color: 'white', fontWeight: 'bold' }}>{organization.name}</ListItem.Title>

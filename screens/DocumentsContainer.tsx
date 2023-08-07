@@ -8,22 +8,22 @@ export default function DocumentsContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Documentos Ecuador',
             route: 'DocumentsTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Denuncia pérdida de documentos',
             route: 'DocumentsTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Trámites',
             route: 'DocumentsTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Asesoría legal',
             route: 'DocumentsTest'
         }

@@ -8,22 +8,22 @@ export default function FeedingContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Organizaciones',
             route: 'FeedingTest'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Bancos de alimentos',
             route: 'FeedingTest'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Comedores comunitarios',
             route: 'FeedingTest'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Patronato',
             route: 'FeedingTest'
         }

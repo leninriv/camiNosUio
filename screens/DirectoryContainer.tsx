@@ -8,17 +8,17 @@ export default function InformationContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Organizaciones sociedad civil',
             route: 'DirectoryTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Organizaciones públicas',
             route: 'DirectoryTest'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Portal trámites ciudadanos',
             route: 'DirectoryTest'
         }

@@ -8,49 +8,49 @@ export default function HomeScreen(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencia',
             route: 'Violence',
             iconName: 'heart'
         },
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Salud integral',
             route: 'Health',
             iconName: 'fitness'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Alimentacion',
             route: 'Feeding',
             iconName: 'fast-food'
         },
         {
-            colors: ['#0f8d47', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Documentos y denuncias',
             route: 'Documents',
             iconName: 'document-text'
         },
         {
-            colors: ['#4c669f', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Habitar Quito',
             route: 'City',
             iconName: 'business'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Inserción escolar',
             route: 'Scholar',
             iconName: 'school'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Mis derechos',
             route: 'Rights',
             iconName: 'shield-checkmark'
         },
         {
-            colors: ['#4c669f', '#468499'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Regularización',
             route: 'Regularization',
             iconName: 'card'
@@ -76,7 +76,7 @@ export default function HomeScreen(props: any) {
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
                     renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    ListFooterComponent={<GradientButton text={'Super botton'} colors={['#395961', '#F44336']} onPres={() => { navigation.navigate('Test') }} />}
+                    // ListFooterComponent={<GradientButton text={'Super botton'} colors={['#395961', '#F44336']} onPres={() => { navigation.navigate('Test') }} />}
                     ListHeaderComponent={wellcomeImage()}
                 />
 

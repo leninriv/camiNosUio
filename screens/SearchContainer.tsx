@@ -3,7 +3,7 @@ import { FlatList, StyleSheet, View } from 'react-native';
 import { SearchBar } from '@rneui/themed';
 
 
-import { database } from '../data/directory.json'
+import { database } from '../data/directory.json';
 
 import MainLayout from '../components/MainLayout';
 import DirectoryItem from '../components/DirectoryItem';
@@ -11,13 +11,23 @@ import DirectoryItem from '../components/DirectoryItem';
 
 export default function SearchContainer(props: any) {
     const { navigation } = props;
+    const list: any[] = [];
     const [search, setSearch] = useState("");
+    const [dataList, setDataList] = useState(list);
 
     useEffect(() => {
+        setDataList(database);
         // console.log(database);
     }, []);
 
     const updateSearch = (query: string) => {
+
+        if (query.length > 3) {
+            const newList = database.filter((item: any) => item.name.toLowerCase().includes(query.toLowerCase()));
+            setDataList(newList);
+        } else {
+            setDataList(database);
+        }
         setSearch(query);
     };
 
@@ -32,12 +42,12 @@ export default function SearchContainer(props: any) {
                         platform='ios'
                         containerStyle={{ backgroundColor: 'transparent' }}
                     />
-
                     <FlatList
-                        data={database}
-                        renderItem={(item: any) => <DirectoryItem organization={item.item} />}
+                        data={dataList}
+                        renderItem={(item: any) => <DirectoryItem organization={item.item} navigation={navigation} />}
                         keyExtractor={(item: any) => item.id}
                         initialNumToRender={6}
+                        ListFooterComponent={<View style={{ height: 100 }} />}
                     />
                 </View>
             </View>

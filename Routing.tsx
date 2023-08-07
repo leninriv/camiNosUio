@@ -18,8 +18,9 @@ import InformationContainer from './screens/InformationContainer';
 import DirectoryContainer from './screens/DirectoryContainer';
 import OrganizationContainer from './screens/OrganizationContainer';
 import SearchContainer from './screens/SearchContainer';
+import DirectoryViewScreen from './screens/DirectoryViewScreen';
 
-const ViolenceStack = createNativeStackNavigator();
+const GlobalStack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
 const InspectionTabBarOptions = {
@@ -28,109 +29,109 @@ const InspectionTabBarOptions = {
 
 function ViolenceNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="ViolenceContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='ViolenceContainer' component={ViolenceContainer} />
-            <ViolenceStack.Screen name='ViolenceTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="ViolenceContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='ViolenceContainer' component={ViolenceContainer} />
+            <GlobalStack.Screen name='ViolenceTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function IntegralHealthNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="HealthContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='HealthContainer' component={HealthContainer} />
-            <ViolenceStack.Screen name='HealthTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="HealthContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='HealthContainer' component={HealthContainer} />
+            <GlobalStack.Screen name='HealthTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function FeedingNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="FeedingContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='FeedingContainer' component={FeedingContainer} />
-            <ViolenceStack.Screen name='FeedingTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="FeedingContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='FeedingContainer' component={FeedingContainer} />
+            <GlobalStack.Screen name='FeedingTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function DocumentsNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="DocumentsContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='DocumentsContainer' component={DocumentsContainer} />
-            <ViolenceStack.Screen name='DocumentsTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="DocumentsContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='DocumentsContainer' component={DocumentsContainer} />
+            <GlobalStack.Screen name='DocumentsTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function CityNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="CityContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='CityContainer' component={CityContainer} />
-            <ViolenceStack.Screen name='CityTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="CityContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='CityContainer' component={CityContainer} />
+            <GlobalStack.Screen name='CityTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function ScholarNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="ScholarContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='ScholarContainer' component={ScholarContainer} />
-            <ViolenceStack.Screen name='ScholarTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="ScholarContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='ScholarContainer' component={ScholarContainer} />
+            <GlobalStack.Screen name='ScholarTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function RightsNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="RightsContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='RightsContainer' component={RightsContainer} />
-            <ViolenceStack.Screen name='RightsTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="RightsContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='RightsContainer' component={RightsContainer} />
+            <GlobalStack.Screen name='RightsTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function RegularizationNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="RegularizationContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='RegularizationContainer' component={RegularizationContainer} />
-            <ViolenceStack.Screen name='RegularizationTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="RegularizationContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='RegularizationContainer' component={RegularizationContainer} />
+            <GlobalStack.Screen name='RegularizationTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function RightsProtectionNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="RightsProtectionContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='RightsProtectionContainer' component={RightsProtectionContainer} />
-            <ViolenceStack.Screen name='RightsProtectionTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="RightsProtectionContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='RightsProtectionContainer' component={RightsProtectionContainer} />
+            <GlobalStack.Screen name='RightsProtectionTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function InformationNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="InformationContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='InformationContainer' component={InformationContainer} />
-            <ViolenceStack.Screen name='InformationTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="InformationContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='InformationContainer' component={InformationContainer} />
+            <GlobalStack.Screen name='InformationTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function DirectoryNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="DirectoryContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='DirectoryContainer' component={DirectoryContainer} />
-            <ViolenceStack.Screen name='DirectoryTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="DirectoryContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='DirectoryContainer' component={DirectoryContainer} />
+            <GlobalStack.Screen name='DirectoryTest' component={TestScreen} />
+        </GlobalStack.Navigator>
     )
 };
 
 function SearchNav(props: any) {
     return (
-        <ViolenceStack.Navigator initialRouteName="SearchContainer" screenOptions={InspectionTabBarOptions}>
-            <ViolenceStack.Screen name='SearchContainer' component={SearchContainer} />
-            <ViolenceStack.Screen name='SearchTest' component={TestScreen} />
-        </ViolenceStack.Navigator>
+        <GlobalStack.Navigator initialRouteName="SearchContainer" screenOptions={InspectionTabBarOptions}>
+            <GlobalStack.Screen name='SearchContainer' component={SearchContainer} />
+            <GlobalStack.Screen name="DirectoryView" component={DirectoryViewScreen} />
+        </GlobalStack.Navigator>
     )
 };
 

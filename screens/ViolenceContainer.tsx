@@ -8,32 +8,32 @@ export default function ViolenceContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencias basadas en género',
             route: 'ViolenceTest'
         },
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencias contra niños, niñas y adolescentes',
             route: 'Test'
         },
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencias contra personas LGBTI+',
             route: 'Test'
         },
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencias contra adultos mayores',
             route: 'Test'
         },
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Denuncias por robo',
             route: 'Test'
         },
         {
-            colors: ['#FF9800', '#F44336'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Discriminación',
             route: 'Test'
         },

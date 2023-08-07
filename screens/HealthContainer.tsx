@@ -8,27 +8,27 @@ export default function HealthContainer(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Salud física',
             route: 'HealthTest'
         },
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Salud mental',
             route: 'HealthTest'
         },
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Salud sexual y reproductiva',
             route: 'HealthTest'
         },
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'VIH',
             route: 'HealthTest'
         },
         {
-            colors: ['#d10074', '#192f6a'],
+            colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Emergencias',
             route: 'HealthTest'
         },
