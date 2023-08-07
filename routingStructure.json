@@ -1,0 +1,115 @@
+{
+    "routes": {
+        "violence": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Violencia",
+            "buttons": [
+                { "title": "Violencias basadas en género",  "buttons": [] },
+                { "title": "Violencias contra niños, niñas y adolescentes",  "buttons": [] },
+                { "title": "Violencias contra personas LGBTI+",  "buttons": [] },
+                { "title": "Violencias contra adultos mayores",  "buttons": [] },
+                { "title": "Denuncias por robo",  "buttons": [] },
+                { "title": "Discriminación",  "buttons": [] }
+            ]
+        },
+        "health": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Salud integral",
+            "buttons": [
+                { "title": "Salud física",  "buttons": [] },
+                { "title": "Salud mental",  "buttons": [] },
+                { "title": "Salud sexual y reproductiva",  "buttons": [] },
+                { "title": "VIH",  "buttons": [] },
+                { "title": "Emergencias",  "buttons": [] }
+            ]
+        },
+        "feeding": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Alimentación",
+            "buttons": [
+                { "title": "Organizaciones",  "buttons": [] },
+                { "title": "Bancos de alimentos",  "buttons": [] },
+                { "title": "Comedores comunitarios",  "buttons": [] },
+                { "title": "Patronato",  "buttons": [] }
+            ]
+        },
+        "documents": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Documentos y denuncias",
+            "buttons": [
+                { "title": "Documentos Ecuador",  "buttons": [] },
+                { "title": "Denuncia pérdida de documentos",  "buttons": [] },
+                { "title": "Trámites",  "buttons": [] },
+                { "title": "Asesoría legal",  "buttons": [] }
+            ]
+        },
+        "city": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Habitar Quito",
+            "buttons": [
+                { "title": "Vivienda",  "buttons": [] },
+                { "title": "Transporte",  "buttons": [] },
+                { "title": "Espacios Públicos",  "buttons": [] }
+            ]
+        },
+        "scholar": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Inserción escolar",
+            "buttons": [
+                { "title": "Derechos educativos",  "buttons": [] },
+                { "title": "Sistema educativo",  "buttons": [] },
+                { "title": "Proceso de inserción",  "buttons": [] }
+            ]
+        },
+        "rights": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Mis Derechos",
+            "buttons": [
+                { "title": "Ciudadanía universal",  "buttons": [] },
+                { "title": "Convención internacional refugio",  "buttons": [] },
+                { "title": "Declaración Universal DDHH",  "buttons": [] }
+            ]
+        },
+        "regularization": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Regularizacion",
+            "buttons": [
+                { "title": "Soy de Venezuela",  "buttons": [] },
+                { "title": "Soy de Colombia",  "buttons": [] },
+                { "title": "Otras nacionalidades",  "buttons": [] },
+                { "title": "No tengo pasaporte",  "buttons": [] }
+            ]
+        },
+        "rightsProtection": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Protección de derechos",
+            "buttons": [
+                { "title": "Violencia basada en género",  "buttons": [] },
+                { "title": "Inserción escolar",  "buttons": [] },
+                { "title": "Niños, niñas y adolescentes",  "buttons": [] }
+            ]
+        },
+        "information": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Información clave",
+            "buttons": [
+                { "title": "Cambio divisas",  "buttons": [] },
+                { "title": "Cuentas de banco",  "buttons": [] },
+                { "title": "Consulados y embajadas",  "buttons": [] },
+                { "title": "Oportunidades laborales",  "buttons": [] },
+                { "title": "Redes y comunidad",  "buttons": [] },
+                { "title": "Glosario",  "buttons": [] }
+            ]
+        },
+        "directory": {
+            "colors": ["#a1a1a1", "#4d4d4d"],
+            "title":"Directorio",
+            "buttons": [
+                { "title": "Organizaciones sociedad civil",  "buttons": [] },
+                { "title": "Organizaciones públicas",  "buttons": [] },
+                { "title": "Portal trámites ciudadanos",  "buttons": [] }
+            ]
+        }
+    }
+}
+

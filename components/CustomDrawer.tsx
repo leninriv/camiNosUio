@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 import {
     DrawerContentScrollView,
     DrawerItem,
-    DrawerItemList,
 } from '@react-navigation/drawer';
 
 export default function DrawerMenuContent(props: any) {
