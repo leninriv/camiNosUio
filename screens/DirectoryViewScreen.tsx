@@ -6,7 +6,7 @@ import { database } from '../data/directory.json';
 
 
 export default function DirectoryViewScreen(props: any) {
-    const { route } = props;
+    const { route, navigation } = props;
     const { id, name } = route.params;
     const [organization, setOrganization] = useState<any>({});
 
@@ -39,9 +39,9 @@ export default function DirectoryViewScreen(props: any) {
                 <View style={styles.space} />
                 <View style={styles.space} />
 
-                {!!organization.tag1 && <Chip title={organization.tag1} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' />}
-                {!!organization.tag2 && <Chip title={organization.tag2} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' />}
-                {!!organization.tag3 && <Chip title={organization.tag3} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' />}
+                {!!organization.tag1 && <Chip title={organization.tag1} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag1 })} />}
+                {!!organization.tag2 && <Chip title={organization.tag2} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag2 })}/>}
+                {!!organization.tag3 && <Chip title={organization.tag3} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag3 })}/>}
             </View>
         </MainLayout>
     );

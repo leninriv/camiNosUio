@@ -11,7 +11,7 @@ export default function HomeScreen(props: any) {
             colors: ['#a1a1a1', '#4d4d4d'],
             text: 'Violencia',
             route: 'Violence',
-            iconName: 'heart'
+            iconName: 'hand-right'
         },
         {
             colors: ['#a1a1a1', '#4d4d4d'],
@@ -62,7 +62,7 @@ export default function HomeScreen(props: any) {
             {/* <Text>Vamos a empezar!</Text> */}
             <Image
                 style={styles.stretch}
-                source={require('../assets/images/start.png')}
+                source={require('../assets/images/camiNOS.png')}
             />
         </View>
     };
@@ -113,5 +113,6 @@ const styles = StyleSheet.create({
         width: 380,
         height: 200,
         resizeMode: 'stretch',
+        marginBottom: 15
     },
 });

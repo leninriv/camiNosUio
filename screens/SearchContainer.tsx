@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
-import { SearchBar } from '@rneui/themed';
+import { Text, SearchBar } from '@rneui/themed';
 
 
 import { database } from '../data/directory.json';
@@ -10,29 +10,40 @@ import DirectoryItem from '../components/DirectoryItem';
 
 
 export default function SearchContainer(props: any) {
-    const { navigation } = props;
+    const { navigation, route } = props;
+    const { params } = route;
     const list: any[] = [];
     const [search, setSearch] = useState("");
     const [dataList, setDataList] = useState(list);
+    const [mainList, setMainList] = useState(list);
+    const [currentTat, setCurrentTag] = useState('');
+
 
     useEffect(() => {
-        setDataList(database);
-        // console.log(database);
+        let globalList: any[] = [];
+        if (params?.tag) {
+            setCurrentTag(params.tag);
+            globalList = database.filter(item => item.tag1 === params.tag || item.tag2 === params.tag || item.tag3 === params.tag);
+        } else {
+            globalList = [...database];
+        }
+        setMainList(globalList);
+        setDataList(globalList);
     }, []);
 
     const updateSearch = (query: string) => {
 
         if (query.length > 3) {
-            const newList = database.filter((item: any) => item.name.toLowerCase().includes(query.toLowerCase()));
+            const newList = mainList.filter((item: any) => item.name.toLowerCase().includes(query.toLowerCase()));
             setDataList(newList);
         } else {
-            setDataList(database);
+            setDataList(mainList);
         }
         setSearch(query);
     };
 
     return (
-        <MainLayout  {...props} headerTitle={"Directorio"}>
+        <MainLayout  {...props} headerTitle={currentTat || "Directorio"} backButton={!!currentTat}>
             <View style={styles.container}>
                 <View style={styles.searchContent}>
                     <SearchBar

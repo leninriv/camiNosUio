@@ -24,6 +24,7 @@ function SearchNav(props: any) {
         <GlobalStack.Navigator initialRouteName="SearchContainer" screenOptions={InspectionTabBarOptions}>
             <GlobalStack.Screen name='SearchContainer' component={SearchContainer} />
             <GlobalStack.Screen name="DirectoryView" component={DirectoryViewScreen} />
+            <GlobalStack.Screen name='TagFiltering' component={SearchContainer} />
         </GlobalStack.Navigator>
     )
 };
