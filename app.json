@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "caminos",
-    "slug": "caminos",
+    "slug": "caminosuio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.leninriv.caminosuio"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "593d4691-49c9-4677-8efe-d505aa320c2b"
+      }
+    },
+    "owner": "leninriv"
   }
 }
