@@ -1,0 +1,155 @@
+{
+    "robbery_complaints": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En caso de robo de documentos, se debe reportar inmediatamente al Consejo de la Judicatura en el enlace:",
+        "link1": {
+            "type": "external",
+            "name": "Funcion Judicial",
+            "url": "https://appsj.funcionjudicial.gob.ec/documentosExtraviados/publico/formulario.jsf"
+        },
+        "content2": "Aquí se genera un formulario que funciona como evidencia del robo. ",
+        "link2": {},
+        "content3": "Es recomendable hacerlo lo más pronto posible.",
+        "link3": {}
+    },
+    "discrimination": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Artículo 11, numeral 2 de la Constitución del Ecuador:",
+                "text": "“Todas las personas son iguales y gozarán de los mismos derechos, deberes y oportunidades. Nadie podrá ser discriminado por razones de etnia, lugar de nacimiento, edad, sexo, identidad de género, identidad cultural, estado civil, idioma, religión, ideología, filiación política, pasado judicial, condición socio-económica, condición migratoria, orientación sexual, estado de salud, portar VIH, discapacidad, diferencia física; ni por cualquier otra distinción, personal o colectiva, temporal o permanente, que tenga por objeto o resultado menoscabar o anular el reconocimiento, goce o ejercicio de los derechos. La ley sancionará toda forma de discriminación. El Estado adoptará medidas de acción afirmativa que promuevan la igualdad real en favor de los titulares de derechos que se encuentren en situación de desigualdad.”"
+            },
+            {
+                "title": "Artículo 117, del Código Orgánico Integral Penal del Ecuador:",
+                "text": "“Actos de odio.- La persona que cometa actos de violencia física o psicológica de odio, contra una o más personas en razón de su nacionalidad, etnia, lugar de nacimiento, edad, sexo, identidad de género u orientación sexual, identidad cultural, estado civil, idioma, religión, ideología, condición socioeconómica, condición migratoria, discapacidad, estado de salud o portar VIH, será sancionada con pena privativa de libertad de uno a tres años. Si los actos de violencia provocan heridas a la persona, se sancionará con las penas privativas de libertad previstas para el delito de lesiones agravadas en un tercio. Si los actos de violencia producen la muerte de una persona, será sancionada con pena privativa de libertad de veintidós a veintiséis años.”"
+            }
+        ]
+    },
+    "food_bank": {
+        "title": "Organizaciones:",
+        "type": "paragraph",
+        "link1": {
+            "type": "internal",
+            "name": "Banco de alimentos de Quito",
+            "url": "TODO: aca va ael filter del search screen "
+        }
+    },
+    "community_kitchens": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "Los comedores comunitarios son una iniciativa del Patronato Municipal San José.",
+        "link1": {},
+        "content2": "Funcionan en los Centros de Experiencia del Adulto Mayor, orientados para atender a personas adultas mayores, a partir de 60 años.",
+        "link2": {},
+        "content3": "Mira los servicios del Patronato San José en: ",
+        "link3": {
+            "type": "external",
+            "name": "Patronato San José",
+            "url": "https://www.patronato.quito.gob.ec/ "
+        }
+    },
+    "documents_ecuador": {
+        "title": "En Ecuador, los principales documentos personales son:",
+        "type": "paragraph",
+        "content1": "",
+        "link1": {},
+        "content2": "Cédula de identidad y pasaporte, emitidos por el Registro Civil. Sitio:",
+        "link2": {
+            "type": "external",
+            "name": "Registro Civil",
+            "url": "https://www.registrocivil.gob.ec/"
+        },
+        "content3": "Licencia de conducir, emitida por la Agencia Nacional de Tránsito. Sitio: ",
+        "link3": {
+            "type": "external",
+            "name": "Agencia Nacional de Tránsito",
+            "url": "https://www.ant.gob.ec/ "
+        },
+        "content4": "Certificado de votación o presentación, emitidos por el Consejo Nacional Electoral.",
+        "link4": {}
+    },
+    "document_loss": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En caso de pérdida de documentos, se debe reportar inmediatamente al Consejo de la Judicatura en el enlace:",
+        "link1": {
+            "type": "external",
+            "name": "Funcion Judicial",
+            "url": "https://appsj.funcionjudicial.gob.ec/documentosExtraviados/publico/formulario.jsf"
+        },
+        "content2": "Aquí se genera un formulario que funciona como evidencia del robo.",
+        "link2": {},
+        "content3": "Es recomendable hacerlo lo más pronto posible.",
+        "link3": {}
+    },
+    "registration_approval": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "Para ser válido en Ecuador, todo título de educación superior expedido por una institución extranjera debe estar registrado en el Sistema Nacional de Información de Educación Superior del Ecuador, que es administrado por la SENESCYT. ",
+        "link1": {},
+        "content2": "Existen diferentes vías. Revisa: ",
+        "link2": {
+            "type": "external",
+            "name": "SENESCYT",
+            "url": "https://www.gob.ec/senescyt/tramites/reconocimiento-general-titulos-extranjero"
+        },
+        "content3": "Para el ejercicio profesional de ciertas áreas, como salud, se requieren requisitos adicionales.",
+        "link3": {}
+    },
+    "transportation": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad (Ecovía, Trolebus, Metrobus, Metro de Quito).",
+        "link1": {},
+        "content2": "Existen operadores privados de buses (azules) y empresas y cooperativas de taxis legales (amarillos). ",
+        "link2": {},
+        "content3": "Operan también plataformas como Digitaxi, Fedotaxi, Clip, Didi, Uber y otras. ",
+        "link3": {}
+    },
+    "educational_rights": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Artículo 26 de la Constitución del Ecuador:",
+                "text": "“La educación es un derecho de las personas a lo largo de su vida y un deber ineludible e inexcusable del Estado. Constituye un área prioritaria de la política pública y de la inversión estatal, garantía de la igualdad e inclusión social y condición indispensable para el buen vivir. Las personas, las familias y la sociedad tienen el derecho y la responsabilidad de participar en el proceso Educativo”."
+            },
+            {
+                "title": "Artículo 27 de la Constitución del Ecuador:",
+                "text": "“La educación se centrará en el ser humano y garantizará su desarrollo holístico, en el marco del respeto a los derechos humanos, al medio ambiente sustentable y a la democracia; será participativa, obligatoria, intercultural, democrática, incluyente y diversa, de calidad y calidez; impulsará la equidad de género, la justicia, la solidaridad y la paz; estimulará el sentido crítico, el arte y la cultura física, la iniciativa individual y comunitaria, y el desarrollo de competencias y capacidades para crear y trabajar. La educación es indispensable para el conocimiento, el ejercicio de los derechos y la construcción de un país soberano, y constituye un eje estratégico para el desarrollo nacional”."
+            },
+            {
+                "title": "Artículo 28 de la Constitución del Ecuador:",
+                "text": "“La educación responderá al interés público y no estará al servicio de intereses individuales y corporativos. Se garantizará el acceso universal, permanencia, movilidad y egreso sin discriminación alguna y la obligatoriedad en el nivel inicial, básico y bachillerato o su equivalente. Es derecho de toda persona y comunidad interactuar entre culturas y participar en una sociedad que aprende. El Estado promoverá el diálogo intercultural en sus múltiples dimensiones. El aprendizaje se desarrollará de forma escolarizada y no escolarizada. La educación pública será universal y laica en todos sus niveles, y gratuita hasta el tercer nivel de educación superior, inclusive”."
+            }
+        ]
+    },
+    "educational_system": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En Ecuador, el sistema educativo está conformado por los niveles inicial, medio y superior. ",
+        "link1": {},
+        "content2": "En todos los niveles prestan servicios instituciones públicas, fiscomisionales (privadas con aporte público) y particulares.",
+        "link2": {},
+        "content3": "Las instituciones rectoras son, el Ministerio de Educación: ",
+        "link3": {
+            "type": "external",
+            "name": "Ministerio de Educación",
+            "url": "https://educacion.gob.ec/"
+        },
+        "content4": "y para la educación superior SENESCYT:",
+        "link4": {
+            "type": "external",
+            "name": "SENESCYT",
+            "url": "https://www.educacionsuperior.gob.ec/"
+        },
+        "content5": "y CES:",
+        "link5": {
+            "type": "external",
+            "name": "CES",
+            "url": "https://www.ces.gob.ec/"
+        }
+    }
+}

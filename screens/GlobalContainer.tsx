@@ -5,6 +5,7 @@ import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
 import { useEffect } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import InfoScreenContainer from './InfoScreenContainer';
 
 const InspectionTabBarOptions = {
     headerShown: false,
@@ -43,7 +44,7 @@ const renderInitial = (title: string, buttons: any[], mainNav: any, colors: stri
 }
 
 const renderDynamicScreens = (mainNav: any, screensList: any[], colors: string[]) => {
-    return screensList.map((item: any, index) => <Stack.Screen key={index} name={item.route} component={ButtonListScreen} initialParams={{ item, colors, mainNav }} />);
+    return screensList.map((item: any, index) => <Stack.Screen key={index} name={item.route} component={item.screen ? InfoScreenContainer : ButtonListScreen} initialParams={{ item, colors, mainNav }} />);
 }
 
 function returnLevelScreens(screensList: any[]) {

@@ -8,8 +8,8 @@
                 { "title": "Violencias contra niños, niñas y adolescentes",  "buttons": [] },
                 { "title": "Violencias contra personas LGBTI+",  "buttons": [] },
                 { "title": "Violencias contra adultos mayores",  "buttons": [] },
-                { "title": "Denuncias por robo",  "buttons": [] },
-                { "title": "Discriminación",  "buttons": [] }
+                { "title": "Denuncias por robo",  "buttons": [], "screen": "robbery_complaints" },
+                { "title": "Discriminación",  "buttons": [],  "screen": "discrimination" }
             ]
         },
         "health": {
@@ -28,8 +28,8 @@
             "title":"Alimentación",
             "buttons": [
                 { "title": "Organizaciones",  "buttons": [] },
-                { "title": "Bancos de alimentos",  "buttons": [] },
-                { "title": "Comedores comunitarios",  "buttons": [] },
+                { "title": "Bancos de alimentos",  "buttons": [] , "screen": "food_bank"},
+                { "title": "Comedores comunitarios",  "buttons": [], "screen": "community_kitchens" },
                 { "title": "Patronato",  "buttons": [] }
             ]
         },
@@ -37,9 +37,9 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Documentos y denuncias",
             "buttons": [
-                { "title": "Documentos Ecuador",  "buttons": [] },
-                { "title": "Denuncia pérdida de documentos",  "buttons": [] },
-                { "title": "Trámites",  "buttons": [] },
+                { "title": "Documentos Ecuador",  "buttons": [], "screen": "documents_ecuador"},
+                { "title": "Denuncia pérdida de documentos",  "buttons": [], "screen": "document_loss" },
+                { "title": "Trámites",  "buttons": [{"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, {"title":"Pendiente...", "buttons": []}] },
                 { "title": "Asesoría legal",  "buttons": [] }
             ]
         },
@@ -48,7 +48,7 @@
             "title":"Habitar Quito",
             "buttons": [
                 { "title": "Vivienda",  "buttons": [] },
-                { "title": "Transporte",  "buttons": [] },
+                { "title": "Transporte",  "buttons": [], "screen": "transportation" },
                 { "title": "Espacios Públicos",  "buttons": [] }
             ]
         },
@@ -56,8 +56,8 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Inserción escolar",
             "buttons": [
-                { "title": "Derechos educativos",  "buttons": [] },
-                { "title": "Sistema educativo",  "buttons": [] },
+                { "title": "Derechos educativos",  "buttons": [], "screen": "educational_rights" },
+                { "title": "Sistema educativo",  "buttons": [], "screen": "educational_system" },
                 { "title": "Proceso de inserción",  "buttons": [] }
             ]
         },
