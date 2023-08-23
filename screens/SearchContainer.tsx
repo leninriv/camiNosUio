@@ -16,17 +16,21 @@ export default function SearchContainer(props: any) {
     const [search, setSearch] = useState("");
     const [dataList, setDataList] = useState(list);
     const [mainList, setMainList] = useState(list);
-    const [currentTat, setCurrentTag] = useState('');
+    const [currentTitle, setCurrentTitle] = useState('');
 
 
     useEffect(() => {
         let globalList: any[] = [];
         if (params?.tag) {
-            setCurrentTag(params.tag);
+            setCurrentTitle(params.tag);
             globalList = database.filter(item => item.tag1 === params.tag || item.tag2 === params.tag || item.tag3 === params.tag);
+        }else if(params?.type){
+            setCurrentTitle(params.type);
+            globalList = database.filter(item => item.type === params.type);
         } else {
             globalList = [...database];
         }
+        globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));
         setMainList(globalList);
         setDataList(globalList);
     }, []);
@@ -43,7 +47,7 @@ export default function SearchContainer(props: any) {
     };
 
     return (
-        <MainLayout  {...props} headerTitle={currentTat || "Directorio"} backButton={!!currentTat}>
+        <MainLayout  {...props} headerTitle={currentTitle || "Directorio"} backButton={!!currentTitle}>
             <View style={styles.container}>
                 <View style={styles.searchContent}>
                     <SearchBar

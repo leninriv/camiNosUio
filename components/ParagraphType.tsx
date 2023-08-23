@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-import { StyleSheet, View, ScrollView } from 'react-native';
+import { StyleSheet, View, ScrollView, Linking } from 'react-native';
 import { Text, Button } from '@rneui/themed';
+
 export default function ParagraphType(props: any) {
     const { content, colors } = props;
 
@@ -10,7 +11,7 @@ export default function ParagraphType(props: any) {
 
     function urlType(link: any) {
         // link.url
-        if (link.type === 'external') return <Button style={styles.button} title={link.name} />; // TODO: navigation its different
+        if (link.type === 'external') return <Button style={styles.button} title={link.name} onPress={() => { Linking.openURL(link.url) }} />; // TODO: navigation its different
         if (link.type === 'internal') return <Button style={styles.button} title={link.name} />;
         return <View />
     }
@@ -18,7 +19,7 @@ export default function ParagraphType(props: any) {
     return (
         <ScrollView style={styles.scrollView} contentContainerStyle={{ flexGrow: 1, justifyContent: 'center' }}>
             <View style={styles.container}>
-                {!!content.title && <Text style={{marginBottom: 20}} h4>{content.title}</Text>}
+                {!!content.title && <Text style={{ marginBottom: 20 }} h4>{content.title}</Text>}
 
                 {!!content.content1 && <Text style={styles.paragraph}>{content.content1}</Text>}
                 {!!content.link1 && urlType(content.link1)}

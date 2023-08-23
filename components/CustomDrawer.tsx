@@ -16,7 +16,7 @@ export default function DrawerMenuContent(props: any) {
                 <DrawerItem label="Rutas de protección de derechos" onPress={() => { navigation.navigate('RightsProtection'); }} />
                 <DrawerItem label="Información clave" onPress={() => { navigation.navigate('Information'); }} />
                 <DrawerItem label="Directorio" onPress={() => { navigation.navigate('Directory'); }} />
-                <DrawerItem label="Mis favoritos" onPress={() => { }} />
+                {/* <DrawerItem label="Mis favoritos" onPress={() => { }} /> */}
                 <DrawerItem label="Buscar" onPress={() => { navigation.navigate('Search'); }} />
                 <DrawerItem label="Acerca de Cuadrante Sur" onPress={() => { navigation.navigate('Organization'); }} />
             </DrawerContentScrollView>

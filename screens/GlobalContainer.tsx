@@ -6,6 +6,8 @@ import GradientButton from '../components/GradientButton';
 import { useEffect } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InfoScreenContainer from './InfoScreenContainer';
+import SearchContainer from './SearchContainer';
+import DirectoryViewScreen from './DirectoryViewScreen';
 
 const InspectionTabBarOptions = {
     headerShown: false,
@@ -27,6 +29,9 @@ export default function GlobalContainer(props: any) {
                 <Stack.Navigator screenOptions={InspectionTabBarOptions} initialRouteName="initial">
                     {renderInitial(title, buttons, navigation, colors)}
                     {renderDynamicScreens(navigation, returnLevelScreens(buttons), colors)}
+                    <Stack.Screen name='directory_result' component={SearchContainer} />
+                    <Stack.Screen name="DirectoryView" component={DirectoryViewScreen} />
+                    <Stack.Screen name='TagFiltering' component={SearchContainer} />
                 </Stack.Navigator>
             </NavigationContainer>
         </View>
@@ -49,7 +54,9 @@ const renderDynamicScreens = (mainNav: any, screensList: any[], colors: string[]
 
 function returnLevelScreens(screensList: any[]) {
     let screenArray: any[] = [];
+
     for (let screen of screensList) {
+        if (screen.route === 'directory_result') continue;
         screen.route = screen.title;
         screenArray.push(screen);
         if (screen.buttons.length) {
@@ -69,8 +76,8 @@ function ButtonListScreen(props: any) {
             <FlatList
                 data={org.buttons || []}
                 style={{ width: '100%', paddingHorizontal: 20 }}
-                keyExtractor={(item: any) => item.text}
-                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route) }} />}
+                keyExtractor={(item: any) => item.id}
+                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }) }} />}
             />
         </View>
     </MainLayout>

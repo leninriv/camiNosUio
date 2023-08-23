@@ -105,9 +105,10 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Directorio",
             "buttons": [
-                { "title": "Organizaciones sociedad civil",  "buttons": [] },
-                { "title": "Organizaciones públicas",  "buttons": [] },
-                { "title": "Portal trámites ciudadanos",  "buttons": [] }
+                { "title": "Organizaciones sociedad civil",  "buttons": [],"route":"directory_result", "params": {"type":"ONG"}},
+                { "title": "Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
+                { "title": "Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
+                { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }
             ]
         }
     }

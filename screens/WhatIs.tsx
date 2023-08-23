@@ -12,7 +12,7 @@ export default function WhatIsContainer(props: any) {
                 <View style={styles.imageContent}>
                     <Image
                         style={styles.stretch}
-                        source={require('../assets/logo/logoCuadSur.png')}
+                        source={require('../assets/images/camiNOS.png')}
                     />
                 </View>
                 <Text style={styles.text}>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     stretch: {
-        width: 150,
+        width: 250,
         height: 130,
         resizeMode: 'stretch',
     },
