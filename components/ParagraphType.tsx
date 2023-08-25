@@ -3,7 +3,7 @@ import { StyleSheet, View, ScrollView, Linking } from 'react-native';
 import { Text, Button } from '@rneui/themed';
 
 export default function ParagraphType(props: any) {
-    const { content, colors } = props;
+    const { content, colors, navigation } = props;
 
     useEffect(() => {
 
@@ -12,7 +12,7 @@ export default function ParagraphType(props: any) {
     function urlType(link: any) {
         // link.url
         if (link.type === 'external') return <Button style={styles.button} title={link.name} onPress={() => { Linking.openURL(link.url) }} />; // TODO: navigation its different
-        if (link.type === 'internal') return <Button style={styles.button} title={link.name} />;
+        if (link.type === 'internal') return <Button style={styles.button} title={link.name} onPress={() => { navigation.navigate('directory_result', { ...link.filter }); }} />;
         return <View />
     }
 

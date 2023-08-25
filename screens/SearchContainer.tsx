@@ -24,7 +24,7 @@ export default function SearchContainer(props: any) {
         if (params?.tag) {
             setCurrentTitle(params.tag);
             globalList = database.filter(item => item.tag1 === params.tag || item.tag2 === params.tag || item.tag3 === params.tag);
-        }else if(params?.type){
+        } else if (params?.type) {
             setCurrentTitle(params.type);
             globalList = database.filter(item => item.type === params.type);
         } else {
@@ -33,11 +33,12 @@ export default function SearchContainer(props: any) {
         globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));
         setMainList(globalList);
         setDataList(globalList);
+        console.log('currentTitle', currentTitle);
+
     }, []);
 
     const updateSearch = (query: string) => {
-
-        if (query.length > 3) {
+        if (query.length > 2) {
             const newList = mainList.filter((item: any) => item.name.toLowerCase().includes(query.toLowerCase()));
             setDataList(newList);
         } else {
@@ -47,7 +48,7 @@ export default function SearchContainer(props: any) {
     };
 
     return (
-        <MainLayout  {...props} headerTitle={currentTitle || "Directorio"} backButton={!!currentTitle}>
+        <MainLayout  {...props} headerTitle={currentTitle || "Directorio"} backButton={true}>
             <View style={styles.container}>
                 <View style={styles.searchContent}>
                     <SearchBar

@@ -33,7 +33,7 @@
         "link1": {
             "type": "internal",
             "name": "Banco de alimentos de Quito",
-            "url": "TODO: aca va ael filter del search screen "
+            "filter": {"tag":"Alimentación"}
         }
     },
     "community_kitchens": {

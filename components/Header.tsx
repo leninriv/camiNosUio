@@ -27,8 +27,8 @@ function BackMenuIcon(data: any) {
 
 export default function GlobalHeader(props: any) {
     return (
-        <View >
-            <StatusBar style="auto" />
+        <View>
+            <StatusBar style="light" translucent={true} animated={true}/>
             <Header
                 ViewComponent={LinearGradient}
                 linearGradientProps={{

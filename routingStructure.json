@@ -27,10 +27,8 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Alimentación",
             "buttons": [
-                { "title": "Organizaciones",  "buttons": [] },
-                { "title": "Bancos de alimentos",  "buttons": [] , "screen": "food_bank"},
-                { "title": "Comedores comunitarios",  "buttons": [], "screen": "community_kitchens" },
-                { "title": "Patronato",  "buttons": [] }
+                { "title": "Organizaciones",  "buttons": [] , "screen": "food_bank"},
+                { "title": "Comedores comunitarios",  "buttons": [], "screen": "community_kitchens" }
             ]
         },
         "documents": {
@@ -39,15 +37,15 @@
             "buttons": [
                 { "title": "Documentos Ecuador",  "buttons": [], "screen": "documents_ecuador"},
                 { "title": "Denuncia pérdida de documentos",  "buttons": [], "screen": "document_loss" },
-                { "title": "Trámites",  "buttons": [{"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, {"title":"Pendiente...", "buttons": []}] },
-                { "title": "Asesoría legal",  "buttons": [] }
+                { "title": "Trámites",  "buttons": [{"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, {"title":"Pendiente", "buttons": []}] },
+                { "title": "Asesoría legal",  "buttons": [], "route":"directory_result", "params": {"tag":"Asesoría legal"} }
             ]
         },
         "city": {
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Vivienda",  "buttons": [] },
+                { "title": "Alojamiento y vivienda",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
                 { "title": "Transporte",  "buttons": [], "screen": "transportation" },
                 { "title": "Espacios Públicos",  "buttons": [] }
             ]
@@ -74,10 +72,12 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Regularizacion",
             "buttons": [
-                { "title": "Soy de Venezuela",  "buttons": [] },
-                { "title": "Soy de Colombia",  "buttons": [] },
-                { "title": "Otras nacionalidades",  "buttons": [] },
-                { "title": "No tengo pasaporte",  "buttons": [] }
+                { "title": "Tengo pasaporte",  "buttons": [] },
+                { "title": "No tengo pasaporte",  "buttons": [
+                    { "title": "Soy de Venezuela",  "buttons": [] },
+                    { "title": "Soy de Colombia",  "buttons": [] },
+                    { "title": "Otras nacionalidades",  "buttons": [] }
+                ] }
             ]
         },
         "rightsProtection": {
@@ -105,10 +105,11 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Directorio",
             "buttons": [
+                { "title": "Buscador",  "buttons": [], "route":"directory_result"},
                 { "title": "Organizaciones sociedad civil",  "buttons": [],"route":"directory_result", "params": {"type":"ONG"}},
                 { "title": "Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
                 { "title": "Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
-                { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }
+                { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }             
             ]
         }
     }

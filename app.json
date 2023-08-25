@@ -2,7 +2,7 @@
   "expo": {
     "name": "caminos",
     "slug": "caminosuio",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,14 +15,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.leninriv.caminosuio"
+      "package": "com.leninriv.caminosuio",
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +34,20 @@
         "projectId": "593d4691-49c9-4677-8efe-d505aa320c2b"
       }
     },
-    "owner": "leninriv"
+    "owner": "leninriv",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/593d4691-49c9-4677-8efe-d505aa320c2b"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "leninriv"
+        }
+      ]
+    ]
   }
 }

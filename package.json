@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "dev": "npx expo start --offline " 
+    "dev": "npx expo start --offline "
   },
   "dependencies": {
     "@react-navigation/drawer": "^6.6.2",
@@ -25,7 +25,8 @@
     "react-native-reanimated": "~2.14.4",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "~3.20.0",
-    "react-native-timeline-flatlist": "^0.8.0"
+    "react-native-timeline-flatlist": "^0.8.0",
+    "expo-updates": "~0.16.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
