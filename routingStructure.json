@@ -16,11 +16,11 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Salud integral",
             "buttons": [
-                { "title": "Salud física",  "buttons": [] },
-                { "title": "Salud mental",  "buttons": [] },
-                { "title": "Salud sexual y reproductiva",  "buttons": [] },
-                { "title": "VIH",  "buttons": [] },
-                { "title": "Emergencias",  "buttons": [] }
+                { "title": "Salud física",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Salud mental",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Salud sexual y reproductiva",  "buttons": [], "screen": "coming_soon" },
+                { "title": "VIH",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Emergencias",  "buttons": [], "screen": "emergency" }
             ]
         },
         "feeding": {
@@ -36,8 +36,13 @@
             "title":"Documentos y denuncias",
             "buttons": [
                 { "title": "Documentos Ecuador",  "buttons": [], "screen": "documents_ecuador"},
+                { "title": "Denuncia",  "buttons": [], "screen": "complaints"},
                 { "title": "Denuncia pérdida de documentos",  "buttons": [], "screen": "document_loss" },
-                { "title": "Trámites",  "buttons": [{"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, {"title":"Pendiente", "buttons": []}] },
+                { "title": "Trámites",  "buttons": [
+                    {"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, 
+                    {"title":"Plataformas gubernamentales", "buttons": [], "screen": "government_platforms"},
+                    {"title":"Portal gob.ec", "buttons": [], "screen":"gob_ec"}
+                    ] },
                 { "title": "Asesoría legal",  "buttons": [], "route":"directory_result", "params": {"tag":"Asesoría legal"} }
             ]
         },
@@ -45,9 +50,9 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Alojamiento y vivienda",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
+                { "title": "Vivienda y Alojamiento",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
                 { "title": "Transporte",  "buttons": [], "screen": "transportation" },
-                { "title": "Espacios Públicos",  "buttons": [] }
+                { "title": "Espacios Públicos",  "buttons": [], "screen": "public_area"}
             ]
         },
         "scholar": {
@@ -63,8 +68,8 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Mis Derechos",
             "buttons": [
-                { "title": "Ciudadanía universal",  "buttons": [] },
-                { "title": "Convención internacional refugio",  "buttons": [] },
+                { "title": "Ciudadanía universal",  "buttons": [], "screen":"universal_city" },
+                { "title": "Convención internacional refugio",  "buttons": [], "screen": "international_help" },
                 { "title": "Declaración Universal DDHH",  "buttons": [] }
             ]
         },
@@ -72,11 +77,11 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Regularizacion",
             "buttons": [
-                { "title": "Tengo pasaporte",  "buttons": [] },
+                { "title": "Tengo pasaporte",  "buttons": [], "screen": "coming_soon" },
                 { "title": "No tengo pasaporte",  "buttons": [
-                    { "title": "Soy de Venezuela",  "buttons": [] },
-                    { "title": "Soy de Colombia",  "buttons": [] },
-                    { "title": "Otras nacionalidades",  "buttons": [] }
+                    { "title": "Soy de Venezuela",  "buttons": [], "screen": "venezuela_emb" },
+                    { "title": "Soy de Colombia",  "buttons": [], "screen": "colombia_emb"},
+                    { "title": "Otras nacionalidades",  "buttons": [], "screen": "other_emb" }
                 ] }
             ]
         },
@@ -85,20 +90,20 @@
             "title":"Protección de derechos",
             "buttons": [
                 { "title": "Violencia basada en género",  "buttons": [] },
-                { "title": "Inserción escolar",  "buttons": [] },
-                { "title": "Niños, niñas y adolescentes",  "buttons": [] }
+                { "title": "Atención en salud",  "buttons": [] },
+                { "title": "Inserción escolar",  "buttons": [] }
             ]
         },
         "information": {
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Información clave",
             "buttons": [
-                { "title": "Cambio divisas",  "buttons": [] },
-                { "title": "Cuentas de banco",  "buttons": [] },
-                { "title": "Consulados y embajadas",  "buttons": [] },
-                { "title": "Oportunidades laborales",  "buttons": [] },
-                { "title": "Redes y comunidad",  "buttons": [] },
-                { "title": "Glosario",  "buttons": [] }
+                { "title": "Cambio divisas",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Cuentas de banco",  "buttons": [],  "screen": "coming_soon" },
+                { "title": "Consulados y embajadas",  "buttons": [],  "screen": "embassies" },
+                { "title": "Oportunidades laborales",  "buttons": [],  "screen": "coming_soon" },
+                { "title": "Redes y comunidad",  "buttons": [],  "screen": "coming_soon" },
+                { "title": "Glosario",  "buttons": [],  "screen": "coming_soon" }
             ]
         },
         "directory": {

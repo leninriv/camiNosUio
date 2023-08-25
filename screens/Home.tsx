@@ -9,7 +9,7 @@ export default function HomeScreen(props: any) {
     const buttons = [
         {
             colors: ['#a1a1a1', '#4d4d4d'],
-            text: 'Violenciaaa',
+            text: 'Violencia',
             route: 'Violence',
             iconName: 'hand-right'
         },

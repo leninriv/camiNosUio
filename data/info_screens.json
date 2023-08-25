@@ -33,7 +33,9 @@
         "link1": {
             "type": "internal",
             "name": "Banco de alimentos de Quito",
-            "filter": {"tag":"Alimentación"}
+            "filter": {
+                "tag": "Alimentación"
+            }
         }
     },
     "community_kitchens": {
@@ -83,6 +85,16 @@
         "link2": {},
         "content3": "Es recomendable hacerlo lo más pronto posible.",
         "link3": {}
+    },
+    "complaints": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "Si quieres hacer una denuncia sobre un delito o violación de derechos, debes acudir a la fiscalía correspondiente. Antes de ir directamente, consulta las rutas de protección de derechos y comunícate con las organizaciones que prestan asesoría legal.",
+        "link1": {
+            "type": "external",
+            "name": "Fiscalías de Pichincha",
+            "url": "https://www.fiscalia.gob.ec/directorio-fiscalia-provincial-pichincha/ "
+        }
     },
     "registration_approval": {
         "title": "",
@@ -150,6 +162,160 @@
             "type": "external",
             "name": "CES",
             "url": "https://www.ces.gob.ec/"
+        }
+    },
+    "coming_soon": {
+        "title": "Próximamente",
+        "type": "paragraph"
+    },
+    "embassies": {
+        "title": "Direcciones de consulados y embajadas:",
+        "type": "paragraph",
+        "content1": "Embajada de Venezuela: Av. Amazonas N30-240 y Eloy Alfaro. Edif. Comonsa piso 8.",
+        "link1": {
+            "type": "external",
+            "name": "Venezuela",
+            "url": "https://ecuador.embajada.gob.ve/"
+        },
+        "content2": "Consulado de Colombia: Calle Catalina Aldaz N34-131 y Portugal. Edif. La Suiza.",
+        "link2": {
+            "type": "external",
+            "name": "Colombia",
+            "url": "https://quito.consulado.gov.co/"
+        },
+        "content3": "Consulado de Cuba: Mercurio 365 entre La Razón y El Vengador. ",
+        "link3": {
+            "type": "external",
+            "name": "Cuba",
+            "url": "https://misiones.cubaminrex.cu/es/ecuador "
+        },
+        "content4": "Consulado de Perú: Av. República de El Salvador N34-349.",
+        "link4": {
+            "type": "external",
+            "name": "Venezuela",
+            "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx "
+        }
+    },
+    "emergency": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En caso de emergencias, comunícate con el Servicio Integrado de Seguridad ECU al:",
+        "link1": {
+            "type": "external",
+            "name": "911",
+            "url": "tel:911"
+        },
+        "content2": "Esta institución centraliza las demandas de la ciudadanía y las refiere a los organimos de atención correspondientes (policía, bomberos, etc)"
+    },
+    "government_platforms":{
+        "type": "paragraph",
+        "content1": "En Quito existen dos lugares donde varias instituciones públicas tienen oficinas para atención al público.",
+        "content2": "Al Norte: Plataforma Gubernamental de Gestión Financiera",
+        "link2": {
+            "type": "external",
+            "name": "Mapa Plataforma Norte",
+            "url": "https://maps.app.goo.gl/rvcMjMHcUnU2wPwBA"
+        },
+        "content3": "Al Sur: Plataforma Gubernamental de Desarrollo Social",
+        "link3": {
+            "type": "external",
+            "name": "Mapa Plataforma Norte",
+            "url": "https://maps.app.goo.gl/QYpJbWgAVsuxf4po7"
+        }
+    },
+    "gob_ec":{
+        "type": "paragraph",
+        "content1": "El portal gob.ec es el Guía Oficial de Trámites y Servicios de la administración pública del Ecuador. ",
+        "content2": "En este portal se pueden realizar consultas de trámites, denuncias y consultas de información.",
+        "link2": {
+            "type": "external",
+            "name": "Gobierno del Ecuador",
+            "url": "https://www.gob.ec/ "
+        }
+    },
+    "public_area":{
+        "type": "paragraph",
+        "content1": "Quito es una ciudad con una geografía única con plazas, parques, quebradas en todo su territorio.",
+        "link1": {
+            "type": "external",
+            "name": "Conoce espacios biodiversos",
+            "url": "https://www.quito-turismo.gob.ec/news/entornos-magicos-y-biodiversos-aguardan-en-quito-a-los-amantes-de-la-naturaleza/  "
+        } ,
+        "content2": "Conoce los parques metropolitanos y áreas verdes",
+        "link2": {
+            "type": "external",
+            "name": "Mic",
+            "url": "https://www.micequito.ec/tipo_establecimiento/locaciones/parques-metropolitanos-y-areas-verdes/  "
+        } 
+    },
+    "universal_city": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Artículo 416 de la Constitución del Ecuador:",
+                "text": "Las relaciones del Ecuador con la comunidad internacional responderán a los intereses del pueblo ecuatoriano, al que le rendirán cuenta sus responsables y ejecutores, y en consecuencia"
+            },
+            {
+                "title": "Numeral 6:",
+                "text": "Propugna el principio de ciudadanía universal, la libre movilidad de todos los habitantes del planeta y el progresivo fin de la condición de extranjero como elemento transformador de las relaciones desiguales entre los países, especialmente Norte-Sur."
+            }
+        ]
+    },
+    "international_help":{
+        "type": "paragraph",
+        "content1": "Conveción sobre el estatuto de los refugiados",
+        "content2": "Adoptada en Ginebra, Suiza, el 28 de julio de 1951",
+        "content3": "Entrada en vigor: 22 de abril de 1954, de conformidad con el artículo 43 Serie Tratados de Naciones Unidas, Nº 2545, Vol. 189, p. 137",
+        "link3": {
+            "type": "external",
+            "name": "Estatutos",
+            "url": "https://www.acnur.org/media/convencion-sobre-el-estatuto-de-los-refugiados-de-1951"
+        } 
+    },
+    "human_rigths":{
+        "type": "paragraph",
+        "content1": "Declaración Universal de los Derechos Humanos",
+        "content2": "Proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948 en su resolución 217 A",
+        "link2": {
+            "type": "external",
+            "name": "Declaración universal",
+            "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights "
+        } 
+    },
+    "venezuela_emb":{
+        "title": "Embajada de Venezuela: ",
+        "type": "paragraph",
+        "content1": "Av. Amazonas N30-240 y Eloy Alfaro. Edif. Comonsa piso 8.",
+        "link1": {
+            "type": "external",
+            "name": "Embajada",
+            "url": "https://ecuador.embajada.gob.ve/ "
+        }  
+    },
+    "colombia_emb":{
+        "title": "Consulado de Colombia: ",
+        "type": "paragraph",
+        "content1": "Calle Catalina Aldaz N34-131 y Portugal. Edif. La Suiza.",
+        "link1": {
+            "type": "external",
+            "name": "Consulado",
+            "url": "https://quito.consulado.gov.co/ "
+        }  
+    },
+    "other_emb":{
+        "type": "paragraph",
+        "content1": "Consulado de Cuba: Mercurio 365 entre La Razón y El Vengador.",
+        "link1": {
+            "type": "external",
+            "name": "Consulado Cuba",
+            "url": "https://misiones.cubaminrex.cu/es/ecuador"
+        },
+        "content2": "Consulado de Perú: Av. República de El Salvador N34-349",
+        "link2": {
+            "type": "external",
+            "name": "Consulado Perú",
+            "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx"
         }
     }
 }
