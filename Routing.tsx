@@ -30,6 +30,15 @@ function SearchNav(props: any) {
 };
 
 export default function Routing() {
+    // Connecting routes in common violence with rightsProtection
+    const violenceRoutes: any = routes.violence;
+    violenceRoutes.buttons.unshift(routes.rightsProtection.buttons[1]);
+    violenceRoutes.buttons.unshift(routes.rightsProtection.buttons[0]);
+
+    // Connecting routes in common scholar with rightsProtection
+    const scholarRoutes: any = routes.scholar;
+    scholarRoutes.buttons.push(routes.rightsProtection.buttons[2]);
+
     return (
         <NavigationContainer>
             <Drawer.Navigator
@@ -40,15 +49,15 @@ export default function Routing() {
                 <Drawer.Screen name="WhatIs" component={WhatIsContainer} />
                 <Drawer.Screen name="Organization" component={OrganizationContainer} />
                 <Drawer.Screen name="RightsProtection" component={GlobalContainer} initialParams={routes.rightsProtection} />
-                <Drawer.Screen name="Information" component={GlobalContainer} initialParams={routes.information}/>
+                <Drawer.Screen name="Information" component={GlobalContainer} initialParams={routes.information} />
                 <Drawer.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
                 <Drawer.Screen name="Test" component={TestScreen} />
-                <Drawer.Screen name="Violence" component={GlobalContainer} initialParams={routes.violence} />
-                <Drawer.Screen name="Health" component={GlobalContainer} initialParams={routes.health}  />
+                <Drawer.Screen name="Violence" component={GlobalContainer} initialParams={violenceRoutes} />
+                <Drawer.Screen name="Health" component={GlobalContainer} initialParams={routes.health} />
                 <Drawer.Screen name="Feeding" component={GlobalContainer} initialParams={routes.feeding} />
-                <Drawer.Screen name="Documents" component={GlobalContainer} initialParams={routes.documents}/>
+                <Drawer.Screen name="Documents" component={GlobalContainer} initialParams={routes.documents} />
                 <Drawer.Screen name="City" component={GlobalContainer} initialParams={routes.city} />
-                <Drawer.Screen name="Scholar" component={GlobalContainer} initialParams={routes.scholar} />
+                <Drawer.Screen name="Scholar" component={GlobalContainer} initialParams={scholarRoutes} />
                 <Drawer.Screen name="Rights" component={GlobalContainer} initialParams={routes.rights} />
                 <Drawer.Screen name="Regularization" component={GlobalContainer} initialParams={routes.regularization} />
                 <Drawer.Screen name="Search" component={SearchNav} />

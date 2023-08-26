@@ -317,5 +317,84 @@
             "name": "Consulado Perú",
             "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx"
         }
+    },
+    "necessary_document":{
+        "type": "paragraph",
+        "content1": "Los documentos que se solicitan durante el proceso son:",
+        "content2": "Correo electrónico de representante legal de estudiante.\n Número de contacto (celular o fijo).\n Número de identificación del estudiante (opcional).\n Número de identificación del representante (opcional). ",
+        "content3": "La unidad educativa asignada al estudiante dependerá la ubicación y residencia de la familia y su cercanía a los distritos educativos correspondientes"
+    },
+    "regular_process":{
+        "type": "paragraph",
+        "content1": "El proceso se realiza a través del portal respectivo del Ministerio de Educación",
+        "link1": {
+            "type": "external",
+            "name": "Ministerio de Educación",
+            "url": "http://juntos.educacion.gob.ec"
+        },
+        "content2": "En caso de que el proceso de matrícula se realice fuera del cronograma ordinario, se debe recurrir a la matriculación extraordinaria. Consulta las fechas específicas de cada periodo."
+    },
+    "education_access":{
+        "type": "paragraph",
+        "title": "Acceso al servicio educativo en cualquier momento del año lectivo"
+    },
+    "other_institution":{
+        "type": "paragraph",
+        "title": "La incorporación a otra institución del Sistema Nacional de Educación producto de traslados imprevistos y de acuerdo con la disponibilidad de la oferta educativa." 
+    },
+    "apress_process":{
+        "type": "paragraph",
+        "content1": "Acceso al proceso de aprestamiento para acceso al Sistema Nacional de Educación fuera del periodo de matrícula, sin la necesidad de contar con documentos de identificación (ya que se le asignará un código para el registro y se remitirá a las instituciones respectivas la generación de documentación de identidad) o de expediente académico (para lo cual se realizará una evaluación psicopedagógica para su ubicación en el sistema)."
+    },
+    "get_help":{
+        "type": "paragraph",
+        "content1": "Acompañamiento en el proceso de aprestamiento por parte de las direcciones distritales de educación, la Unidad distrital de apoyo a la inclusión (UDAI) y/o el Departamento de Consejería Estudiantil correspondientes. El tiempo de este acompañamiento será definido y justificado por el tutor designado "
+    },
+    "police":{
+        "type": "paragraph",
+        "content1": "Pon el caso en conocimiento de la Policía a través de la UPC más cercana a tu domicilio, trabajo o lugar del incidente.",
+        "content2": "Mira también: Dirección Nacional de Policía Comunitaria",
+        "content3": "Email: dnpolco.servicios@gmail.com",
+        "link3": {
+            "type": "external",
+            "name": "Teléfono: 022233283",
+            "url": "tel:022233283"
+        }
+    }, 
+    "justice_places":{
+        "type": "paragraph",
+        "content1": "Los Chillos\n Correo: cejloschillos@gmail.com\nTeléfono: 0987025619\n\nCalderón, Llano Chico\n Correo: c.equidadyjusticiacalderon@gmail.com\n Teléfono: 0984404605\n\n Quitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros\n Correo: c.equidadyjusticiaquitumbe@gmail.com\n Teléfono: 0987554185\n\n Tumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.\n Correo: cej.tumbaco@quito.gob.ec\n Teléfono: 0994336974\n\nLa Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros\nCorreo: cej.ladelicia@quito.gob.ec\n Teléfono: 0984154102\n\nEloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.\nCorreo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038\n\n"
+    },
+    "public_server":{
+        "type": "paragraph",
+        "title": "En el caso de que el o la agresor/a labore en una institución pública, debe poner en conocimiento de la unidad de talento humano de esta institución la agresión."
+    },
+    "need_medic_help":{
+        "type": "paragraph",
+        "content1": "Acude al centro de salud más cercano.",
+        "content2": "Mira el listado de Centros de Salud de Quito y sus inmediaciones (Zona 9)",
+        "link2": {
+            "type": "external",
+            "name": "Centros de salud",
+            "url": "http://www.saludzona1.gob.ec/cz1/index.php/56-direccion/102-centros-de-salud "
+        }
+    },
+    "dinapen":{
+        "type": "paragraph",
+        "content1":"Jefatura Provincial DINAPEN\nDir: Av. 10 de Agosto y Santa Prisca\nTelf: 2572605, 2950214\n\nDistrito Quitumbe\nDir: Av. Huayanan Ñan y calle Oe3E\nTelf: 3660697\n\nDistrito Eloy Alfaro Sector de la Mena 2\nDir: calles Angamarca y Hnoiner\nTelf: 2840706 2631341\n\nDistrito La Delicia Casa de la Justicia de Carcelén\nDir: calles Tadeo Benítez y Joaquín Mancheno\nTelf: 285573 Ext.  175076\n\nDistrito Calderón\nDir: Av. Capitán Giovanny calles y Nápoles\nTelf: 3814850 Ext.  1181\n\nDistrito Los Chillos Conocoto\nDir: calles José de Ascazubi y Oriente\nTelf: 2075167\n\n" 
+    },
+    "follow_protection":{
+        "type": "paragraph",
+        "content1": "Para Emisión y ejecución de medidas de protección. Poner en conocimiento de entidad competente: Policía, CEJ ",
+        "content2": "Para seguimiento de procesos no respondidos por entidades públicas, acudir a la Defensoría del Pueblo"
+    },
+    "ombudsman":{
+        "type": "paragraph",
+        "content1": "Si necesitas orientación adicional, acude a la Defensoría del Pueblo",
+        "link1": {
+            "type": "external",
+            "name": "Defensoría del Pueblo",
+            "url": "https://www.dpe.gob.ec/"
+        }
     }
 }

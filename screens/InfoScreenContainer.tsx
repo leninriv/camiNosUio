@@ -13,6 +13,8 @@ export default function InfoScreenContainer(props: any) {
 
     useEffect(() => {
         const allScreens: any = JSON.parse(JSON.stringify(screensList));
+        const selectedScreen = allScreens[item.screen];
+        if (!selectedScreen) navigation.replace(item.screen);
         setCurrentScreen(allScreens[item.screen])
     }, []);
 
@@ -21,10 +23,10 @@ export default function InfoScreenContainer(props: any) {
     return <MainLayout  {...props} headerTitle={item.title} backButton>
         <View style={styles.container}>
 
-            {currentScreen.type === 'paragraph' && <ParagraphType content={currentScreen} colors={colors} navigation={navigation}/>}
-            {currentScreen.type === 'law' && <LawType content={currentScreen} colors={colors}/>}
+            {currentScreen.type === 'paragraph' && <ParagraphType content={currentScreen} colors={colors} navigation={navigation} />}
+            {currentScreen.type === 'law' && <LawType content={currentScreen} colors={colors} />}
 
-           
+
         </View>
     </MainLayout>
 }

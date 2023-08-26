@@ -71,12 +71,13 @@ function ButtonListScreen(props: any) {
     const { item, colors, mainNav } = route.params;
     const org = item;
     if (org.isFirst) props.navigation = mainNav;
+    if (org.buttons?.length) org.buttons = org.buttons.filter((v: any, i: any, a: any) => a.findIndex((t: any) => (t.title === v.title)) === i);
     return <MainLayout  {...props} headerTitle={org.title} backButton>
         <View style={styles.container}>
             <FlatList
                 data={org.buttons || []}
                 style={{ width: '100%', paddingHorizontal: 20 }}
-                keyExtractor={(item: any) => item.id}
+                keyExtractor={(item: any) => item.title}
                 renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }) }} />}
             />
         </View>

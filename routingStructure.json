@@ -4,8 +4,6 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Violencia",
             "buttons": [
-                { "title": "Violencias basadas en género",  "buttons": [] },
-                { "title": "Violencias contra niños, niñas y adolescentes",  "buttons": [] },
                 { "title": "Violencias contra personas LGBTI+",  "buttons": [] },
                 { "title": "Violencias contra adultos mayores",  "buttons": [] },
                 { "title": "Denuncias por robo",  "buttons": [], "screen": "robbery_complaints" },
@@ -60,8 +58,7 @@
             "title":"Inserción escolar",
             "buttons": [
                 { "title": "Derechos educativos",  "buttons": [], "screen": "educational_rights" },
-                { "title": "Sistema educativo",  "buttons": [], "screen": "educational_system" },
-                { "title": "Proceso de inserción",  "buttons": [] }
+                { "title": "Sistema educativo",  "buttons": [], "screen": "educational_system" }
             ]
         },
         "rights": {
@@ -89,9 +86,56 @@
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Protección de derechos",
             "buttons": [
-                { "title": "Violencia basada en género",  "buttons": [] },
-                { "title": "Atención en salud",  "buttons": [] },
-                { "title": "Inserción escolar",  "buttons": [] }
+                { "title": "Violencia basada en género",  "buttons": [
+                    { "title": "Es una emergencia*",  "buttons": [], "screen": "emergency" },
+                    { "title": "Necesito hacer una denuncia*",  "buttons": [], "screen": "Necesito hacer una denuncia" },
+                    { "title": "Necesita atención médica*",  "buttons": [], "screen": "need_medic_help" },
+                    { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
+                        { "title": "Policía*",  "buttons": [], "screen": "police" },
+                        { "title": "Centros de Equidad y Justicia*",  "buttons": [], "screen": "justice_places" },
+                        { "title": "Directorio ONG",  "buttons": [], "route":"directory_result", "params": {"type":"ONG"} }
+                    ]},
+                    { "title": "No saben como ayudarme",  "buttons": [], "screen": "ombudsman" }
+                ] },
+                { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
+                    { "title": "Es una emergencia",  "buttons": [], "screen": "emergency" },
+                    { "title": "Es víctima de violencia",  "buttons": [
+                        { "title": "No necesita atención emergente",  "buttons": [
+                            { "title": "Policía",  "buttons": [], "screen": "police" },
+                            { "title": "Centros de Equidad y Justicia",  "buttons": [], "screen": "justice_places" }
+                        ] },
+                        { "title": "Necesito hacer una denuncia",  "buttons": [
+                            { "title": "Delitos",  "buttons": [
+                                { "title": "Fiscalía",  "buttons": [] },
+                                { "title": "Junta cantonal de Protección de Derechos",  "buttons": [] },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "buttons": [] }
+                            ] },
+                            { "title": "Contravenciones",  "buttons": [
+                                { "title": "Junta Cantonal de Protección de Derechos",  "buttons": [] },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",  "buttons": []  },
+                                { "title": "Jueces de Contravenciones",  "buttons": [] },
+                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",  "buttons": [] }
+                            ], "screen": "" },
+                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",  "buttons": [] }]},
+                            { "title": "Si el agresor es funcionario/a público",  "buttons": [], "screen": "public_server" }
+                        ] }
+                    ]},
+                    { "title": "Necesita atención médica",  "buttons": [], "screen": "need_medic_help" },
+                    { "title": "Requiere medidas de protección legal",  "buttons": [
+                        { "title": "DINAPEN",  "buttons": [], "screen": "dinapen" }
+                    ] },
+                    { "title": "Seguimiento medidas de protección",  "buttons": [], "screen": "follow_protection" }
+                ] },
+                { "title": "Inserción escolar",  "buttons": [
+                    { "title": "Documentación necesaria",  "buttons": [], "screen": "necessary_document"  },
+                    { "title": "Proceso regular",  "buttons": [], "screen": "regular_process" },
+                    { "title": "Situación de vulnerabilidad",  "buttons": [
+                        { "title": "Acceder al sistema educativo",  "buttons": [], "screen": "education_access" },
+                        { "title": "Incorporación a otras instituciones",  "buttons": [], "screen": "other_institution" },
+                        { "title": "Acceder al proceso de aprestamiento",  "buttons": [], "screen": "apress_process" },
+                        { "title": "Recibir acompañamiento",  "buttons": [], "screen": "get_help" }
+                    ] }
+                ] }
             ]
         },
         "information": {
@@ -111,7 +155,7 @@
             "title":"Directorio",
             "buttons": [
                 { "title": "Buscador",  "buttons": [], "route":"directory_result"},
-                { "title": "Organizaciones sociedad civil",  "buttons": [],"route":"directory_result", "params": {"type":"ONG"}},
+                { "title": "Organizaciones sociedad civil",  "buttons": [], "route":"directory_result", "params": {"type":"ONG"}},
                 { "title": "Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
                 { "title": "Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
                 { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }             
@@ -119,4 +163,5 @@
         }
     }
 }
+
 
