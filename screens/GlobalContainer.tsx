@@ -8,6 +8,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InfoScreenContainer from './InfoScreenContainer';
 import SearchContainer from './SearchContainer';
 import DirectoryViewScreen from './DirectoryViewScreen';
+import React from 'react';
 
 const InspectionTabBarOptions = {
     headerShown: false,
@@ -20,7 +21,8 @@ export default function GlobalContainer(props: any) {
     const { title, colors, buttons } = route.params;
 
     useEffect(() => {
-
+        // const routes = navigation.getState().routeNames;
+        // console.log('routes', routes);
     }, []);
 
     return (
@@ -49,7 +51,12 @@ const renderInitial = (title: string, buttons: any[], mainNav: any, colors: stri
 }
 
 const renderDynamicScreens = (mainNav: any, screensList: any[], colors: string[]) => {
-    return screensList.map((item: any, index) => <Stack.Screen key={index} name={item.route} component={item.screen ? InfoScreenContainer : ButtonListScreen} initialParams={{ item, colors, mainNav }} />);
+    const routes: string[] = [];
+    return screensList.map((item: any, index) => {
+        if (routes.includes(item.route)) return;
+        routes.push(item.route);
+        return (<Stack.Screen key={index} name={item.route} component={item.screen ? InfoScreenContainer : ButtonListScreen} initialParams={{ item, colors, mainNav }} />)
+    });
 }
 
 function returnLevelScreens(screensList: any[]) {
@@ -83,7 +90,6 @@ function ButtonListScreen(props: any) {
         </View>
     </MainLayout>
 }
-
 
 const styles = StyleSheet.create({
     container: {
