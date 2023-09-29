@@ -3,6 +3,7 @@
         "violence": {
             "colors": ["#a1a1a1", "#4d4d4d"],
             "title":"Violencia",
+            "modal":"aca todala informacion del modal",
             "buttons": [
                 { "title": "Violencias contra personas LGBTI+",  "buttons": [] },
                 { "title": "Violencias contra adultos mayores",  "buttons": [] },
