@@ -60,10 +60,12 @@ export default function HomeScreen(props: any) {
     function wellcomeImage() {
         return <View style={{ alignItems: 'center' }}>
             {/* <Text>Vamos a empezar!</Text> */}
+            <View style={{ height: 20 }} />
             <Image
                 style={styles.stretch}
                 source={require('../assets/images/camiNOS.png')}
             />
+            <View style={{ height: 20 }} />
         </View>
     };
 
@@ -111,7 +113,7 @@ const styles = StyleSheet.create({
     },
     stretch: {
         width: 380,
-        height: 200,
+        height: 110,
         resizeMode: 'stretch',
         marginBottom: 15
     },
