@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View, Text } from 'react-native';
+import { Image, StyleSheet, View, Text, ScrollView } from 'react-native';
 
 import MainLayout from '../components/MainLayout';
 import { useEffect } from 'react';
@@ -8,17 +8,19 @@ export default function WhatIsContainer(props: any) {
     }, []);
     return (
         <MainLayout  {...props} headerTitle={"¿Qué es camiNOS.uio?"}>
-            <View style={styles.container}>
-                <View style={styles.imageContent}>
-                    <Image
-                        style={styles.stretch}
-                        source={require('../assets/images/camiNOS.png')}
-                    />
+            <ScrollView>
+                <View style={styles.container}>
+                    <View style={styles.imageContent}>
+                        <Image
+                            style={styles.stretch}
+                            source={require('../assets/images/camiNOS.png')}
+                        />
+                    </View>
+                    <Text style={styles.text}>
+                        Es una aplicación que facilita el ejercicio de derechos de las personas en situación de movilidad humana en Quito. Solo requiere de conexión a internet al momento de descargarla. En adelante tendrás acceso a todo el contenido que incluye información clave, rutas de protección de derechos y directorio de organizaciones sin necesidad de estar conectado a internet.
+                    </Text>
                 </View>
-                <Text style={styles.text}>
-                    Es una aplicación que facilita el ejercicio de derechos de las personas en situación de movilidad humana en Quito. Solo requiere de conexión a internet al momento de descargarla. En adelante tendrás acceso a todo el contenido que incluye información clave, rutas de protección de derechos y directorio de organizaciones sin necesidad de estar conectado a internet.
-                </Text>
-            </View>
+            </ScrollView>
         </MainLayout>
     );
 }
@@ -49,8 +51,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     stretch: {
-        width: 250,
-        height: 130,
-        resizeMode: 'stretch',
+        width: 200,
+        height: 90,
+        resizeMode: 'center',
     },
 });

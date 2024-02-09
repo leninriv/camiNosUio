@@ -1,4 +1,4 @@
-import { Image, StyleSheet, View, Text } from 'react-native';
+import { Image, StyleSheet, View, Text, ScrollView } from 'react-native';
 
 import MainLayout from '../components/MainLayout';
 import { useEffect } from 'react';
@@ -9,17 +9,19 @@ export default function OrganizationContainer(props: any) {
     }, []);
     return (
         <MainLayout  {...props} headerTitle={"Cuadrante Sur"}>
-            <View style={styles.container}>
-                <View style={styles.imageContent}>
-                    <Image
-                        style={styles.stretch}
-                        source={require('../assets/logo/logoCuadSur.png')}
-                    />
+            <ScrollView>
+                <View style={styles.container}>
+                    <View style={styles.imageContent}>
+                        <Image
+                            style={styles.stretch}
+                            source={require('../assets/logo/logoCuadSur.png')}
+                        />
+                    </View>
+                    <Text style={styles.text}>
+                        Organización de la sociedad civil que busca impulsar el desarrollo social a través de proyectos, iniciativas e investigaciones que promuevan el ejercicio de derechos humanos y de la naturaleza, la justicia social, la democratización del conocimiento, la deliberación pública, la participación ciudadana y modelos innovadores de gestión organizacional.
+                    </Text>
                 </View>
-                <Text style={styles.text}>
-                    Organización de la sociedad civil que busca impulsar el desarrollo social a través de proyectos, iniciativas e investigaciones que promuevan el ejercicio de derechos humanos y de la naturaleza, la justicia social, la democratización del conocimiento, la deliberación pública, la participación ciudadana y modelos innovadores de gestión organizacional.
-                </Text>
-            </View>
+            </ScrollView>
         </MainLayout>
     );
 }

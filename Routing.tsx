@@ -11,6 +11,7 @@ import DirectoryViewScreen from './screens/DirectoryViewScreen';
 import GlobalContainer from './screens/GlobalContainer';
 
 import { routes } from './routingStructure.json';
+import PrivacyTermsContainer from './screens/PrivacyTermsContainer';
 
 const GlobalStack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -48,6 +49,7 @@ export default function Routing() {
                 <Drawer.Screen name="Home" component={HomeScreen} />
                 <Drawer.Screen name="WhatIs" component={WhatIsContainer} />
                 <Drawer.Screen name="Organization" component={OrganizationContainer} />
+                <Drawer.Screen name="PrivacyTerms" component={PrivacyTermsContainer} />
                 <Drawer.Screen name="RightsProtection" component={GlobalContainer} initialParams={routes.rightsProtection} />
                 <Drawer.Screen name="Information" component={GlobalContainer} initialParams={routes.information} />
                 <Drawer.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
