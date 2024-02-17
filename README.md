@@ -8,3 +8,6 @@
 # For create new build
 eas build --platform android --profile staging
 
+# For update existing build
+eas update --branch main
+

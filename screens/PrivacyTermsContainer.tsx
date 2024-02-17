@@ -44,7 +44,7 @@ export default function PrivacyTermsContainer(props: any) {
                     <Text h4 style={styles.h4Style}>Cualquier cambio en las políticas de privacidad serán notificadas a través de las redes de la fundación cuadrante sur. Tener en cuenta que no se forzara la actualización en ningún dispositivo y sus versiones anteriores continuarán siendo 100% funcionales y seguras.</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Contacto</Text>
+                    <Text h3 style={styles.h3Style}>- Contactos</Text>
                     <Text h4 style={styles.h4Style}>Si tiene preguntas o inquietudes sobre nuestra política de privacidad, no dude en ponerse en contacto con nosotros en info@cuadrantesur.org.</Text>
                     <View style={{ height: 40 }} />
                 </View>

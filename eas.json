@@ -18,6 +18,13 @@
         "buildType": "apk"
       }
     },
+    "main": {
+      "autoIncrement": true,
+      "channel": "main",
+      "android": {
+        "buildType": "apk"
+      }
+    },
     "staging": {
       "autoIncrement": true,
       "channel": "staging",
