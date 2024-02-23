@@ -6,7 +6,7 @@
 - Enjoy!
 
 # For create new build
-eas build --platform android --profile staging
+eas build --platform android --profile main
 
 # For update existing build
 eas update --branch main

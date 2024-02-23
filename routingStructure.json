@@ -1,18 +1,18 @@
 {
     "routes": {
         "violence": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["red"],
             "title":"Violencia",
             "modal":"aca todala informacion del modal",
             "buttons": [
-                { "title": "Violencias contra personas LGBTI+",  "buttons": [] },
-                { "title": "Violencias contra adultos mayores",  "buttons": [] },
+                { "title": "Violencias contra personas LGBTI+",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Violencias contra adultos mayores",  "buttons": [], "screen": "coming_soon" },
                 { "title": "Denuncias por robo",  "buttons": [], "screen": "robbery_complaints" },
                 { "title": "Discriminación",  "buttons": [],  "screen": "discrimination" }
             ]
         },
         "health": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Salud integral",
             "buttons": [
                 { "title": "Salud física",  "buttons": [], "screen": "coming_soon" },
@@ -23,7 +23,7 @@
             ]
         },
         "feeding": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Alimentación",
             "buttons": [
                 { "title": "Organizaciones",  "buttons": [] , "screen": "food_bank"},
@@ -31,7 +31,7 @@
             ]
         },
         "documents": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Documentos y denuncias",
             "buttons": [
                 { "title": "Documentos Ecuador",  "buttons": [], "screen": "documents_ecuador"},
@@ -46,7 +46,7 @@
             ]
         },
         "city": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Habitar Quito",
             "buttons": [
                 { "title": "Vivienda y Alojamiento",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
@@ -55,7 +55,7 @@
             ]
         },
         "scholar": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Inserción escolar",
             "buttons": [
                 { "title": "Derechos educativos",  "buttons": [], "screen": "educational_rights" },
@@ -63,16 +63,16 @@
             ]
         },
         "rights": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Mis Derechos",
             "buttons": [
                 { "title": "Ciudadanía universal",  "buttons": [], "screen":"universal_city" },
                 { "title": "Convención internacional refugio",  "buttons": [], "screen": "international_help" },
-                { "title": "Declaración Universal DDHH",  "buttons": [] }
+                { "title": "Declaración Universal DDHH",  "buttons": [], "screen": "coming_soon" }
             ]
         },
         "regularization": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Regularizacion",
             "buttons": [
                 { "title": "Tengo pasaporte",  "buttons": [], "screen": "coming_soon" },
@@ -84,7 +84,7 @@
             ]
         },
         "rightsProtection": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Protección de derechos",
             "buttons": [
                 { "title": "Violencia basada en género",  "buttons": [
@@ -107,17 +107,17 @@
                         ] },
                         { "title": "Necesito hacer una denuncia",  "buttons": [
                             { "title": "Delitos",  "buttons": [
-                                { "title": "Fiscalía",  "buttons": [] },
-                                { "title": "Junta cantonal de Protección de Derechos",  "buttons": [] },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "buttons": [] }
+                                { "title": "Fiscalía",  "buttons": [], "screen": "coming_soon" },
+                                { "title": "Junta cantonal de Protección de Derechos",  "buttons": [], "screen": "coming_soon" },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "buttons": [], "screen": "coming_soon" }
                             ] },
                             { "title": "Contravenciones",  "buttons": [
-                                { "title": "Junta Cantonal de Protección de Derechos",  "buttons": [] },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",  "buttons": []  },
-                                { "title": "Jueces de Contravenciones",  "buttons": [] },
-                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",  "buttons": [] }
+                                { "title": "Junta Cantonal de Protección de Derechos",  "buttons": [], "screen": "coming_soon" },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",  "buttons": [], "screen": "coming_soon"  },
+                                { "title": "Jueces de Contravenciones",  "buttons": [], "screen": "coming_soon" },
+                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",  "buttons": [], "screen": "coming_soon" }
                             ], "screen": "" },
-                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",  "buttons": [] }]},
+                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",  "buttons": [], "screen": "coming_soon" }]},
                             { "title": "Si el agresor es funcionario/a público",  "buttons": [], "screen": "public_server" }
                         ] }
                     ]},
@@ -140,7 +140,7 @@
             ]
         },
         "information": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Información clave",
             "buttons": [
                 { "title": "Cambio divisas",  "buttons": [], "screen": "coming_soon" },
@@ -152,7 +152,7 @@
             ]
         },
         "directory": {
-            "colors": ["#a1a1a1", "#4d4d4d"],
+            "colors": ["white"],
             "title":"Directorio",
             "buttons": [
                 { "title": "Buscador",  "buttons": [], "route":"directory_result"},

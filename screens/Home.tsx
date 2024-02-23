@@ -1,4 +1,4 @@
-import { FlatList, StyleSheet, Image, View, Text } from 'react-native';
+import { FlatList, StyleSheet, Image, View, Text, Dimensions } from 'react-native';
 
 
 import MainLayout from '../components/MainLayout';
@@ -8,54 +8,57 @@ export default function HomeScreen(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Violencia',
             route: 'Violence',
             iconName: 'hand-right'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Salud integral',
             route: 'Health',
             iconName: 'fitness'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Alimentacion',
             route: 'Feeding',
             iconName: 'fast-food'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Documentos y denuncias',
             route: 'Documents',
             iconName: 'document-text'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Habitar Quito',
             route: 'City',
             iconName: 'business'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Inserción escolar',
             route: 'Scholar',
             iconName: 'school'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Mis derechos',
             route: 'Rights',
             iconName: 'shield-checkmark'
         },
         {
-            colors: ['#a1a1a1', '#4d4d4d'],
+            colors: ['white'],
             text: 'Regularización',
             route: 'Regularization',
             iconName: 'card'
         },
-    ]
+    ];
+
+    const windowWidth = Dimensions.get('window').width;
+    const hideIcons = windowWidth < 300;
 
     function wellcomeImage() {
         return (
@@ -78,8 +81,8 @@ export default function HomeScreen(props: any) {
                     columnWrapperStyle={styles.row}
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
-                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    // ListFooterComponent={<GradientButton text={'Super botton'} colors={['#395961', '#F44336']} onPres={() => { navigation.navigate('Test') }} />}
+                    renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={hideIcons ? null : item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
+                    ListFooterComponent={<GradientButton text={'Directorio'} colors={['white']} onPres={() => { navigation.navigate('Search') }} />}
                     ListHeaderComponent={wellcomeImage()}
                 />
 
