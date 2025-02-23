@@ -1,7 +1,7 @@
 {
     "routes": {
         "violence": {
-            "colors": ["red"],
+            "colors": ["#7a1194","#7a1194"],
             "title":"Violencia",
             "modal":"aca todala informacion del modal",
             "buttons": [
@@ -84,10 +84,10 @@
             ]
         },
         "rightsProtection": {
-            "colors": ["white"],
+            "colors": ["#7a1194","#7a1194"],
             "title":"Protección de derechos",
             "buttons": [
-                { "title": "Violencia basada en género",  "buttons": [
+                { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
                     { "title": "Es una emergencia*",  "buttons": [], "screen": "emergency" },
                     { "title": "Necesito hacer una denuncia*",  "buttons": [], "screen": "Necesito hacer una denuncia" },
                     { "title": "Necesita atención médica*",  "buttons": [], "screen": "need_medic_help" },

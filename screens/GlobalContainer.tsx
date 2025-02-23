@@ -46,7 +46,8 @@ const renderInitial = (title: string, buttons: any[], mainNav: any, colors: stri
         route: 'initial',
         isFirst: true,
         buttons,
-        modal
+        modal,
+        colors
     };
     return < Stack.Screen name={'initial'} component={ButtonListScreen} initialParams={{ item, colors, mainNav, modal }} />
 }
@@ -80,8 +81,8 @@ function ButtonListScreen(props: any) {
     const org = item;
 
     useEffect(() => {
-        console.log('route.name', org.modal);
-        // console.log('route.params', modal);
+        console.log('route.modal', org.modal);
+        console.log('colors', colors);
     }, []);
 
     if (org.isFirst) props.navigation = mainNav;

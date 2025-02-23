@@ -1,4 +1,6 @@
-import { Image, StyleSheet, View, Text, ScrollView } from 'react-native';
+import { Image, StyleSheet, View, ScrollView } from 'react-native';
+import { Text } from '@rneui/themed';
+
 
 import MainLayout from '../components/MainLayout';
 import { useEffect } from 'react';
@@ -16,7 +18,7 @@ export default function WhatIsContainer(props: any) {
                             source={require('../assets/images/camiNOS.png')}
                         />
                     </View>
-                    <Text style={styles.text}>
+                    <Text h4 style={styles.text}>
                         Es una aplicación que facilita el ejercicio de derechos de las personas en situación de movilidad humana en Quito. Solo requiere de conexión a internet al momento de descargarla. En adelante tendrás acceso a todo el contenido que incluye información clave, rutas de protección de derechos y directorio de organizaciones sin necesidad de estar conectado a internet.
                     </Text>
                 </View>
@@ -44,11 +46,9 @@ const styles = StyleSheet.create({
         borderRadius: 5,
     },
     text: {
-        // backgroundColor: 'transparent',
-        fontSize: 30,
-        // color: '#fff',
         textAlign: 'justify',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        color: 'gray'
     },
     stretch: {
         width: 200,

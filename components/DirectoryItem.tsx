@@ -20,7 +20,7 @@ export default function DirectoryItem(props: any) {
             <ListItem.Content>
                 <ListItem.Title style={{ color: 'white', fontWeight: 'bold' }}>{organization.name}</ListItem.Title>
                 <ListItem.Subtitle style={{ color: 'white' }}>{organization.description} </ListItem.Subtitle>
-                <Chip title={organization.tag1} containerStyle={{ marginTop: 5 }} size='sm' />
+                <Chip title={organization.tag1} containerStyle={{ marginTop: 5 }}  color={'gray'} size='sm' />
             </ListItem.Content>
             <ListItem.Chevron color="white" />
         </ListItem>

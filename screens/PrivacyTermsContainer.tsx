@@ -11,8 +11,8 @@ export default function PrivacyTermsContainer(props: any) {
         <MainLayout  {...props} headerTitle={"Políticas de Uso y Privacidad"}>
             <ScrollView>
                 <View style={styles.container}>
-                    <Text h2>POLÍTICA DE PRIVACIDAD</Text>
-                    <Text> Última actualización: 10/16/2023</Text>
+                    <Text h3>POLÍTICA DE PRIVACIDAD</Text>
+                    <Text> Última actualización: 23/02/2025</Text>
                     <View style={{ height: 20 }} />
                     <Text h4 style={styles.h4Style}>Bienvenido a CaminosUio. Nos preocupamos profundamente por su privacidad y estamos comprometidos a proteger la información personal que comparte con nosotros. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos su información cuando utiliza nuestra aplicación.</Text>
                     <View style={{ height: 20 }} />

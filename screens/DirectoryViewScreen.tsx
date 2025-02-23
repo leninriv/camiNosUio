@@ -22,7 +22,7 @@ export default function DirectoryViewScreen(props: any) {
                 <View style={styles.container}>
                     <View style={styles.space} />
                     <Text h3>{organization.name}</Text>
-                    <Chip title={organization.type} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' />
+                    <Chip title={organization.type} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm'  color={'gray'}/>
                     <View style={styles.space} />
                     <Text h4>Quienes son / Que hacen?</Text>
                     <View style={styles.space} />

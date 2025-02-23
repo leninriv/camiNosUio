@@ -8,7 +8,7 @@ export default function HomeScreen(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ['white'],
+            colors: ["#7a1194",'#7a1194'],
             text: 'Violencia',
             route: 'Violence',
             iconName: 'hand-right'

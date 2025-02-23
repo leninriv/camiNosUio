@@ -1,4 +1,5 @@
-import { Image, StyleSheet, View, Text, ScrollView } from 'react-native';
+import { Image, StyleSheet, View, ScrollView } from 'react-native';
+import { Text } from '@rneui/themed';
 
 import MainLayout from '../components/MainLayout';
 import { useEffect } from 'react';
@@ -17,7 +18,7 @@ export default function OrganizationContainer(props: any) {
                             source={require('../assets/logo/logoCuadSur.png')}
                         />
                     </View>
-                    <Text style={styles.text}>
+                    <Text h4 style={styles.text}>
                         Organización de la sociedad civil que busca impulsar el desarrollo social a través de proyectos, iniciativas e investigaciones que promuevan el ejercicio de derechos humanos y de la naturaleza, la justicia social, la democratización del conocimiento, la deliberación pública, la participación ciudadana y modelos innovadores de gestión organizacional.
                     </Text>
                 </View>
@@ -45,11 +46,9 @@ const styles = StyleSheet.create({
         borderRadius: 5,
     },
     text: {
-        // backgroundColor: 'transparent',
-        fontSize: 30,
-        // color: '#fff',
         textAlign: 'justify',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        color: 'gray'
     },
     stretch: {
         width: 150,

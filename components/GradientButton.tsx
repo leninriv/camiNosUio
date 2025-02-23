@@ -4,8 +4,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 export default function GradientButton(props: any) {
-    const colors = ['#a1a1a1', '#4d4d4d'];
-    const globalColor = props.colors ?? ['white'];
+    const colors = props.colors?.length > 1 ? props.colors : ['#a1a1a1', '#4d4d4d'];
+    const globalColor = ['white'];
     const iconName = props.iconName ?? '';
     return <TouchableOpacity style={[styles.container, props.style]} onPress={props.onPres} activeOpacity={0.5}>
         <LinearGradient

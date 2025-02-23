@@ -39,7 +39,7 @@ export default function SearchContainer(props: any) {
 
     const updateSearch = (query: string) => {
         if (query.length > 2) {
-            const newList = mainList.filter((item: any) => item.name.toLowerCase().includes(query.toLowerCase()));
+            const newList = mainList.filter((item: any) => (item.name.toLowerCase().includes(query.toLowerCase()) || item.tag1?.toLowerCase().includes(query.toLowerCase()) || item.tag2?.toLowerCase().includes(query.toLowerCase()) || item.tag3?.toLowerCase().includes(query.toLowerCase())));
             setDataList(newList);
         } else {
             setDataList(mainList);
