@@ -23,7 +23,7 @@ export default function HomeScreen(props: any) {
             colors: ['white'],
             text: 'Alimentacion',
             route: 'Feeding',
-            iconName: 'fast-food'
+            iconName: 'nutrition'
         },
         {
             colors: ['white'],

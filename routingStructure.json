@@ -15,8 +15,8 @@
             "colors": ["white"],
             "title":"Salud integral",
             "buttons": [
-                { "title": "Salud física",  "buttons": [], "screen": "coming_soon" },
-                { "title": "Salud mental",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Salud física",  "buttons": [], "route":"directory_result", "params": {"tag":"Atención en salud"} },
+                { "title": "Salud mental", "buttons": [], "route":"directory_result", "params": {"tag":"Atención en salud"}},
                 { "title": "Salud sexual y reproductiva",  "buttons": [], "screen": "coming_soon" },
                 { "title": "VIH",  "buttons": [], "screen": "coming_soon" },
                 { "title": "Emergencias",  "buttons": [], "screen": "emergency" }
@@ -49,7 +49,7 @@
             "colors": ["white"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Vivienda y Alojamiento",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
+                { "title": "Alojamiento y vivienda",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
                 { "title": "Transporte",  "buttons": [], "screen": "transportation" },
                 { "title": "Espacios Públicos",  "buttons": [], "screen": "public_area"}
             ]

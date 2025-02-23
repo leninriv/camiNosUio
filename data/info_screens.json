@@ -113,12 +113,28 @@
     "transportation": {
         "title": "",
         "type": "paragraph",
-        "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad (Ecovía, Trolebus, Metrobus, Metro de Quito).",
-        "link1": {},
-        "content2": "Existen operadores privados de buses (azules) y empresas y cooperativas de taxis legales (amarillos). ",
-        "link2": {},
-        "content3": "Operan también plataformas como Digitaxi, Fedotaxi, Clip, Didi, Uber y otras. ",
-        "link3": {}
+        "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad (Ecovía, Trolebus, Metrobus y Alimentadores).",
+        "link1": {
+            "type": "external",
+            "name": "Servicios públicos",
+            "url": "https:pasajeros.quito.gob.ec"
+        },
+        "content2": " ",
+        "link2": {
+            "type": "external",
+            "name": "Alimentadores",
+            "url": "https://pasajeros.quito.gob.ec/?page_id=4510"
+        },
+        "content3": "\nMetro de Quito",
+        "link3": {
+            "type": "external",
+            "name": "METRO",
+            "url": "https://metrodequito.gob.ec/"
+        },
+        "content4": "\nExisten operadores privados de buses (azules) y empresas y cooperativas de taxis legales (amarillos). ",
+        "link4": {},
+        "content5": "Operan también plataformas como Digitaxi, Fedotaxi, Clip, Didi, Uber y otras. ",
+        "link5": {}
     },
     "educational_rights": {
         "title": "",
@@ -192,7 +208,7 @@
         "content4": "Consulado de Perú: Av. República de El Salvador N34-349.",
         "link4": {
             "type": "external",
-            "name": "Venezuela",
+            "name": "Perú",
             "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx "
         }
     },
@@ -363,7 +379,7 @@
     },
     "justice_places": {
         "type": "paragraph",
-        "content1": "Los Chillos\n Correo: cejloschillos@gmail.com\nTeléfono: 0987025619\n\nCalderón, Llano Chico\n Correo: c.equidadyjusticiacalderon@gmail.com\n Teléfono: 0984404605\n\n Quitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros\n Correo: c.equidadyjusticiaquitumbe@gmail.com\n Teléfono: 0987554185\n\n Tumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.\n Correo: cej.tumbaco@quito.gob.ec\n Teléfono: 0994336974\n\nLa Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros\nCorreo: cej.ladelicia@quito.gob.ec\n Teléfono: 0984154102\n\nEloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.\nCorreo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038\n\n"
+        "content1": "Los Chillos\nCorreo:\ncejloschillos@gmail.com\nTeléfono: 0987025619\n\nCalderón, Llano Chico\nCorreo:\nc.equidadyjusticiacalderon@gmail.com\nTeléfono: 0984404605\n\nQuitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros\nCorreo: c.equidadyjusticiaquitumbe@gmail.com\nTeléfono: 0987554185\n\nTumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.\nCorreo: cej.tumbaco@quito.gob.ec\nTeléfono: 0994336974\n\nLa Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros\nCorreo: cej.ladelicia@quito.gob.ec\nTeléfono: 0984154102\n\nEloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.\nCorreo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038\n\n"
     },
     "public_server": {
         "type": "paragraph",
@@ -385,7 +401,7 @@
     },
     "follow_protection": {
         "type": "paragraph",
-        "content1": "Para Emisión y ejecución de medidas de protección. Poner en conocimiento de entidad competente: Policía, CEJ ",
+        "content1": "Para Emisión y ejecución de medidas de protección. Poner en conocimiento de entidad competente: Policía, CEJ",
         "content2": "Para seguimiento de procesos no respondidos por entidades públicas, acudir a la Defensoría del Pueblo"
     },
     "ombudsman": {
@@ -402,7 +418,7 @@
         "type": "law",
         "articles": [
             {
-                "title": "Dolar americado USD",
+                "title": "Dólar americano USD",
                 "text": "En Ecuador la moneda de curso legal es el dólar estadounidense (USD). Están autorizadas diferentes instituciones para realizar el cambio de divisas como el Banco Central del Ecuador (BCE), bancos privados, casas de cambio y cajeros automáticos."
             },
             {

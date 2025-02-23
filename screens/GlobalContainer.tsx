@@ -81,8 +81,8 @@ function ButtonListScreen(props: any) {
     const org = item;
 
     useEffect(() => {
-        console.log('route.modal', org.modal);
-        console.log('colors', colors);
+        // console.log('route.modal', org.modal); // TODO: display screen modal
+        // console.log('colors', colors);
     }, []);
 
     if (org.isFirst) props.navigation = mainNav;

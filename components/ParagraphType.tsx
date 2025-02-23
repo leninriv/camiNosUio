@@ -11,7 +11,7 @@ export default function ParagraphType(props: any) {
 
     function urlType(link: any) {
         // link.url
-        if (link.type === 'external') return <Button style={styles.button} title={link.name} onPress={() => { Linking.openURL(link.url) }} />; // TODO: navigation its different
+        if (link.type === 'external') return <Button style={styles.button} title={link.name} color={'warning'} onPress={() => { Linking.openURL(link.url) }} />; // TODO: navigation its different
         if (link.type === 'internal') return <Button style={styles.button} title={link.name} onPress={() => { navigation.navigate('directory_result', { ...link.filter }); }} />;
         return <View />
     }
@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'transparent',
-        alignItems: 'center',
         justifyContent: 'center',
         paddingHorizontal: 15
     },
