@@ -5,16 +5,16 @@ import { Text, ListItem } from '@rneui/themed';
 export default function LawType(props: any) {
     const { content, colors } = props;
 
-    useEffect(() => {  
+    useEffect(() => {
     }, []);
 
     function articleItem(article: any) {
         return (
             <View>
-                <Text h4>{article.title}</Text>
-                <View style={{ height: 15 }} />
-                <Text style={styles.articleText}>{article.text}</Text>
-                <View style={{ height: 30 }} />
+                {!!article.title && <Text h4 style={styles.articleTitle}>{article.title}</Text>}
+                {!!article.title && <View style={{ height: 15 }} />}
+                {!!article.text && <Text style={styles.articleText}>{article.text}</Text>}
+                {!!article.text && <View style={{ height: 30 }} />}
             </View>
         )
     }
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'transparent',
-        alignItems: 'center',
+        // alignItems: 'center',
         justifyContent: 'center',
         paddingHorizontal: 15
     },
@@ -46,5 +46,9 @@ const styles = StyleSheet.create({
         textAlign: 'justify',
         fontSize: 20,
         marginBottom: 10,
+    },
+
+    articleTitle: {
+        textAlign: 'left',
     },
 });

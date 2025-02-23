@@ -143,12 +143,12 @@
             "colors": ["white"],
             "title":"Información clave",
             "buttons": [
-                { "title": "Cambio divisas",  "buttons": [], "screen": "coming_soon" },
-                { "title": "Cuentas de banco",  "buttons": [],  "screen": "coming_soon" },
+                { "title": "Cambio divisas",  "buttons": [], "screen": "money_exchange" },
+                { "title": "Cuentas de banco",  "buttons": [],  "screen": "bank_account" },
                 { "title": "Consulados y embajadas",  "buttons": [],  "screen": "embassies" },
                 { "title": "Oportunidades laborales",  "buttons": [],  "screen": "coming_soon" },
-                { "title": "Redes y comunidad",  "buttons": [],  "screen": "coming_soon" },
-                { "title": "Glosario",  "buttons": [],  "screen": "coming_soon" }
+                { "title": "Redes y comunidad",  "buttons": [],  "screen": "community_networs" },
+                { "title": "Glosario",  "buttons": [],  "screen": "glosary" }
             ]
         },
         "directory": {

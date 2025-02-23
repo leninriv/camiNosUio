@@ -207,7 +207,7 @@
         },
         "content2": "Esta institución centraliza las demandas de la ciudadanía y las refiere a los organimos de atención correspondientes (policía, bomberos, etc)"
     },
-    "government_platforms":{
+    "government_platforms": {
         "type": "paragraph",
         "content1": "En Quito existen dos lugares donde varias instituciones públicas tienen oficinas para atención al público.",
         "content2": "Al Norte: Plataforma Gubernamental de Gestión Financiera",
@@ -223,7 +223,7 @@
             "url": "https://maps.app.goo.gl/QYpJbWgAVsuxf4po7"
         }
     },
-    "gob_ec":{
+    "gob_ec": {
         "type": "paragraph",
         "content1": "El portal gob.ec es el Guía Oficial de Trámites y Servicios de la administración pública del Ecuador. ",
         "content2": "En este portal se pueden realizar consultas de trámites, denuncias y consultas de información.",
@@ -233,20 +233,20 @@
             "url": "https://www.gob.ec/ "
         }
     },
-    "public_area":{
+    "public_area": {
         "type": "paragraph",
         "content1": "Quito es una ciudad con una geografía única con plazas, parques, quebradas en todo su territorio.",
         "link1": {
             "type": "external",
             "name": "Conoce espacios biodiversos",
             "url": "https://www.quito-turismo.gob.ec/news/entornos-magicos-y-biodiversos-aguardan-en-quito-a-los-amantes-de-la-naturaleza/  "
-        } ,
+        },
         "content2": "Conoce los parques metropolitanos y áreas verdes",
         "link2": {
             "type": "external",
             "name": "Mic",
             "url": "https://www.micequito.ec/tipo_establecimiento/locaciones/parques-metropolitanos-y-areas-verdes/  "
-        } 
+        }
     },
     "universal_city": {
         "title": "",
@@ -262,7 +262,7 @@
             }
         ]
     },
-    "international_help":{
+    "international_help": {
         "type": "paragraph",
         "content1": "Conveción sobre el estatuto de los refugiados",
         "content2": "Adoptada en Ginebra, Suiza, el 28 de julio de 1951",
@@ -271,9 +271,9 @@
             "type": "external",
             "name": "Estatutos",
             "url": "https://www.acnur.org/media/convencion-sobre-el-estatuto-de-los-refugiados-de-1951"
-        } 
+        }
     },
-    "human_rigths":{
+    "human_rigths": {
         "type": "paragraph",
         "content1": "Declaración Universal de los Derechos Humanos",
         "content2": "Proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948 en su resolución 217 A",
@@ -281,9 +281,9 @@
             "type": "external",
             "name": "Declaración universal",
             "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights "
-        } 
+        }
     },
-    "venezuela_emb":{
+    "venezuela_emb": {
         "title": "Embajada de Venezuela: ",
         "type": "paragraph",
         "content1": "Av. Amazonas N30-240 y Eloy Alfaro. Edif. Comonsa piso 8.",
@@ -291,9 +291,9 @@
             "type": "external",
             "name": "Embajada",
             "url": "https://ecuador.embajada.gob.ve/ "
-        }  
+        }
     },
-    "colombia_emb":{
+    "colombia_emb": {
         "title": "Consulado de Colombia: ",
         "type": "paragraph",
         "content1": "Calle Catalina Aldaz N34-131 y Portugal. Edif. La Suiza.",
@@ -301,9 +301,9 @@
             "type": "external",
             "name": "Consulado",
             "url": "https://quito.consulado.gov.co/ "
-        }  
+        }
     },
-    "other_emb":{
+    "other_emb": {
         "type": "paragraph",
         "content1": "Consulado de Cuba: Mercurio 365 entre La Razón y El Vengador.",
         "link1": {
@@ -318,13 +318,13 @@
             "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx"
         }
     },
-    "necessary_document":{
+    "necessary_document": {
         "type": "paragraph",
         "content1": "Los documentos que se solicitan durante el proceso son:",
         "content2": "Correo electrónico de representante legal de estudiante.\n Número de contacto (celular o fijo).\n Número de identificación del estudiante (opcional).\n Número de identificación del representante (opcional). ",
         "content3": "La unidad educativa asignada al estudiante dependerá la ubicación y residencia de la familia y su cercanía a los distritos educativos correspondientes"
     },
-    "regular_process":{
+    "regular_process": {
         "type": "paragraph",
         "content1": "El proceso se realiza a través del portal respectivo del Ministerio de Educación",
         "link1": {
@@ -334,23 +334,23 @@
         },
         "content2": "En caso de que el proceso de matrícula se realice fuera del cronograma ordinario, se debe recurrir a la matriculación extraordinaria. Consulta las fechas específicas de cada periodo."
     },
-    "education_access":{
+    "education_access": {
         "type": "paragraph",
         "title": "Acceso al servicio educativo en cualquier momento del año lectivo"
     },
-    "other_institution":{
+    "other_institution": {
         "type": "paragraph",
-        "title": "La incorporación a otra institución del Sistema Nacional de Educación producto de traslados imprevistos y de acuerdo con la disponibilidad de la oferta educativa." 
+        "title": "La incorporación a otra institución del Sistema Nacional de Educación producto de traslados imprevistos y de acuerdo con la disponibilidad de la oferta educativa."
     },
-    "apress_process":{
+    "apress_process": {
         "type": "paragraph",
         "content1": "Acceso al proceso de aprestamiento para acceso al Sistema Nacional de Educación fuera del periodo de matrícula, sin la necesidad de contar con documentos de identificación (ya que se le asignará un código para el registro y se remitirá a las instituciones respectivas la generación de documentación de identidad) o de expediente académico (para lo cual se realizará una evaluación psicopedagógica para su ubicación en el sistema)."
     },
-    "get_help":{
+    "get_help": {
         "type": "paragraph",
         "content1": "Acompañamiento en el proceso de aprestamiento por parte de las direcciones distritales de educación, la Unidad distrital de apoyo a la inclusión (UDAI) y/o el Departamento de Consejería Estudiantil correspondientes. El tiempo de este acompañamiento será definido y justificado por el tutor designado "
     },
-    "police":{
+    "police": {
         "type": "paragraph",
         "content1": "Pon el caso en conocimiento de la Policía a través de la UPC más cercana a tu domicilio, trabajo o lugar del incidente.",
         "content2": "Mira también: Dirección Nacional de Policía Comunitaria",
@@ -360,16 +360,16 @@
             "name": "Teléfono: 022233283",
             "url": "tel:022233283"
         }
-    }, 
-    "justice_places":{
+    },
+    "justice_places": {
         "type": "paragraph",
         "content1": "Los Chillos\n Correo: cejloschillos@gmail.com\nTeléfono: 0987025619\n\nCalderón, Llano Chico\n Correo: c.equidadyjusticiacalderon@gmail.com\n Teléfono: 0984404605\n\n Quitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros\n Correo: c.equidadyjusticiaquitumbe@gmail.com\n Teléfono: 0987554185\n\n Tumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.\n Correo: cej.tumbaco@quito.gob.ec\n Teléfono: 0994336974\n\nLa Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros\nCorreo: cej.ladelicia@quito.gob.ec\n Teléfono: 0984154102\n\nEloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.\nCorreo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038\n\n"
     },
-    "public_server":{
+    "public_server": {
         "type": "paragraph",
         "title": "En el caso de que el o la agresor/a labore en una institución pública, debe poner en conocimiento de la unidad de talento humano de esta institución la agresión."
     },
-    "need_medic_help":{
+    "need_medic_help": {
         "type": "paragraph",
         "content1": "Acude al centro de salud más cercano.",
         "content2": "Mira el listado de Centros de Salud de Quito y sus inmediaciones (Zona 9)",
@@ -379,16 +379,16 @@
             "url": "http://www.saludzona1.gob.ec/cz1/index.php/56-direccion/102-centros-de-salud "
         }
     },
-    "dinapen":{
+    "dinapen": {
         "type": "paragraph",
-        "content1":"Jefatura Provincial DINAPEN\nDir: Av. 10 de Agosto y Santa Prisca\nTelf: 2572605, 2950214\n\nDistrito Quitumbe\nDir: Av. Huayanan Ñan y calle Oe3E\nTelf: 3660697\n\nDistrito Eloy Alfaro Sector de la Mena 2\nDir: calles Angamarca y Hnoiner\nTelf: 2840706 2631341\n\nDistrito La Delicia Casa de la Justicia de Carcelén\nDir: calles Tadeo Benítez y Joaquín Mancheno\nTelf: 285573 Ext.  175076\n\nDistrito Calderón\nDir: Av. Capitán Giovanny calles y Nápoles\nTelf: 3814850 Ext.  1181\n\nDistrito Los Chillos Conocoto\nDir: calles José de Ascazubi y Oriente\nTelf: 2075167\n\n" 
+        "content1": "Jefatura Provincial DINAPEN\nDir: Av. 10 de Agosto y Santa Prisca\nTelf: 2572605, 2950214\n\nDistrito Quitumbe\nDir: Av. Huayanan Ñan y calle Oe3E\nTelf: 3660697\n\nDistrito Eloy Alfaro Sector de la Mena 2\nDir: calles Angamarca y Hnoiner\nTelf: 2840706 2631341\n\nDistrito La Delicia Casa de la Justicia de Carcelén\nDir: calles Tadeo Benítez y Joaquín Mancheno\nTelf: 285573 Ext.  175076\n\nDistrito Calderón\nDir: Av. Capitán Giovanny calles y Nápoles\nTelf: 3814850 Ext.  1181\n\nDistrito Los Chillos Conocoto\nDir: calles José de Ascazubi y Oriente\nTelf: 2075167\n\n"
     },
-    "follow_protection":{
+    "follow_protection": {
         "type": "paragraph",
         "content1": "Para Emisión y ejecución de medidas de protección. Poner en conocimiento de entidad competente: Policía, CEJ ",
         "content2": "Para seguimiento de procesos no respondidos por entidades públicas, acudir a la Defensoría del Pueblo"
     },
-    "ombudsman":{
+    "ombudsman": {
         "type": "paragraph",
         "content1": "Si necesitas orientación adicional, acude a la Defensoría del Pueblo",
         "link1": {
@@ -396,5 +396,132 @@
             "name": "Defensoría del Pueblo",
             "url": "https://www.dpe.gob.ec/"
         }
+    },
+    "money_exchange": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Dolar americado USD",
+                "text": "En Ecuador la moneda de curso legal es el dólar estadounidense (USD). Están autorizadas diferentes instituciones para realizar el cambio de divisas como el Banco Central del Ecuador (BCE), bancos privados, casas de cambio y cajeros automáticos."
+            },
+            {
+                "text": "En el BCE se puede realizar el cambio de modo presencial, en la planta baja del edificio matriz Av. 10 de Agosto N11-409 y Briceño, con el original de cédula de identidad o pasaporte. "
+            },
+            {
+                "text": "En cualquier banco, si se canjea un monto superior a 5,000 USD, se deberá presentar la Declaración de Origen y Destino de Licitud de Fondos."
+            }
+        ]
+    },
+    "bank_account": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Cuentas de banco",
+                "text": "No en todos los bancos y cooperativas se pueden abrir cuentas para personas en situación de movilidad humana, y cada institución financiera tiene sus propios requisitos. Te recomendamos verificar en cada banco/cooperativa. En el Banco Pichincha y Banco Guayaquil, se requieren estos documentos:"
+            },
+            {
+                "text": "1) Pasaporte o cédula de identidad original y copia legible."
+            },
+            {
+                "text": "2) Copia de la planilla de un servicio básico donde conste la dirección de tu domicilio de hasta 2 meses."
+            },
+            {
+                "text": "3) Visa vigente."
+            },
+            {
+                "text": "4) Copia de contrato o certificado laboral "
+            },
+            {
+                "text": "5) Referencia personal"
+            }
+        ]
+    },
+    "community_networs": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Venezuela Migrante",
+                "text": "Efecto Cocuyo, un medio independiente venezolano, creó este espacio virtual de información para personas migrantes venezolanas, donde puedes acceder a información de utilidad, así como noticias de la actualidad de la comunidad venezolana en Latinoamérica."
+            },
+            {
+                "text": "Contacto: info@venezuelamigrante.com "
+            },
+            {
+                "title": "Yo te apoyo Ec",
+                "text": "Es una organización comprometida con brindar ayuda y apoyo a personas migrantes. La organización se ha centrado en proporcionar asistencia legal, asesoría médica, jornadas de integración y campañas informativas."
+            },
+            {
+                "text": "Contacto: info@yoteapoyoec.org"
+            }
+        ]
+    },
+    "glosary": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Glosario",
+                "text": "La mejor forma para insertarse en una cultura distinta a la propia es abrazar su lenguaje. A continuación, te presentamos algunas expresiones conocidas en Ecuador, particularmente en Quito:"
+            },
+            {
+                "title": "“Acolita”:",
+                "text": "Pedir ayuda a alguien."
+            },
+            {
+                "title": "“Man”:",
+                "text": "Referencia al individuo como tal, sin importar el género. El artículo “el” o “la” será determinante para saber a qué sexo/género se hace referencia."
+            },
+            {
+                "title": "“Mijin”:",
+                "text": "Forma de referirse a un amigo."
+            },
+            {
+                "title": "“Turro”:",
+                "text": "Adjetivos para referirse a algo burrido o incómodo."
+            },
+            {
+                "title": "“Fresco”:",
+                "text": "Despreocupado, denota relajación."
+            },
+            {
+                "title": "“Full”: ",
+                "text": "Sinónimo de demasiado."
+            },
+            {
+                "title": "“De una”:",
+                "text": "Expresión que denota disposición, afirmación."
+            },
+            {
+                "title": "“De ley”:",
+                "text": "Expresión que denota seguridad, afirmación. "
+            },
+            {
+                "title": "“Simón”:",
+                "text": "Afirmación/aprobación."
+            },
+            {
+                "title": "“Qué cague”:",
+                "text": "Gracioso. Se utiliza para referirse a eventualidades."
+            },
+            {
+                "title": "“Achachay o chachay”:",
+                "text": "Sensación de frío."
+            },
+            {
+                "title": "“Arraray”:",
+                "text": "Sensación de calor, que quema."
+            },
+            {
+                "title": "“Chiro”: ",
+                "text": "Pobre. Sin dinero."
+            },
+            {
+                "title": "“Guagua”:",
+                "text": "Traída del quichua y re-apropiada, significa niño/a."
+            }
+        ]
     }
 }
