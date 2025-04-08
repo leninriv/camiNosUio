@@ -75,7 +75,7 @@
             "colors": ["white"],
             "title":"Regularizacion",
             "buttons": [
-                { "title": "Tengo pasaporte",  "buttons": [], "screen": "coming_soon" },
+                { "title": "Tengo pasaporte",  "buttons": [], "screen": "i_have_passport" },
                 { "title": "No tengo pasaporte",  "buttons": [
                     { "title": "Soy de Venezuela",  "buttons": [], "screen": "venezuela_emb" },
                     { "title": "Soy de Colombia",  "buttons": [], "screen": "colombia_emb"},

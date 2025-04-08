@@ -309,6 +309,35 @@
             "url": "https://ecuador.embajada.gob.ve/ "
         }
     },
+    "i_have_passport": {
+        "title": "REGULARIZACIÓN",
+        "type": "paragraph",
+        "content1": "1. Información respecto al ingreso al Ecuador\n\n\nLas personas extranjeras pueden ingresar al Ecuador previa presentación de un documento de viaje que acredite su identidad.\n\nLos requisitos que deben presentar son los siguientes: 1. Pasaporte válido y vigente (6 meses de vigencia), 2. Cédula o DNI ciudadanos de Suramérica.\n\nsimismo, el agente de control migratorio deberá verificar la condición migratoria invocada por la persona extranjera al momento de su presentación en el punto de control migratorio oficial.\n\nFuente: Ley Orgánica de Movilidad Humana",
+        "content2": "Países que requieren visa para ingresar a Ecuador: \n\n1. Afganistán\n2. Bangladesh\n3. Cuba\n4. Eritrea\n5. Filipinas\n6. Ghana\n7. Kenia\n8. Irak\n9. Libia\n10. Pakistán\n11. República Democrática del Congo\n12. Senegal\n13. Sri Lanka\n14. Venezuela\n15. Yemen\n16. República del Congo\n17. Costa de Marfil\n18. Uzbekistan\n19. Albania\n20. Guinea Bissau\n21. Mauritania\n22. Sudán\n23. República Popular China\n\n*Adicionalmente, se encuentra el caso de Haití, cuyos nacionales deben realizar un registro turístico como paso previo para poder ingresar al Ecuador.",
+        "link2": {
+            "type": "external",
+            "name": "Fuente",
+            "url": "https://www.cancilleria.gob.ec/2020/06/30/lista-de-paises-que-deben-presentar-visa-al-ingresar-al-ecuador/"
+        },
+        "content3": "\nLas personas de Venezuela requieren visa para ingresar al Ecuador a partir del 26 de agosto de 2019.\n",
+        "link3": {
+            "type": "external",
+            "name": "Fuente: Ministerio de Gobierno",
+            "url": "https://www.ministeriodegobierno.gob.ec/requisitos-para-ingresar-a-ecuador/ "
+        },
+        "content4": "\n2. Tipos de Visa:\n\n\na. Visa Temporal: Incluye la visa de turista por 90 días, Actos de comercio y otras actividades, y Prórroga de la visa de turista.\n\nb. Visa Residencia Temporal: Incluye 23 categorías, entre ellas las de trabajo, jubilado, rentista, inversionista, voluntario, estudiante, Estatuto Migratorio Andino, de Excepción por Autoridad de Movilidad Humana.\n\nc. Visa Residencia Permanente: Incluye 8 categorías, entre ellas las de permanencia mayor a 21 meses, por matrimonio o unión de hecho, para extranjeros menores de edad o con discapacidad, de Estatuto Migratorio Ecuador- Venezuela, y Estatuto Migratorio Andino.\n\nd. Visa Diplomática: dirigida a todas las personas naturales extranjeras que requieran ser acreditadas como funcionario diplomático, consular, administrativo y técnico de la Misiones Diplomáticas, Oficinas Consulares, de Organismos Internacionales y de Asistencia Técnica acreditado ante el Gobierno del Ecuador.\n\ne. Transferencia de Visa: Acto Administrativo mediante la cual se procede a transferir la visa vigente de visitante temporal, residencia temporal, o permanente, que consta en su pasaporte caducado, pérdida del documento de viaje a un pasaporte vigente.",
+        "link4": {
+            "type": "external",
+            "name": "Fuente: Ministerio de Relaciones Exteriores y Movilidad Humana",
+            "url": "https://www.cancilleria.gob.ec/2020/06/15/visas-en-el-ecuador/"
+        },
+        "content5": "\n3. Proceso Excepcional de Regularización para personas Venezolanas\n\n\n-El Decreto Ejecutivo 560 del 11 de marzo de 2025 deroga el Decreto 370 del 23 de agosto de 2024.\n\n-El Decreto 370 establecía una amnistía migratoria, después del cierre de los consulados venezolanos en Ecuador, que habilitaba un proceso extraordinario de regularización para ciudadanos venezolanos que ya se encontraran en Ecuador y con antecedentes penales limpios, para trabajar y contribuir al país mediante la Visa VIRTE 2.\n\n-Con su derogación, las personas venezolanas se quedan sin posibilidad de acceder a este proceso de regularización.\n\n-Todas las personas que ingresaron su documentación para la Visa VIRTE 2 hasta antes del 11 de marzo 2025, deberían tener su visa en proceso. La documentación que debían haber ingresado es: certificado de antecedentes penales en Venezuela apostillado, certificado de no tener antecedentes penales registrados en Ecuador, pago de USD60, fotografía, y documentos de identidad. \n\n-El proceso de visa VIRTE 2 ya no está disponible a partir del 12 de marzo 2025.\n",
+        "link5": {
+            "type": "external",
+            "name": "Decreto 560",
+            "url": "https://www.refworld.org/es/leg/decre/pejec/2025/es/149658 "
+        }
+    },
     "colombia_emb": {
         "title": "Consulado de Colombia: ",
         "type": "paragraph",
