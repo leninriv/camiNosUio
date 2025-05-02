@@ -307,7 +307,8 @@
             "type": "external",
             "name": "Embajada",
             "url": "https://ecuador.embajada.gob.ve/ "
-        }
+        },
+        "content2": "TEMPORALMENTE CERRADA"
     },
     "i_have_passport": {
         "title": "REGULARIZACIÓN",
@@ -568,5 +569,15 @@
                 "text": "Traída del quichua y re-apropiada, significa niño/a."
             }
         ]
+    },
+    "find_job": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "Bolsa Empleo conQuito",
+        "link1": {
+            "type": "external",
+            "name": "ConQuito",
+            "url": "https://www.conquito.org.ec/"
+        }
     }
 }

@@ -14,43 +14,43 @@ export default function HomeScreen(props: any) {
             iconName: 'hand-right'
         },
         {
-            colors: ['white'],
+            colors: ["#4CA247","#4CA247"],
             text: 'Salud integral',
             route: 'Health',
             iconName: 'fitness'
         },
         {
-            colors: ['white'],
+            colors: ["#DDA73B","#DDA73B"],
             text: 'Alimentacion',
             route: 'Feeding',
             iconName: 'nutrition'
         },
         {
-            colors: ['white'],
+            colors: ["#13689E","#13689E"],
             text: 'Documentos y denuncias',
             route: 'Documents',
             iconName: 'document-text'
         },
         {
-            colors: ['white'],
+            colors: ["#F79D2B","#F79D2B"],
             text: 'Habitar Quito',
             route: 'City',
             iconName: 'business'
         },
         {
-            colors: ['white'],
+            colors: ["#C52030","#C52030"],
             text: 'Inserción escolar',
             route: 'Scholar',
             iconName: 'school'
         },
         {
-            colors: ['white'],
+            colors: ["#DD1868","#DD1868"],
             text: 'Mis derechos',
             route: 'Rights',
             iconName: 'shield-checkmark'
         },
         {
-            colors: ['white'],
+            colors: ["#14A5B1","#14A5B1"],
             text: 'Regularización',
             route: 'Regularization',
             iconName: 'card'

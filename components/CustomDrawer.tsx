@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, Linking } from 'react-native';
 import {
     DrawerContentScrollView,
     DrawerItem,
 } from '@react-navigation/drawer';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function DrawerMenuContent(props: any) {
     const { navigation } = props;
@@ -21,14 +22,14 @@ export default function DrawerMenuContent(props: any) {
                 <DrawerItem label="Acerca de Cuadrante Sur" onPress={() => { navigation.navigate('Organization'); }} />
                 <DrawerItem label="Políticas de Uso y Privacidad" onPress={() => { navigation.navigate('PrivacyTerms'); }} />
             </DrawerContentScrollView>
-            <View style={styles.logoContent}>
+            <TouchableOpacity style={styles.logoContent} onPress={()=>{Linking.openURL('https://cuadrantesur.org/')}}>
                 <Text>Powered by:</Text>
                 <Image
                     style={styles.stretch}
                     source={require('../assets/logo/logoCuadSur.png')}
                 />
                 <View style={{ height: 15 }} />
-            </View >
+            </TouchableOpacity >
 
         </View>
 
@@ -45,8 +46,8 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     stretch: {
-        width: 200,
-        height: 150,
+        width: 150,
+        height: 100,
         resizeMode: 'stretch',
     },
 });

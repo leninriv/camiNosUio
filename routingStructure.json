@@ -12,7 +12,7 @@
             ]
         },
         "health": {
-            "colors": ["white"],
+            "colors": ["#4CA247","#4CA247"],
             "title":"Salud integral",
             "buttons": [
                 { "title": "Salud física",  "buttons": [], "route":"directory_result", "params": {"tag":"Atención en salud"} },
@@ -23,7 +23,7 @@
             ]
         },
         "feeding": {
-            "colors": ["white"],
+            "colors": ["#DDA73B","#DDA73B"],
             "title":"Alimentación",
             "buttons": [
                 { "title": "Organizaciones",  "buttons": [] , "screen": "food_bank"},
@@ -31,7 +31,7 @@
             ]
         },
         "documents": {
-            "colors": ["white"],
+            "colors": ["#13689E","#13689E"],
             "title":"Documentos y denuncias",
             "buttons": [
                 { "title": "Documentos Ecuador",  "buttons": [], "screen": "documents_ecuador"},
@@ -46,7 +46,7 @@
             ]
         },
         "city": {
-            "colors": ["white"],
+            "colors": ["#F79D2B","#F79D2B"],
             "title":"Habitar Quito",
             "buttons": [
                 { "title": "Alojamiento y vivienda",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
@@ -55,7 +55,7 @@
             ]
         },
         "scholar": {
-            "colors": ["white"],
+            "colors": ["#C52030","#C52030"],
             "title":"Inserción escolar",
             "buttons": [
                 { "title": "Derechos educativos",  "buttons": [], "screen": "educational_rights" },
@@ -63,7 +63,7 @@
             ]
         },
         "rights": {
-            "colors": ["white"],
+            "colors": ["#DD1868","#DD1868"],
             "title":"Mis Derechos",
             "buttons": [
                 { "title": "Ciudadanía universal",  "buttons": [], "screen":"universal_city" },
@@ -72,7 +72,7 @@
             ]
         },
         "regularization": {
-            "colors": ["white"],
+            "colors":  ["#14A5B1","#14A5B1"],
             "title":"Regularizacion",
             "buttons": [
                 { "title": "Tengo pasaporte",  "buttons": [], "screen": "i_have_passport" },
@@ -146,7 +146,7 @@
                 { "title": "Cambio divisas",  "buttons": [], "screen": "money_exchange" },
                 { "title": "Cuentas de banco",  "buttons": [],  "screen": "bank_account" },
                 { "title": "Consulados y embajadas",  "buttons": [],  "screen": "embassies" },
-                { "title": "Oportunidades laborales",  "buttons": [],  "screen": "coming_soon" },
+                { "title": "Portales Públicos de Búsqueda de Empleo",  "buttons": [],  "screen": "find_job" },
                 { "title": "Redes y comunidad",  "buttons": [],  "screen": "community_networs" },
                 { "title": "Glosario",  "buttons": [],  "screen": "glosary" }
             ]
@@ -155,11 +155,11 @@
             "colors": ["white"],
             "title":"Directorio",
             "buttons": [
-                { "title": "Buscador",  "buttons": [], "route":"directory_result"},
-                { "title": "Organizaciones sociedad civil",  "buttons": [], "route":"directory_result", "params": {"type":"ONG"}},
-                { "title": "Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
-                { "title": "Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
-                { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }             
+                { "title": "Listado general y buscador",  "buttons": [], "route":"directory_result"},
+                { "title": "Categoría: Organizaciones No Gubernamentales",  "buttons": [], "route":"directory_result", "params": {"type":"ONG"}},
+                { "title": "Categoría: Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
+                { "title": "Categoría: Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
+                { "title": "Categoría: Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }             
             ]
         }
     }
