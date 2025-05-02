@@ -20,16 +20,16 @@ export default function HomeScreen(props: any) {
             iconName: 'fitness'
         },
         {
-            colors: ["#DDA73B","#DDA73B"],
-            text: 'Alimentacion',
-            route: 'Feeding',
-            iconName: 'nutrition'
-        },
-        {
             colors: ["#13689E","#13689E"],
             text: 'Documentos y denuncias',
             route: 'Documents',
             iconName: 'document-text'
+        },
+        {
+            colors: ["#DDA73B","#DDA73B"],
+            text: 'Alimentacion',
+            route: 'Feeding',
+            iconName: 'nutrition'
         },
         {
             colors: ["#F79D2B","#F79D2B"],
@@ -47,7 +47,7 @@ export default function HomeScreen(props: any) {
             colors: ["#DD1868","#DD1868"],
             text: 'Mis derechos',
             route: 'Rights',
-            iconName: 'shield-checkmark'
+            iconName: 'megaphone'
         },
         {
             colors: ["#14A5B1","#14A5B1"],
@@ -82,7 +82,7 @@ export default function HomeScreen(props: any) {
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
                     renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={hideIcons ? null : item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    ListFooterComponent={<GradientButton text={'Directorio'} colors={['white']} onPres={() => { navigation.navigate('Search') }} />}
+                    ListFooterComponent={<GradientButton text={'Directorio'} colors={["#15496b","#15496b"]} onPres={() => { navigation.navigate('Search') }} />}
                     ListHeaderComponent={wellcomeImage()}
                 />
 

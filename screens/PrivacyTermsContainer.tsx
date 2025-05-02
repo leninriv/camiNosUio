@@ -11,41 +11,42 @@ export default function PrivacyTermsContainer(props: any) {
         <MainLayout  {...props} headerTitle={"Políticas de Uso y Privacidad"}>
             <ScrollView>
                 <View style={styles.container}>
-                    <Text h3>POLÍTICA DE PRIVACIDAD</Text>
-                    <Text> Última actualización: 23/02/2025</Text>
+                    <Text style={styles.h3Style} >POLÍTICA DE PRIVACIDAD</Text>
+                    <Text> Última actualización: 02/05/2025</Text>
                     <View style={{ height: 20 }} />
-                    <Text h4 style={styles.h4Style}>Bienvenido a CaminosUio. Nos preocupamos profundamente por su privacidad y estamos comprometidos a proteger la información personal que comparte con nosotros. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos su información cuando utiliza nuestra aplicación.</Text>
+                    <Text style={styles.h4Style}>Tengan una cordial bienvenida a camiNOS.uio. Nos preocupamos profundamente por su privacidad y estamos comprometidos a proteger la información personal de quienes usan la aplicación. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos tu información cuando utilizas esta herramienta.</Text>
                     <View style={{ height: 20 }} />
+                    <Text style={styles.h3Style}>INFORMACIÓN QUE RECOPILAMOS</Text>
+                    <Text style={styles.h3Style}>- Información Personal</Text>
 
-                    <Text h3 style={styles.h3Style}>- Información Personal</Text>
-                    <Text h4 style={styles.h4Style}>CamiNos Uio está pensada esencialmente la protección de derechos de personas en situación de movilidad humana y vulnerabilidad razón por la cual no recopila ningún tipo de información.</Text>
+                    <Text style={styles.h4Style}>CamiNos Uio está pensada esencialmente la protección de derechos de personas en situación de movilidad humana y vulnerabilidad razón por la cual no recopila ningún tipo de información.</Text>
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Datos de Uso</Text>
-                    <Text h4 style={styles.h4Style}>La aplicación no necesita conexión a internet ni datos del dispositivo de ningún tipo, una vez instalada se puede hacer uso de todas sus características sin ningún tipo de conexión o uso de datos</Text>
-
-                    <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Cómo Utilizamos su Información</Text>
-                    <Text h4 style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios.</Text>
+                    <Text style={styles.h3Style}>- Datos de Uso</Text>
+                    <Text style={styles.h4Style}>La aplicación no necesita conexión a internet ni datos del dispositivo de ningún tipo, una vez instalada se puede hacer uso de todas sus características sin ningún tipo de conexión o uso de datos</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Compartir su Información</Text>
-                    <Text h4 style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios</Text>
+                    <Text style={styles.h3Style}>- Cómo Utilizamos su Información</Text>
+                    <Text style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios.</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Cookies y Tecnologías Similares</Text>
-                    <Text h4 style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios.</Text>
+                    <Text style={styles.h3Style}>- Compartir su Información</Text>
+                    <Text style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Seguridad</Text>
-                    <Text h4 style={styles.h4Style}>CaminosUio es una aplicación meramente informativa, no representa riesgos en la seguridad de su información ya que no recopila ningún tipo de datos del usuario, del dispositivo o de ubicación.</Text>
+                    <Text style={styles.h3Style}>- Cookies y Tecnologías Similares</Text>
+                    <Text style={styles.h4Style}>CaminosUio no hace uso de la información de sus usuarios.</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Cambios en esta Política de Privacidad</Text>
-                    <Text h4 style={styles.h4Style}>Cualquier cambio en las políticas de privacidad serán notificadas a través de las redes de la fundación cuadrante sur. Tener en cuenta que no se forzara la actualización en ningún dispositivo y sus versiones anteriores continuarán siendo 100% funcionales y seguras.</Text>
+                    <Text style={styles.h3Style}>- Seguridad</Text>
+                    <Text style={styles.h4Style}>CaminosUio es una aplicación meramente informativa, no representa riesgos en la seguridad de su información ya que no recopila ningún tipo de datos del usuario, del dispositivo o de ubicación.</Text>
 
                     <View style={{ height: 20 }} />
-                    <Text h3 style={styles.h3Style}>- Contactos</Text>
-                    <Text h4 style={styles.h4Style}>Si tiene preguntas o inquietudes sobre nuestra política de privacidad, no dude en ponerse en contacto con nosotros en info@cuadrantesur.org.</Text>
+                    <Text style={styles.h3Style}>- Cambios en esta Política de Privacidad</Text>
+                    <Text style={styles.h4Style}>Cualquier cambio en las políticas de privacidad serán notificadas a través de las redes de la fundación cuadrante sur. Tener en cuenta que no se forzara la actualización en ningún dispositivo y sus versiones anteriores continuarán siendo 100% funcionales y seguras.</Text>
+
+                    <View style={{ height: 20 }} />
+                    <Text style={styles.h3Style}>- Contactos</Text>
+                    <Text style={styles.h4Style}>Si tiene preguntas o inquietudes sobre nuestra política de privacidad, no dude en ponerse en contacto con nosotros en info@cuadrantesur.org.</Text>
                     <View style={{ height: 40 }} />
                 </View>
             </ScrollView>
@@ -74,12 +75,14 @@ const styles = StyleSheet.create({
     h3Style: {
         textAlign: 'left',
         width: '100%',
-        marginBottom: 10
+        marginBottom: 10,
+        fontSize:20
     },
     h4Style: {
         textAlign: 'justify',
         justifyContent: 'center',
-        color: 'gray'
+        color: 'gray',
+        fontSize: 20
     },
     text: {
         // backgroundColor: 'transparent',

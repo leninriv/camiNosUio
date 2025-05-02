@@ -9,7 +9,7 @@ export default function WhatIsContainer(props: any) {
     useEffect(() => {
     }, []);
     return (
-        <MainLayout  {...props} headerTitle={"¿Qué es camiNOS.uio?"}>
+        <MainLayout  {...props} headerTitle={"¿Qué es camiNOS.UIO?"}>
             <ScrollView>
                 <View style={styles.container}>
                     <View style={styles.imageContent}>
@@ -18,7 +18,7 @@ export default function WhatIsContainer(props: any) {
                             source={require('../assets/images/camiNOS.png')}
                         />
                     </View>
-                    <Text h4 style={styles.text}>
+                    <Text style={styles.text}>
                         Es una aplicación que facilita el ejercicio de derechos de las personas en situación de movilidad humana en Quito. Solo requiere de conexión a internet al momento de descargarla. En adelante tendrás acceso a todo el contenido que incluye información clave, rutas de protección de derechos y directorio de organizaciones sin necesidad de estar conectado a internet.
                     </Text>
                 </View>
@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
     text: {
         textAlign: 'justify',
         justifyContent: 'center',
-        color: 'gray'
+        color: 'gray',
+        fontSize:20
     },
     stretch: {
         width: 200,

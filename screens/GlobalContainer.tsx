@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InfoScreenContainer from './InfoScreenContainer';
 import SearchContainer from './SearchContainer';
@@ -77,12 +77,12 @@ function returnLevelScreens(screensList: any[]) {
 
 function ButtonListScreen(props: any) {
     const { navigation, route } = props;
-    const { item, colors, mainNav, modal } = route.params;
+    const { item, mainNav, modal, colors } = route.params;
     const org = item;
 
     useEffect(() => {
         // console.log('route.modal', org.modal); // TODO: display screen modal
-        // console.log('colors', colors);
+        // console.log('colors', colors);       
     }, []);
 
     if (org.isFirst) props.navigation = mainNav;
@@ -93,7 +93,7 @@ function ButtonListScreen(props: any) {
                 data={org.buttons || []}
                 style={{ width: '100%', paddingHorizontal: 20 }}
                 keyExtractor={(item: any) => item.title}
-                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }) }} />}
+                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} opacity={true} buttonTittle={item.item.buttonTittle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }) }} />}
             />
         </View>
     </MainLayout>

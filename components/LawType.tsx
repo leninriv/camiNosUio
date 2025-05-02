@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { StyleSheet, View, ScrollView } from 'react-native';
-import { Text, ListItem } from '@rneui/themed';
+import { StyleSheet, View, ScrollView, Linking } from 'react-native';
+import { Text, ListItem , Button} from '@rneui/themed';
 
 export default function LawType(props: any) {
     const { content, colors } = props;
@@ -15,6 +15,7 @@ export default function LawType(props: any) {
                 {!!article.title && <View style={{ height: 15 }} />}
                 {!!article.text && <Text style={styles.articleText}>{article.text}</Text>}
                 {!!article.text && <View style={{ height: 30 }} />}
+                {!!article.link && <Button style={styles.button} title={article.link.name} color={'warning'} onPress={() => { Linking.openURL(article.link.url) }} />}
             </View>
         )
     }
@@ -51,4 +52,7 @@ const styles = StyleSheet.create({
     articleTitle: {
         textAlign: 'left',
     },
+    button: {
+        marginBottom: 10,
+    }
 });

@@ -41,36 +41,49 @@
     "community_kitchens": {
         "title": "",
         "type": "paragraph",
-        "content1": "Los comedores comunitarios son una iniciativa del Patronato Municipal San José.",
-        "link1": {},
-        "content2": "Funcionan en los Centros de Experiencia del Adulto Mayor, orientados para atender a personas adultas mayores, a partir de 60 años.",
-        "link2": {},
-        "content3": "Mira los servicios del Patronato San José en: ",
-        "link3": {
+        "content1": "Los Puntos de Alimentación Saludable son espacios donde puedes encontrar una variedad de productos frescos y nutritivos, todos cultivados de manera orgánica en huertos del Distrito Metropolitano de Quito",
+        "link1": {
             "type": "external",
-            "name": "Patronato San José",
-            "url": "https://www.patronato.quito.gob.ec/ "
+            "name": "Puntos de alimentación saludable",
+            "url": "https://www.conquito.org.ec/agricultura-urbana-participativa/puntos-de-alimentacion-saludable/ "
         }
     },
-    "documents_ecuador": {
-        "title": "En Ecuador, los principales documentos personales son:",
+    "camari": {
+        "title": "",
         "type": "paragraph",
-        "content1": "",
-        "link1": {},
-        "content2": "Cédula de identidad y pasaporte, emitidos por el Registro Civil. Sitio:",
-        "link2": {
+        "content1": "Es el Sistema Solidario de Comercialización del Fondo Ecuatoriano Populorum Progressio (FEPP), que apoya al desarrollo de los sectores populares del país, fomentando la comercialización agropecuaria y artesanal de pequeños productores del campo y de barrios urbano marginales del Ecuador.",
+        "link1": {
+            "type": "external",
+            "name": "Camari",
+            "url": "https://www.camari.org/site/index.php/catalogo "
+        }
+    },
+    "documents_identity": {
+        "type": "paragraph",
+        "content1": "Cédula de identidad y pasaporte, emitidos por el Registro Civil. Sitio:",
+        "link1": {
             "type": "external",
             "name": "Registro Civil",
             "url": "https://www.registrocivil.gob.ec/"
-        },
-        "content3": "Licencia de conducir, emitida por la Agencia Nacional de Tránsito. Sitio: ",
-        "link3": {
+        }
+    },
+    "documents_driver": {
+        "type": "paragraph",
+        "content1": "Licencia de conducir, emitida por la Agencia Nacional de Tránsito. Sitio:",
+        "link1": {
             "type": "external",
             "name": "Agencia Nacional de Tránsito",
             "url": "https://www.ant.gob.ec/ "
-        },
-        "content4": "Certificado de votación o presentación, emitidos por el Consejo Nacional Electoral.",
-        "link4": {}
+        }
+    },
+    "documents_elections": {
+        "type": "paragraph",
+        "content1": "La función electoral está compuesta por el Consejo Nacional Electoral (CNE) y el Tribunal Contencioso Electoral (TCE). Revisa la página del CNE para acceder a los distintos servicios",
+        "link1": {
+            "type": "external",
+            "name": "Servicios CNE",
+            "url": "https://www.cne.gob.ec/servicios-en-linea/"
+        }
     },
     "document_loss": {
         "title": "",
@@ -310,14 +323,34 @@
         },
         "content2": "TEMPORALMENTE CERRADA"
     },
-    "i_have_passport": {
-        "title": "REGULARIZACIÓN",
+    "venezuelan_exception": {
+        "title": "Proceso Excepcional de Regularización para personas Venezolanas",
         "type": "paragraph",
-        "content1": "1. Información respecto al ingreso al Ecuador\n\n\nLas personas extranjeras pueden ingresar al Ecuador previa presentación de un documento de viaje que acredite su identidad.\n\nLos requisitos que deben presentar son los siguientes: 1. Pasaporte válido y vigente (6 meses de vigencia), 2. Cédula o DNI ciudadanos de Suramérica.\n\nsimismo, el agente de control migratorio deberá verificar la condición migratoria invocada por la persona extranjera al momento de su presentación en el punto de control migratorio oficial.\n\nFuente: Ley Orgánica de Movilidad Humana",
+        "content1": "\n-El Decreto Ejecutivo 560 del 11 de marzo de 2025 deroga el Decreto 370 del 23 de agosto de 2024.\n\n-El Decreto 370 establecía una amnistía migratoria, después del cierre de los consulados venezolanos en Ecuador, que habilitaba un proceso extraordinario de regularización para ciudadanos venezolanos que ya se encontraran en Ecuador y con antecedentes penales limpios, para trabajar y contribuir al país mediante la Visa VIRTE 2.\n\n-Con su derogación, las personas venezolanas se quedan sin posibilidad de acceder a este proceso de regularización.\n\n-Todas las personas que ingresaron su documentación para la Visa VIRTE 2 hasta antes del 11 de marzo 2025, deberían tener su visa en proceso. La documentación que debían haber ingresado es: certificado de antecedentes penales en Venezuela apostillado, certificado de no tener antecedentes penales registrados en Ecuador, pago de USD60, fotografía, y documentos de identidad. \n\n-El proceso de visa VIRTE 2 ya no está disponible a partir del 12 de marzo 2025.\n",
+        "link1": {
+            "type": "external",
+            "name": "Decreto 560",
+            "url": "https://www.refworld.org/es/leg/decre/pejec/2025/es/149658 "
+        }
+    },
+    "visa_type": {
+        "title": "Tipos de Visa:",
+        "type": "paragraph",
+        "content1": "\na. Visa Temporal: Incluye la visa de turista por 90 días, Actos de comercio y otras actividades, y Prórroga de la visa de turista.\n\nb. Visa Residencia Temporal: Incluye 23 categorías, entre ellas las de trabajo, jubilado, rentista, inversionista, voluntario, estudiante, Estatuto Migratorio Andino, de Excepción por Autoridad de Movilidad Humana.\n\nc. Visa Residencia Permanente: Incluye 8 categorías, entre ellas las de permanencia mayor a 21 meses, por matrimonio o unión de hecho, para extranjeros menores de edad o con discapacidad, de Estatuto Migratorio Ecuador- Venezuela, y Estatuto Migratorio Andino.\n\nd. Visa Diplomática: dirigida a todas las personas naturales extranjeras que requieran ser acreditadas como funcionario diplomático, consular, administrativo y técnico de la Misiones Diplomáticas, Oficinas Consulares, de Organismos Internacionales y de Asistencia Técnica acreditado ante el Gobierno del Ecuador.\n\ne. Transferencia de Visa: Acto Administrativo mediante la cual se procede a transferir la visa vigente de visitante temporal, residencia temporal, o permanente, que consta en su pasaporte caducado, pérdida del documento de viaje a un pasaporte vigente.",
+        "link1": {
+            "type": "external",
+            "name": "Fuente: Ministerio de Relaciones Exteriores y Movilidad Humana",
+            "url": "https://www.cancilleria.gob.ec/2020/06/15/visas-en-el-ecuador/"
+        }
+    },
+    "ecuador_comming": {
+        "title": "Información respecto al ingreso al Ecuador",
+        "type": "paragraph",
+        "content1": "\nLas personas extranjeras pueden ingresar al Ecuador previa presentación de un documento de viaje que acredite su identidad.\n\nLos requisitos que deben presentar son los siguientes: 1. Pasaporte válido y vigente (6 meses de vigencia), 2. Cédula o DNI ciudadanos de Suramérica.\n\nsimismo, el agente de control migratorio deberá verificar la condición migratoria invocada por la persona extranjera al momento de su presentación en el punto de control migratorio oficial.\n\nFuente: Ley Orgánica de Movilidad Humana",
         "content2": "Países que requieren visa para ingresar a Ecuador: \n\n1. Afganistán\n2. Bangladesh\n3. Cuba\n4. Eritrea\n5. Filipinas\n6. Ghana\n7. Kenia\n8. Irak\n9. Libia\n10. Pakistán\n11. República Democrática del Congo\n12. Senegal\n13. Sri Lanka\n14. Venezuela\n15. Yemen\n16. República del Congo\n17. Costa de Marfil\n18. Uzbekistan\n19. Albania\n20. Guinea Bissau\n21. Mauritania\n22. Sudán\n23. República Popular China\n\n*Adicionalmente, se encuentra el caso de Haití, cuyos nacionales deben realizar un registro turístico como paso previo para poder ingresar al Ecuador.",
         "link2": {
             "type": "external",
-            "name": "Fuente",
+            "name": "Ver mas",
             "url": "https://www.cancilleria.gob.ec/2020/06/30/lista-de-paises-que-deben-presentar-visa-al-ingresar-al-ecuador/"
         },
         "content3": "\nLas personas de Venezuela requieren visa para ingresar al Ecuador a partir del 26 de agosto de 2019.\n",
@@ -325,18 +358,6 @@
             "type": "external",
             "name": "Fuente: Ministerio de Gobierno",
             "url": "https://www.ministeriodegobierno.gob.ec/requisitos-para-ingresar-a-ecuador/ "
-        },
-        "content4": "\n2. Tipos de Visa:\n\n\na. Visa Temporal: Incluye la visa de turista por 90 días, Actos de comercio y otras actividades, y Prórroga de la visa de turista.\n\nb. Visa Residencia Temporal: Incluye 23 categorías, entre ellas las de trabajo, jubilado, rentista, inversionista, voluntario, estudiante, Estatuto Migratorio Andino, de Excepción por Autoridad de Movilidad Humana.\n\nc. Visa Residencia Permanente: Incluye 8 categorías, entre ellas las de permanencia mayor a 21 meses, por matrimonio o unión de hecho, para extranjeros menores de edad o con discapacidad, de Estatuto Migratorio Ecuador- Venezuela, y Estatuto Migratorio Andino.\n\nd. Visa Diplomática: dirigida a todas las personas naturales extranjeras que requieran ser acreditadas como funcionario diplomático, consular, administrativo y técnico de la Misiones Diplomáticas, Oficinas Consulares, de Organismos Internacionales y de Asistencia Técnica acreditado ante el Gobierno del Ecuador.\n\ne. Transferencia de Visa: Acto Administrativo mediante la cual se procede a transferir la visa vigente de visitante temporal, residencia temporal, o permanente, que consta en su pasaporte caducado, pérdida del documento de viaje a un pasaporte vigente.",
-        "link4": {
-            "type": "external",
-            "name": "Fuente: Ministerio de Relaciones Exteriores y Movilidad Humana",
-            "url": "https://www.cancilleria.gob.ec/2020/06/15/visas-en-el-ecuador/"
-        },
-        "content5": "\n3. Proceso Excepcional de Regularización para personas Venezolanas\n\n\n-El Decreto Ejecutivo 560 del 11 de marzo de 2025 deroga el Decreto 370 del 23 de agosto de 2024.\n\n-El Decreto 370 establecía una amnistía migratoria, después del cierre de los consulados venezolanos en Ecuador, que habilitaba un proceso extraordinario de regularización para ciudadanos venezolanos que ya se encontraran en Ecuador y con antecedentes penales limpios, para trabajar y contribuir al país mediante la Visa VIRTE 2.\n\n-Con su derogación, las personas venezolanas se quedan sin posibilidad de acceder a este proceso de regularización.\n\n-Todas las personas que ingresaron su documentación para la Visa VIRTE 2 hasta antes del 11 de marzo 2025, deberían tener su visa en proceso. La documentación que debían haber ingresado es: certificado de antecedentes penales en Venezuela apostillado, certificado de no tener antecedentes penales registrados en Ecuador, pago de USD60, fotografía, y documentos de identidad. \n\n-El proceso de visa VIRTE 2 ya no está disponible a partir del 12 de marzo 2025.\n",
-        "link5": {
-            "type": "external",
-            "name": "Decreto 560",
-            "url": "https://www.refworld.org/es/leg/decre/pejec/2025/es/149658 "
         }
     },
     "colombia_emb": {
@@ -351,17 +372,32 @@
     },
     "other_emb": {
         "type": "paragraph",
-        "content1": "Consulado de Cuba: Mercurio 365 entre La Razón y El Vengador.",
+        "title": "En regularización, Otras nacionalidades:",
+        "content1": "Verifica si Ecuador requiere visa a tu país de origen en la página de Cancillería. ",
+        "link1": {
+            "type": "external",
+            "name": "Cancilleria",
+            "url": "https://www.cancilleria.gob.ec/2020/06/30/lista-de-paises-que-deben-presentar-visa-al-ingresar-al-ecuador/”"
+        }
+    },
+    "peru_emb": {
+        "type": "paragraph",
+        "title": "Consulado de Perú:",
+        "content1": "Av. República de El Salvador N34-349",
+        "link1": {
+            "type": "external",
+            "name": "Consulado Perú",
+            "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx"
+        }
+    },
+    "cuba_emb": {
+        "type": "paragraph",
+        "title": "Consulado de Cuba: ",
+        "content1": "Mercurio 365 entre La Razón y El Vengador.",
         "link1": {
             "type": "external",
             "name": "Consulado Cuba",
             "url": "https://misiones.cubaminrex.cu/es/ecuador"
-        },
-        "content2": "Consulado de Perú: Av. República de El Salvador N34-349",
-        "link2": {
-            "type": "external",
-            "name": "Consulado Perú",
-            "url": "http://www.consulado.pe/es/Quito/Paginas/Inicio.aspx"
         }
     },
     "necessary_document": {
@@ -448,14 +484,14 @@
         "type": "law",
         "articles": [
             {
-                "title": "Dólar americano USD",
-                "text": "En Ecuador la moneda de curso legal es el dólar estadounidense (USD). Están autorizadas diferentes instituciones para realizar el cambio de divisas como el Banco Central del Ecuador (BCE), bancos privados, casas de cambio y cajeros automáticos."
+                "title": "Dólar Estadounidense USD",
+                "text": "En Ecuador la moneda de curso legal es el dólar estadounidense (USD). Diferentes instituciones están autorizadas para realizar el cambio de divisas: \n\nBanco Central del Ecuador (BCE)\nBancos privados\nCasas de cambio\nCajeros automáticos"
             },
             {
-                "text": "En el BCE se puede realizar el cambio de modo presencial, en la planta baja del edificio matriz Av. 10 de Agosto N11-409 y Briceño, con el original de cédula de identidad o pasaporte. "
+                "text": "En el BCE se puede realizar el cambio de modo presencial, con el original de tu cédula de identidad o pasaporte, en la siguiente dirección: Edificio Matriz: Av. 10 de Agosto N11-409 y Briceño, Planta Baja"
             },
             {
-                "text": "En cualquier banco, si se canjea un monto superior a 5,000 USD, se deberá presentar la Declaración de Origen y Destino de Licitud de Fondos."
+                "text": "En cualquier banco, si canjeas un monto superior a USD5,000, te pediran completar y firmar la Declaración de Origen y Destino de Licitud de Fondos."
             }
         ]
     },
@@ -497,10 +533,19 @@
             },
             {
                 "title": "Yo te apoyo Ec",
-                "text": "Es una organización comprometida con brindar ayuda y apoyo a personas migrantes. La organización se ha centrado en proporcionar asistencia legal, asesoría médica, jornadas de integración y campañas informativas."
+                "text": "Es una organización comprometida con brindar ayuda y apoyo a personas migrantes. La organización se ha centrado en proporcionar asistencia legal, asesoría médica, jornadas de integración y campañas informativas.\n\nContacto: info@yoteapoyoec.org"
             },
             {
-                "text": "Contacto: info@yoteapoyoec.org"
+                "title": "Puntos Pichincha",
+                "text": "Descripción: “Son sitios impulsados por la Prefectura de Pichincha que ofrecen una variedad de servicios, talleres y formación en áreas como tecnología, cultura y desarrollo comunitario. Algunos de los Puntos Pichincha ubicados en Quito son: El Quinche, Pifo, Pintag, Conocoto.",
+                "link": {
+                    "type": "external",
+                    "name": "Puntos Pichincha",
+                    "url": "https://www.pichincha.gob.ec/component/content/article/1705-talleres-y-formacion-artistica-y-cultural?catid=151&Itemid=437"
+                }
+            },
+            {
+                "text": " "
             }
         ]
     },
@@ -571,13 +616,20 @@
         ]
     },
     "find_job": {
-        "title": "",
+        "title": "Portales Públicos de búsqueda de empleo",
         "type": "paragraph",
-        "content1": "Bolsa Empleo conQuito",
+        "content1": "A través de los siguientes portales puedes acceder a diferentes ofertas laborales. Sigue las indicaciones que cada uno te pide.\n",
         "link1": {
             "type": "external",
-            "name": "ConQuito",
+            "name": "Labora UIO",
             "url": "https://www.conquito.org.ec/"
-        }
+        },
+        "content2": "\n",
+        "link2": {
+            "type": "external",
+            "name": "Encuentra empleo",
+            "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf "
+        },
+        "content3": "\nTambién te recomendamos visitar a través de la web portales privados y de universidades para ampliar tu búsqueda."
     }
 }
