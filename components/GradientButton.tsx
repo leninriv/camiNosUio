@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
         height: 100,
         justifyContent: 'center',
         padding: 15,
-        position: 'relative'
 
     },
     opacity: {
@@ -47,6 +46,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '700',
         color: '#fff',
+        textAlign: 'center'
     },
     buttonTitle: {
         fontSize: 20

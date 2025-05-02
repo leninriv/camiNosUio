@@ -83,7 +83,8 @@
             "type": "external",
             "name": "Servicios CNE",
             "url": "https://www.cne.gob.ec/servicios-en-linea/"
-        }
+        },
+        "content2":"\nLa delegación provincial de Pichincha se ubica en la Calle Iñaquito 35-227 e Ignacio Santa María"
     },
     "document_loss": {
         "title": "",
@@ -242,13 +243,13 @@
         "content2": "Al Norte: Plataforma Gubernamental de Gestión Financiera",
         "link2": {
             "type": "external",
-            "name": "Mapa Plataforma Norte",
+            "name": "Ubicación Plataforma Norte",
             "url": "https://maps.app.goo.gl/rvcMjMHcUnU2wPwBA"
         },
         "content3": "Al Sur: Plataforma Gubernamental de Desarrollo Social",
         "link3": {
             "type": "external",
-            "name": "Mapa Plataforma Norte",
+            "name": "Ubicación Plataforma Norte",
             "url": "https://maps.app.goo.gl/QYpJbWgAVsuxf4po7"
         }
     },
@@ -346,7 +347,7 @@
     "ecuador_comming": {
         "title": "Información respecto al ingreso al Ecuador",
         "type": "paragraph",
-        "content1": "\nLas personas extranjeras pueden ingresar al Ecuador previa presentación de un documento de viaje que acredite su identidad.\n\nLos requisitos que deben presentar son los siguientes: 1. Pasaporte válido y vigente (6 meses de vigencia), 2. Cédula o DNI ciudadanos de Suramérica.\n\nsimismo, el agente de control migratorio deberá verificar la condición migratoria invocada por la persona extranjera al momento de su presentación en el punto de control migratorio oficial.\n\nFuente: Ley Orgánica de Movilidad Humana",
+        "content1": "\nLas personas extranjeras pueden ingresar al Ecuador previa presentación de un documento de viaje que acredite su identidad.\n\nLos requisitos que deben presentar son los siguientes:\n\n1. Pasaporte válido y vigente (6 meses de vigencia),\n2. Cédula o DNI ciudadanos de Suramérica.\n\nAsimismo, el agente de control migratorio deberá verificar la condición migratoria invocada por la persona extranjera al momento de su presentación en el punto de control migratorio oficial.\n\nFuente: Ley Orgánica de Movilidad Humana",
         "content2": "Países que requieren visa para ingresar a Ecuador: \n\n1. Afganistán\n2. Bangladesh\n3. Cuba\n4. Eritrea\n5. Filipinas\n6. Ghana\n7. Kenia\n8. Irak\n9. Libia\n10. Pakistán\n11. República Democrática del Congo\n12. Senegal\n13. Sri Lanka\n14. Venezuela\n15. Yemen\n16. República del Congo\n17. Costa de Marfil\n18. Uzbekistan\n19. Albania\n20. Guinea Bissau\n21. Mauritania\n22. Sudán\n23. República Popular China\n\n*Adicionalmente, se encuentra el caso de Haití, cuyos nacionales deben realizar un registro turístico como paso previo para poder ingresar al Ecuador.",
         "link2": {
             "type": "external",
