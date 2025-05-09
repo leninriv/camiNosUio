@@ -6,7 +6,7 @@ export default function MainLayout(props: any) {
     return (
         <View style={{ flex: 1, backgroundColor: '#E9E9E9' }}>
             <GlobalHeader navigation={props.navigation} backButton={props.backButton} title={props.headerTitle} rightComponent={props.rightComponent} />
-            <View style={{ flex: 1, padding: 5, backgroundColor: '#E9E9E9'  }}>
+            <View style={{ flex: 1, paddingVertical: 5, backgroundColor: '#E9E9E9', paddingHorizontal:10  }}>
                 {props.children}
             </View>
         </View>

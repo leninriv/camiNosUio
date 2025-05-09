@@ -40,6 +40,13 @@ export default function Routing() {
     const scholarRoutes: any = routes.scholar;
     scholarRoutes.buttons.push(routes.rightsProtection.buttons[2]);
 
+    const rightsProtectionMenu: any = routes.rightsProtectionMenu;
+    rightsProtectionMenu.buttons[0].buttons = violenceRoutes.buttons;
+    rightsProtectionMenu.buttons[1].buttons = routes.health.buttons;
+    rightsProtectionMenu.buttons[2].buttons = routes.regularization.buttons;
+    rightsProtectionMenu.buttons[3].buttons = scholarRoutes.buttons;
+    
+
     return (
         <NavigationContainer>
             <Drawer.Navigator
@@ -50,7 +57,7 @@ export default function Routing() {
                 <Drawer.Screen name="WhatIs" component={WhatIsContainer} />
                 <Drawer.Screen name="Organization" component={OrganizationContainer} />
                 <Drawer.Screen name="PrivacyTerms" component={PrivacyTermsContainer} />
-                <Drawer.Screen name="RightsProtection" component={GlobalContainer} initialParams={routes.rightsProtection} />
+                <Drawer.Screen name="RightsProtection" component={GlobalContainer} initialParams={rightsProtectionMenu} />
                 <Drawer.Screen name="Information" component={GlobalContainer} initialParams={routes.information} />
                 <Drawer.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
                 <Drawer.Screen name="Test" component={TestScreen} />

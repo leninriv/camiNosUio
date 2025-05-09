@@ -18,8 +18,7 @@ export default function App() {
         await Updates.reloadAsync();
       }
     } catch (error) {
-      console.log('error');
-
+      console.log('checkUpdates error');
     }
   }
 

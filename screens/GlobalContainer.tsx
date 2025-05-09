@@ -1,3 +1,4 @@
+import React from 'react';
 import { FlatList, StyleSheet, View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -8,7 +9,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InfoScreenContainer from './InfoScreenContainer';
 import SearchContainer from './SearchContainer';
 import DirectoryViewScreen from './DirectoryViewScreen';
-import React from 'react';
 
 const InspectionTabBarOptions = {
     headerShown: false,
@@ -16,21 +16,45 @@ const InspectionTabBarOptions = {
 
 const Stack = createNativeStackNavigator();
 
+const toSnakeCase = (text: string) => {
+    return removeAccents(text)?.replace(/\W+/g, " ")
+        .split(/ |\B(?=[A-Z])/)
+        .map(word => word.toLowerCase())
+        .join('_');
+}
+
+const removeAccents = (text: string) => {
+    return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 export default function GlobalContainer(props: any) {
     const { navigation, route } = props;
     const { title, colors, buttons, modal } = route.params;
+    const [screenArray, setScreenArray]: any = useState([]);
+    const [loading, setLoading]: any = useState(true);
+    // const screenArray = 
 
     useEffect(() => {
         // const routes = navigation.getState().routeNames;
         // console.log('routes', route.params);
+        setScreenArray(returnLevelScreens(buttons) ?? []);
+
     }, []);
+
+    useEffect(() => {
+        setLoading(false)
+    }, [screenArray]);
+
+
+    if (loading) return <View />
+    // if (!screenArray.length) return <View />
 
     return (
         <View style={styles.subNavContainer}>
             <NavigationContainer independent={true}>
                 <Stack.Navigator screenOptions={InspectionTabBarOptions} initialRouteName="initial">
                     {renderInitial(title, buttons, navigation, colors, modal)}
-                    {renderDynamicScreens(navigation, returnLevelScreens(buttons), colors, modal)}
+                    {renderDynamicScreens(navigation, screenArray, colors, modal)}
                     <Stack.Screen name='directory_result' component={SearchContainer} />
                     <Stack.Screen name="DirectoryView" component={DirectoryViewScreen} />
                     <Stack.Screen name='TagFiltering' component={SearchContainer} />
@@ -40,7 +64,7 @@ export default function GlobalContainer(props: any) {
     );
 }
 
-const renderInitial = (title: string, buttons: any[], mainNav: any, colors: string[], modal: string) => {
+const renderInitial = (title: string, buttons: any[], mainNav: any, colors: string[], modal: any) => {
     const item = {
         title: title,
         route: 'initial',
@@ -52,23 +76,23 @@ const renderInitial = (title: string, buttons: any[], mainNav: any, colors: stri
     return < Stack.Screen name={'initial'} component={ButtonListScreen} initialParams={{ item, colors, mainNav, modal }} />
 }
 
-const renderDynamicScreens = (mainNav: any, screensList: any[], colors: string[], modal: string) => {
+function renderDynamicScreens(mainNav: any, screensList: any[], colors: string[], modal: any) {
     const routes: string[] = [];
     return screensList.map((item: any, index) => {
         if (routes.includes(item.route)) return;
         routes.push(item.route);
-        return (<Stack.Screen key={index} name={item.route} component={item.screen ? InfoScreenContainer : ButtonListScreen} initialParams={{ item, colors, mainNav, modal }} />)
+        // console.log('item.route ',index,': ',  item.route,);
+        return <Stack.Screen key={index} name={item.route} component={item.screen ? InfoScreenContainer : ButtonListScreen} initialParams={{ item, colors, mainNav, modal }} />
     });
 }
 
 function returnLevelScreens(screensList: any[]) {
     let screenArray: any[] = [];
-
     for (let screen of screensList) {
         if (screen.route === 'directory_result') continue;
         screen.route = screen.title;
         screenArray.push(screen);
-        if (screen.buttons.length) {
+        if (screen.buttons?.length) {
             screenArray = screenArray.concat(returnLevelScreens(screen.buttons))
         }
     }
@@ -80,21 +104,23 @@ function ButtonListScreen(props: any) {
     const { item, mainNav, modal, colors } = route.params;
     const org = item;
 
+
     useEffect(() => {
-        // console.log('route.modal', org.modal); // TODO: display screen modal
-        // console.log('colors', colors);       
     }, []);
+
 
     if (org.isFirst) props.navigation = mainNav;
     if (org.buttons?.length) org.buttons = org.buttons.filter((v: any, i: any, a: any) => a.findIndex((t: any) => (t.title === v.title)) === i);
     return <MainLayout  {...props} headerTitle={org.title} backButton>
         <View style={styles.container}>
             <FlatList
+                showsVerticalScrollIndicator={false}
                 data={org.buttons || []}
                 style={{ width: '100%', paddingHorizontal: 20 }}
                 keyExtractor={(item: any) => item.title}
-                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} opacity={true} buttonTittle={item.item.buttonTittle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }) }} />}
+                renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} opacity={true} modal={item.item.modal} buttonTittle={item.item.buttonTittle} text={item.item.title} colors={colors} onPres={() => { navigation.navigate(item.item.route, { ...item.item.params }); }} />}
             />
+
         </View>
     </MainLayout>
 }

@@ -33,8 +33,6 @@ export default function SearchContainer(props: any) {
         globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));
         setMainList(globalList);
         setDataList(globalList);
-        console.log('currentTitle', currentTitle);
-
     }, []);
 
     const updateSearch = (query: string) => {
@@ -59,6 +57,7 @@ export default function SearchContainer(props: any) {
                         containerStyle={{ backgroundColor: 'transparent' }}
                     />
                     <FlatList
+                        showsVerticalScrollIndicator={false}
                         data={dataList}
                         renderItem={(item: any) => <DirectoryItem organization={item.item} navigation={navigation} />}
                         keyExtractor={(item: any) => item.id}

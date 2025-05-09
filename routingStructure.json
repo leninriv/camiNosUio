@@ -3,21 +3,20 @@
         "violence": {
             "colors": ["#7a1194","#7a1194"],
             "title":"Violencia",
-            "modal":"aca todala informacion del modal",
             "buttons": [
-                { "title": "Violencias contra personas LGBTI+",  "buttons": [], "screen": "coming_soon" },
-                { "title": "Robo de documentos",  "buttons": [], "screen": "robbery_complaints" },
-                { "title": "Base legal contra la discriminación",  "buttons": [],  "screen": "discrimination" }
+                { "title": "Violencias contra personas LGBTI+",   "screen": "coming_soon" },
+                { "title": "Robo de documentos",   "screen": "robbery_complaints" },
+                { "title": "Base legal contra la discriminación",    "screen": "discrimination" }
             ]
         },
         "health": {
             "colors": ["#4CA247","#4CA247"],
             "title":"Salud integral",
             "buttons": [
-                { "title": "Salud física",  "buttons": [], "route":"directory_result", "params": {"tag":"Atención en salud"} },
-                { "title": "Salud mental", "buttons": [], "route":"directory_result", "params": {"tag":"Atención en salud"}},
-                { "title": "Salud sexual y reproductiva, VIH",  "buttons": [], "screen": "coming_soon" },
-                { "title": "Emergencias",  "buttons": [], "screen": "emergency" }
+                { "title": "Salud física",   "route":"directory_result", "params": {"tag":"Atención en salud"} },
+                { "title": "Salud mental",  "route":"directory_result", "params": {"tag":"Atención en salud"}},
+                { "title": "Salud sexual y reproductiva, VIH",   "screen": "coming_soon" },
+                { "title": "Emergencias",   "screen": "emergency" }
             ]
         },
         "feeding": {
@@ -25,8 +24,10 @@
             "title":"Alimentación",
             "buttons": [
 
-                { "title": "Puntos de alimentación saludables", "buttonTittle":"Encuentra información sobre mercados, tiendas locales y ferias de alimentación saludable.",  "buttons": [], "screen": "community_kitchens" },
-                { "title": "Camari", "buttons": [], "screen": "camari" }
+                { "title": "Puntos de alimentación saludables", "buttonTittle":"Encuentra información sobre mercados, tiendas locales y ferias de alimentación saludable.",   "screen": "community_kitchens" },
+                { "title": "Ferias",  "screen": "ferias" },
+                { "title": "Mercados",  "screen": "market" },
+                { "title": "Tienda Camari",  "screen": "camari" }
             ]
         },
         "documents": {
@@ -34,45 +35,45 @@
             "title":"Documentos y denuncias",
             "buttons": [
                 { "title": "Documentos Ecuador",  "buttons": [
-                    { "title": "Documentos de identidad",  "buttons": [], "screen": "documents_identity"},
-                    { "title": "Licencia de conducir",  "buttons": [], "screen": "documents_driver"},
-                    { "title": "Documentos Electorales",  "buttons": [], "screen": "documents_elections"}
+                    { "title": "Documentos de identidad",   "screen": "documents_identity"},
+                    { "title": "Licencia de conducir",   "screen": "documents_driver"},
+                    { "title": "Documentos Electorales",   "screen": "documents_elections"}
 
                 ]},
-                { "title": "Denuncia",  "buttons": [], "screen": "complaints"},
-                { "title": "Robo de documentos",  "buttons": [], "screen": "document_loss" },
+                { "title": "Denuncia",   "screen": "complaints"},
+                { "title": "Robo de documentos",   "screen": "document_loss" },
                 { "title": "Trámites",  "buttons": [
-                    {"title":"Registro y homologación de títulos", "buttons": [], "screen": "registration_approval"}, 
-                    {"title":"Plataformas gubernamentales", "buttons": [], "screen": "government_platforms"},
-                    {"title":"Portal gob.ec", "buttons": [], "screen":"gob_ec"}
+                    {"title":"Registro y homologación de títulos",  "screen": "registration_approval"}, 
+                    {"title":"Plataformas gubernamentales",  "screen": "government_platforms"},
+                    {"title":"Portal gob.ec",  "screen":"gob_ec"}
                     ] },
-                { "title": "Asesoría legal",  "buttons": [], "route":"directory_result", "params": {"tag":"Asesoría legal"} }
+                { "title": "Asesoría legal",   "screen":"legal_advice" }
             ]
         },
         "city": {
             "colors": ["#F79D2B","#F79D2B"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Alojamiento y vivienda",  "buttons": [], "route":"directory_result", "params": {"tag":"Alojamiento y vivienda"} },
-                { "title": "Transporte",  "buttons": [], "screen": "transportation" },
-                { "title": "Espacios Públicos",  "buttons": [], "screen": "public_area"}
+                { "title": "Alojamiento y vivienda",  "screen": "home_and_hotel", "buttonTittle":"Aquí podrás conocer datos para que puedas integrarte a los circuitos urbanos y apropiarte del espacio público. " },
+                { "title": "Transporte",   "screen": "transportation" },
+                { "title": "Espacios Públicos",   "screen": "public_area"}
             ]
         },
         "scholar": {
             "colors": ["#C52030","#C52030"],
             "title":"Inserción escolar",
             "buttons": [
-                { "title": "Derechos educativos",  "buttons": [], "screen": "educational_rights" },
-                { "title": "Sistema educativo",  "buttons": [], "screen": "educational_system" }
+                { "title": "Derechos educativos",   "screen": "educational_rights" },
+                { "title": "Sistema educativo",   "screen": "educational_system" }
             ]
         },
         "rights": {
             "colors": ["#DD1868","#DD1868"],
             "title":"Mis Derechos",
             "buttons": [
-                { "title": "Ciudadanía universal",  "buttons": [], "screen":"universal_city" },
-                { "title": "Convención internacional refugio",  "buttons": [], "screen": "international_help" },
-                { "title": "Declaración Universal DDHH",  "buttons": [], "screen": "coming_soon" }
+                { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
+                { "title": "Convención internacional refugio",   "screen": "international_help" },
+                { "title": "Declaración Universal DDHH",   "screen": "coming_soon" }
             ]
         },
         "regularization": {
@@ -81,72 +82,84 @@
             "buttons": [
                 { "title": "Tengo pasaporte",  "buttons":
                 [
-                    {"title":"Informacion respecto al ingreso al Ecuador", "buttons": [], "screen": "ecuador_comming" },
-                    {"title":"Tipos de Visa", "buttons": [], "screen": "visa_type" },
-                    {"title":"Proceso Excepcional de Regularización para personas Venezolanas", "buttons": [], "screen": "venezuelan_exception" }
+                    {"title":"Informacion respecto al ingreso al Ecuador",  "screen": "ecuador_comming" },
+                    {"title":"Tipos de Visa",  "screen": "visa_type" },
+                    {"title":"Proceso Excepcional de Regularización para personas Venezolanas",  "screen": "venezuelan_exception" }
 
                 ]},
                 { "title": "No tengo pasaporte",  "buttons": [
-                    { "title": "Soy de Venezuela",  "buttons": [], "screen": "venezuela_emb" },
-                    { "title": "Soy de Colombia",  "buttons": [], "screen": "colombia_emb"},
-                    { "title": "Soy de Perú",  "buttons": [], "screen": "peru_emb"},
-                    { "title": "Soy de Cuba",  "buttons": [], "screen": "cuba_emb"},
-                    { "title": "Otras nacionalidades",  "buttons": [], "screen": "other_emb" }
+                    { "title": "Soy de Venezuela",   "screen": "venezuela_emb" },
+                    { "title": "Soy de Colombia",   "screen": "colombia_emb"},
+                    { "title": "Soy de Perú",   "screen": "peru_emb"},
+                    { "title": "Soy de Cuba",   "screen": "cuba_emb"},
+                    { "title": "Otras nacionalidades",   "screen": "other_emb" }
                 ] }
             ]
         },
+
+"rightsProtectionMenu":{
+    "colors": ["#7a1194","#7a1194"],
+    "title":"Rutas",
+    "buttons": [  
+        {"title":"Violencia", "buttonTittle":"Aquí encuentras los pasos claros para ejercer tus derechos, presentar denuncias y acceder a apoyo institucional. Esta guía te acompaña paso a paso en cada proceso: atención a salud y casos de violencia, acceso a la educación y regularización de condición migratoria"},
+        {"title":"Salud integral" },
+        {"title":"Regularización" },
+        {"title":"Inserción escolar" }]
+},
+
         "rightsProtection": {
             "colors": ["#7a1194","#7a1194"],
             "title":"Protección de derechos",
             "buttons": [
                 { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
-                    { "title": "Es una emergencia*",  "buttons": [], "screen": "emergency" },
-                    { "title": "Necesito hacer una denuncia*",  "buttons": [], "screen": "Necesito hacer una denuncia" },
-                    { "title": "Necesita atención médica*",  "buttons": [], "screen": "need_medic_help" },
+                    { "title": "Es una emergencia*", "modal":{"body":"otro modal", "title":"Emergencia"},  "screen": "emergency" },
+                    { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
+                    { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
                     { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
-                        { "title": "Policía*",  "buttons": [], "screen": "police" },
-                        { "title": "Centros de Equidad y Justicia*",  "buttons": [], "screen": "justice_places" },
-                        { "title": "Directorio ONG",  "buttons": [], "route":"directory_result", "params": {"type":"ONG"} }
+                        { "title": "Policía*",   "screen": "police" },
+                        { "title": "Centros de Equidad y Justicia*",   "screen": "justice_places" },
+                        { "title": "Directorio ONG",   "route":"directory_result", "params": {"type":"ONG"} }
                     ]},
-                    { "title": "No saben como ayudarme",  "buttons": [], "screen": "ombudsman" }
-                ] },
+                    { "title": "No saben como ayudarme",   "screen": "ombudsman" }
+                ],
+                "modal":{"body":"aca todala informacion del modal", "title":"Importante!"} },
                 { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
-                    { "title": "Es una emergencia",  "buttons": [], "screen": "emergency" },
+                    { "title": "Es una emergencia",   "screen": "emergency" },
                     { "title": "Es víctima de violencia",  "buttons": [
                         { "title": "No necesita atención emergente",  "buttons": [
-                            { "title": "Policía",  "buttons": [], "screen": "police" },
-                            { "title": "Centros de Equidad y Justicia",  "buttons": [], "screen": "justice_places" }
+                            { "title": "Policía",   "screen": "police" },
+                            { "title": "Centros de Equidad y Justicia",   "screen": "justice_places" }
                         ] },
                         { "title": "Necesito hacer una denuncia",  "buttons": [
                             { "title": "Delitos",  "buttons": [
-                                { "title": "Fiscalía",  "buttons": [], "screen": "coming_soon" },
-                                { "title": "Junta cantonal de Protección de Derechos",  "buttons": [], "screen": "coming_soon" },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "buttons": [], "screen": "coming_soon" }
+                                { "title": "Fiscalía",   "screen": "coming_soon" },
+                                { "title": "Junta cantonal de Protección de Derechos",   "screen": "coming_soon" },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",   "screen": "coming_soon" }
                             ] },
                             { "title": "Contravenciones",  "buttons": [
-                                { "title": "Junta Cantonal de Protección de Derechos",  "buttons": [], "screen": "coming_soon" },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",  "buttons": [], "screen": "coming_soon"  },
-                                { "title": "Jueces de Contravenciones",  "buttons": [], "screen": "coming_soon" },
-                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",  "buttons": [], "screen": "coming_soon" }
+                                { "title": "Junta Cantonal de Protección de Derechos",   "screen": "coming_soon" },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",   "screen": "coming_soon"  },
+                                { "title": "Jueces de Contravenciones",   "screen": "coming_soon" },
+                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",   "screen": "coming_soon" }
                             ], "screen": "" },
-                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",  "buttons": [], "screen": "coming_soon" }]},
-                            { "title": "Si el agresor es funcionario/a público",  "buttons": [], "screen": "public_server" }
+                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",   "screen": "coming_soon" }]},
+                            { "title": "Si el agresor es funcionario/a público",   "screen": "public_server" }
                         ] }
                     ]},
-                    { "title": "Necesita atención médica",  "buttons": [], "screen": "need_medic_help" },
+                    { "title": "Necesita atención médica",   "screen": "need_medic_help" },
                     { "title": "Requiere medidas de protección legal",  "buttons": [
-                        { "title": "DINAPEN",  "buttons": [], "screen": "dinapen" }
+                        { "title": "DINAPEN",   "screen": "dinapen" }
                     ] },
-                    { "title": "Seguimiento medidas de protección",  "buttons": [], "screen": "follow_protection" }
+                    { "title": "Seguimiento medidas de protección",   "screen": "follow_protection" }
                 ] },
                 { "title": "Inserción escolar",  "buttons": [
-                    { "title": "Documentación necesaria",  "buttons": [], "screen": "necessary_document"  },
-                    { "title": "Proceso regular",  "buttons": [], "screen": "regular_process" },
+                    { "title": "Documentación necesaria",   "screen": "necessary_document"  },
+                    { "title": "Proceso regular",   "screen": "regular_process" },
                     { "title": "Situación de vulnerabilidad",  "buttons": [
-                        { "title": "Acceder al sistema educativo",  "buttons": [], "screen": "education_access" },
-                        { "title": "Incorporación a otras instituciones",  "buttons": [], "screen": "other_institution" },
-                        { "title": "Acceder al proceso de aprestamiento",  "buttons": [], "screen": "apress_process" },
-                        { "title": "Recibir acompañamiento",  "buttons": [], "screen": "get_help" }
+                        { "title": "Acceder al sistema educativo",   "screen": "education_access" },
+                        { "title": "Incorporación a otras instituciones",   "screen": "other_institution" },
+                        { "title": "Acceder al proceso de aprestamiento",   "screen": "apress_process" },
+                        { "title": "Recibir acompañamiento",   "screen": "get_help" }
                     ] }
                 ] }
             ]
@@ -155,22 +168,22 @@
             "colors": ["white"],
             "title":"Información clave",
             "buttons": [
-                { "title": "Cambio divisas",  "buttons": [], "screen": "money_exchange" },
-                { "title": "Cuentas de banco",  "buttons": [],  "screen": "bank_account" },
-                { "title": "Consulados y embajadas",  "buttons": [],  "screen": "embassies" },
-                { "title": "Portales públicos de búsqueda de empleo",  "buttons": [],  "screen": "find_job" },
-                { "title": "Redes y comunidad",  "buttons": [],  "screen": "community_networs" },
-                { "title": "Glosario",  "buttons": [],  "screen": "glosary" }
+                { "title": "Cambio divisas",   "screen": "money_exchange", "buttonTittle":"Aquí podrás conocer datos clave para moverte, orientarte, disfrutar e integrarte mejor en Quito. Explora esta sección pensada para ti." },
+                { "title": "Cuentas de banco",    "screen": "bank_account" },
+                { "title": "Consulados y embajadas",    "screen": "embassies" },
+                { "title": "Portales públicos de búsqueda de empleo",    "screen": "find_job" },
+                { "title": "Redes y comunidad",    "screen": "community_networs" },
+                { "title": "Glosario",    "screen": "glosary" }
             ]
         },
         "directory": {
             "title":"Directorio",
             "buttons": [
-                { "title": "Listado general y buscador", "buttons": [], "route":"directory_result"},
-                { "title": "Organizaciones No Gubernamentales",  "buttons": [], "buttonTittle":"Categorias de organizaciones:", "route":"directory_result", "params": {"type":"ONG"}},
-                { "title": "Organizaciones públicas",  "buttons": [], "route":"directory_result", "params": {"type":"Pública"} },
-                { "title": "Organismos internacionales",  "buttons": [], "route":"directory_result", "params": {"type":"Organismo internacional"} },
-                { "title": "Organizaciones religiosas",  "buttons": [], "route":"directory_result", "params": {"type":"Organización religiosa"} }             
+                { "title": "Listado general y buscador",  "route":"directory_result", "buttonTittle":"Aquí puedes buscar y encontrar, de forma rápida y sencilla, las instituciones públicas y privadas que ofrecen los servicios que necesitas en Quito. Este directorio está hecho para ayudarte a ejercer tus derechos con autonomía."},
+                { "title": "Organizaciones No Gubernamentales",   "buttonTittle":"Categorias de organizaciones:", "route":"directory_result", "params": {"type":"ONG"}},
+                { "title": "Organizaciones públicas",   "route":"directory_result", "params": {"type":"Pública"} },
+                { "title": "Organismos internacionales",   "route":"directory_result", "params": {"type":"Organismo internacional"} },
+                { "title": "Organizaciones religiosas",   "route":"directory_result", "params": {"type":"Organización religiosa"} }             
             ]
         }
     }

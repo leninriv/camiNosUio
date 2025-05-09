@@ -3,62 +3,70 @@ import { FlatList, StyleSheet, Image, View, Text, Dimensions } from 'react-nativ
 
 import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
+import { useState } from 'react';
+import { Dialog } from '@rneui/themed';
 
 export default function HomeScreen(props: any) {
+    const [modalVisible, setModalVisible] = useState(true);
     const { navigation } = props;
     const buttons = [
         {
-            colors: ["#7a1194",'#7a1194'],
+            colors: ["#7a1194", '#7a1194'],
             text: 'Violencia',
             route: 'Violence',
-            iconName: 'hand-right'
+            iconName: 'hand-right',
         },
         {
-            colors: ["#4CA247","#4CA247"],
+            colors: ["#4CA247", "#4CA247"],
             text: 'Salud integral',
             route: 'Health',
             iconName: 'fitness'
         },
         {
-            colors: ["#13689E","#13689E"],
-            text: 'Documentos y denuncias',
-            route: 'Documents',
-            iconName: 'document-text'
+            colors: ["#14A5B1", "#14A5B1"],
+            text: 'Regularización',
+            route: 'Regularization',
+            iconName: 'card'
         },
         {
-            colors: ["#DDA73B","#DDA73B"],
-            text: 'Alimentacion',
-            route: 'Feeding',
-            iconName: 'nutrition'
-        },
-        {
-            colors: ["#F79D2B","#F79D2B"],
-            text: 'Habitar Quito',
-            route: 'City',
-            iconName: 'business'
-        },
-        {
-            colors: ["#C52030","#C52030"],
+            colors: ["#C52030", "#C52030"],
             text: 'Inserción escolar',
             route: 'Scholar',
             iconName: 'school'
         },
         {
-            colors: ["#DD1868","#DD1868"],
+            colors: ["#F79D2B", "#F79D2B"],
+            text: 'Habitar Quito',
+            route: 'City',
+            iconName: 'business'
+        },
+        {
+            colors: ["#13689E", "#13689E"],
+            text: 'Documentos y denuncias',
+            route: 'Documents',
+            iconName: 'document-text'
+        },
+        {
+            colors: ["#DD1868", "#DD1868"],
             text: 'Mis derechos',
             route: 'Rights',
             iconName: 'megaphone'
         },
         {
-            colors: ["#14A5B1","#14A5B1"],
-            text: 'Regularización',
-            route: 'Regularization',
-            iconName: 'card'
+            colors: ["#DDA73B", "#DDA73B"],
+            text: 'Alimentación',
+            route: 'Feeding',
+            iconName: 'nutrition'
         },
+
     ];
 
     const windowWidth = Dimensions.get('window').width;
     const hideIcons = windowWidth < 300;
+
+    const onToggleModal = () => {
+        setModalVisible(!modalVisible)
+    }
 
     function wellcomeImage() {
         return (
@@ -77,14 +85,32 @@ export default function HomeScreen(props: any) {
         <MainLayout  {...props} headerTitle={"INICIO"}>
             <View style={styles.container}>
                 <FlatList
+                    showsVerticalScrollIndicator={false}
+                    
                     data={buttons}
                     columnWrapperStyle={styles.row}
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
                     renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={hideIcons ? null : item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    ListFooterComponent={<GradientButton text={'Directorio'} colors={["#15496b","#15496b"]} onPres={() => { navigation.navigate('Search') }} />}
+                    ListFooterComponent={
+                        <View>
+                            <GradientButton text={'Directorio'} colors={["#15496b", "#15496b"]} onPres={() => { navigation.navigate('Search') }} />
+                            <View style={{ height: 30 }} />
+                        </View>
+
+                    }
                     ListHeaderComponent={wellcomeImage()}
                 />
+
+
+                <Dialog
+                    isVisible={modalVisible}
+                    onBackdropPress={onToggleModal}
+                >
+                    <Dialog.Title title="¡Bienvenid@ a camiNOS!" />
+                    <Text style={styles.popupText}>Esta aplicación es el resultado de un proceso participativo, pensada para acompañarte en tu interacción con Quito. Aquí encontrarás información clave, rutas de protección de derechos y un directorio de organizaciones, instituciones y servicios. La aplicación no consume datos. Solamente necesitarás conexión a internet para abrir enlaces externos.</Text>
+                    <Text style={styles.popupText}>Tus camiNOS hacia una ciudad más accesible y segura empiezan aquí.</Text>
+                </Dialog>
 
             </View>
         </MainLayout>
@@ -121,4 +147,8 @@ const styles = StyleSheet.create({
         resizeMode: 'center',
         marginBottom: 15
     },
+    popupText:{
+        textAlign:'justify',
+        fontSize:17
+    }
 });
