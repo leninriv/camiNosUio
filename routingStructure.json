@@ -4,7 +4,16 @@
             "colors": ["#7a1194","#7a1194"],
             "title":"Violencia",
             "buttons": [
-                { "title": "Violencias contra personas LGBTI+",   "screen": "coming_soon" },
+                { "title": "Violencias contra personas LGBTIQ+",   "buttons":[
+                     { "title": "Necesito orientación", "buttonTittle":"Es víctima o conoce de un caso de violencia basada en género ","buttons":[
+                        { "title": "Unidades Metropolitanas de Salud",  "screen": "metropolitan_heald" },
+                        { "title": "Consejo Consultivo de Diversidades Sexo Genéricas",  "screen": "sex_diversity" },
+                        { "title": "Centros de Salud MSP",  "buttons":[
+                            { "title": "Directorio Salud",  "buttonTittle":"Revisa el Centro de Salud más cercano a tí", "route":"directory_result", "params": {"tag":"Atención en salud"} }
+                        ]},
+                        { "title": "Directorio ONG",  "route":"directory_result", "params": {"type":"ONG"} }
+                     ] }
+                ] },
                 { "title": "Robo de documentos",   "screen": "robbery_complaints" },
                 { "title": "Base legal contra la discriminación",    "screen": "discrimination" }
             ]
@@ -13,17 +22,21 @@
             "colors": ["#4CA247","#4CA247"],
             "title":"Salud integral",
             "buttons": [
-                { "title": "Salud física",   "route":"directory_result", "params": {"tag":"Atención en salud"} },
-                { "title": "Salud mental",  "route":"directory_result", "params": {"tag":"Atención en salud"}},
-                { "title": "Salud sexual y reproductiva, VIH",   "screen": "coming_soon" },
-                { "title": "Emergencias",   "screen": "emergency" }
+                { "title": "Es una emergencia", "buttons":[
+                    { "title": "Es una emergencia de salud",   "screen": "emergency" },
+                    { "title": "Es un caso de violencia",   "buttons":[] }
+                ] },
+                { "title": "No es una emergencia",  "buttons":[
+                    { "title": "Salud física", "route":"directory_result", "params": {"tag":"Atención en salud"} },
+                    { "title": "Salud mental",  "route":"directory_result", "params": {"tag":"Salud mental"} },
+                    { "title": "Salud sexual y reproductiva  y VIH",    "route":"directory_result", "params": {"tag":"SSR VIH"} }
+                ]}
             ]
         },
         "feeding": {
             "colors": ["#DDA73B","#DDA73B"],
             "title":"Alimentación",
             "buttons": [
-
                 { "title": "Puntos de alimentación saludables", "buttonTittle":"Encuentra información sobre mercados, tiendas locales y ferias de alimentación saludable.",   "screen": "community_kitchens" },
                 { "title": "Ferias",  "screen": "ferias" },
                 { "title": "Mercados",  "screen": "market" },
@@ -107,63 +120,65 @@
         {"title":"Inserción escolar" }]
 },
 
-        "rightsProtection": {
-            "colors": ["#7a1194","#7a1194"],
-            "title":"Protección de derechos",
-            "buttons": [
-                { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
-                    { "title": "Es una emergencia*", "modal":{"body":"otro modal", "title":"Emergencia"},  "screen": "emergency" },
-                    { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
-                    { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
-                    { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
-                        { "title": "Policía*",   "screen": "police" },
-                        { "title": "Centros de Equidad y Justicia*",   "screen": "justice_places" },
-                        { "title": "Directorio ONG",   "route":"directory_result", "params": {"type":"ONG"} }
-                    ]},
-                    { "title": "No saben como ayudarme",   "screen": "ombudsman" }
-                ],
-                "modal":{"body":"aca todala informacion del modal", "title":"Importante!"} },
-                { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
-                    { "title": "Es una emergencia",   "screen": "emergency" },
-                    { "title": "Es víctima de violencia",  "buttons": [
-                        { "title": "No necesita atención emergente",  "buttons": [
-                            { "title": "Policía",   "screen": "police" },
-                            { "title": "Centros de Equidad y Justicia",   "screen": "justice_places" }
-                        ] },
-                        { "title": "Necesito hacer una denuncia",  "buttons": [
-                            { "title": "Delitos",  "buttons": [
-                                { "title": "Fiscalía",   "screen": "coming_soon" },
-                                { "title": "Junta cantonal de Protección de Derechos",   "screen": "coming_soon" },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",   "screen": "coming_soon" }
-                            ] },
-                            { "title": "Contravenciones",  "buttons": [
-                                { "title": "Junta Cantonal de Protección de Derechos",   "screen": "coming_soon" },
-                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",   "screen": "coming_soon"  },
-                                { "title": "Jueces de Contravenciones",   "screen": "coming_soon" },
-                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia",   "screen": "coming_soon" }
-                            ], "screen": "" },
-                            { "title": "Otras vulneraciones",  "buttons": [{ "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**",   "screen": "coming_soon" }]},
-                            { "title": "Si el agresor es funcionario/a público",   "screen": "public_server" }
-                        ] }
-                    ]},
-                    { "title": "Necesita atención médica",   "screen": "need_medic_help" },
-                    { "title": "Requiere medidas de protección legal",  "buttons": [
-                        { "title": "DINAPEN",   "screen": "dinapen" }
-                    ] },
-                    { "title": "Seguimiento medidas de protección",   "screen": "follow_protection" }
+"rightsProtection": {
+    "colors": ["#7a1194","#7a1194"],
+    "title":"Protección de derechos",
+    "buttons": [
+        { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
+            { "title": "Es una emergencia*", "buttonTittle":"Es víctima o conoce de un caso de violencia basada en género", "screen": "emergency" },
+            { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
+            { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
+            { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
+                { "title": "Policía*", "buttonTittle":"Si no tienes certeza sobre qué hacer, contáctate con:",  "screen": "police" },
+                { "title": "Centros de Equidad y Justicia*",   "screen": "justice_places" },
+                { "title": "Directorio ONG",   "screen":"ong_directory" }
+            ]},
+            { "title": "No saben como ayudarme",   "screen": "ombudsman" }
+        ],
+        "modal":{"body":"aca todala informacion del modal", "title":"Importante!"} },
+        { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
+            { "title": "Es una emergencia",   "screen": "emergency" },
+            { "title": "Es víctima de violencia",  "buttons": [
+                { "title": "No necesita atención emergente",  "buttons": [
+                    { "title": "Policía",   "screen": "police" },
+                    { "title": "Centros de Equidad y Justicia",   "screen": "justice_places" }
                 ] },
-                { "title": "Inserción escolar",  "buttons": [
-                    { "title": "Documentación necesaria",   "screen": "necessary_document"  },
-                    { "title": "Proceso regular",   "screen": "regular_process" },
-                    { "title": "Situación de vulnerabilidad",  "buttons": [
-                        { "title": "Acceder al sistema educativo",   "screen": "education_access" },
-                        { "title": "Incorporación a otras instituciones",   "screen": "other_institution" },
-                        { "title": "Acceder al proceso de aprestamiento",   "screen": "apress_process" },
-                        { "title": "Recibir acompañamiento",   "screen": "get_help" }
-                    ] }
+                { "title": "Necesito hacer una denuncia",  "buttons": [
+                    { "title": "Delitos\n(amenaza, agresiones, abuso)", "buttonTittle":"Se pueden hacer denuncias ante varias entidades dependiendo del tipo de vulneración:" , "buttons": [
+                        { "title": "Fiscalía", "buttonTittle":"En el caso de delitos, debemos poner en conocimiento de:",  "screen":"fiscaly"},
+                        { "title": "Junta cantonal de Protección de Derechos",  "route":"directory_result", "params": {"name":"Juntas"} },
+                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
+                    ] },
+                    { "title": "Contravenciones\n(Insultos, escándalo)",  "buttons": [
+                        { "title": "Junta Cantonal de Protección de Derechos",  "buttonTittle":"En el caso de contravenciones, debemos poner en conocimiento de:", "route":"directory_result", "params": {"name":"Juntas"} },
+                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",   "route":"directory_result", "params": {"tag":"Ejercicio de justicia"}  },
+                        { "title": "Jueces de Contravenciones",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} },
+                        { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia", "route":"directory_result", "params": {"tag":"Unindad judicial"}}
+                    ]},
+                    { "title": "Otras vulneraciones",  "buttons": [
+                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**", "buttonTittle":"En el caso de otro tipo de vulneraciones, podemos acudir a:", "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
+                        ]},
+                    { "title": "Si el agresor es funcionario/a público",   "screen": "public_server" }
                 ] }
-            ]
-        },
+            ]},
+            { "title": "Necesita atención médica",   "screen": "need_medic_help" },
+            { "title": "Requiere medidas de protección legal",  "buttons": [
+                { "title": "DINAPEN",   "screen": "dinapen" }
+            ] },
+            { "title": "Seguimiento medidas de protección",   "screen": "follow_protection" }
+        ] },
+        { "title": "Inserción escolar",  "buttons": [
+            { "title": "Documentación necesaria",   "screen": "necessary_document"  },
+            { "title": "Proceso regular",   "screen": "regular_process" },
+            { "title": "Situación de vulnerabilidad",  "buttons": [
+                { "title": "Acceder al sistema educativo", "screen": "education_access", "buttonTittle":"Las personas en situación de movilidad humana son consideradas personas en situación de vulnerabilidad, contando con los siguientes beneficios de conformidad con el Acuerdo ministerial No. MINEDUC-MINEDUC-2021-00026-A. Con lo cual el estudiante puede:"},
+                { "title": "Incorporación a otras instituciones",   "screen": "other_institution" },
+                { "title": "Acceder al proceso de aprestamiento",   "screen": "apress_process" },
+                { "title": "Recibir acompañamiento",   "screen": "get_help" }
+            ] }
+        ] }
+    ]
+},
         "information": {
             "colors": ["white"],
             "title":"Información clave",

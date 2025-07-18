@@ -27,7 +27,11 @@ export default function SearchContainer(props: any) {
         } else if (params?.type) {
             setCurrentTitle(params.type);
             globalList = database.filter(item => item.type === params.type);
-        } else {
+        } else if (params?.name) {
+            setCurrentTitle(params.name);
+            globalList = database.filter(item => item.name.includes(params.name));
+        }
+        else {
             globalList = [...database];
         }
         globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));

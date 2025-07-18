@@ -132,7 +132,7 @@
             "name": "Servicios CNE",
             "url": "https://www.cne.gob.ec/servicios-en-linea/"
         },
-        "content2":"\nLa delegación provincial de Pichincha se ubica en la Calle Iñaquito 35-227 e Ignacio Santa María"
+        "content2": "\nLa delegación provincial de Pichincha se ubica en la Calle Iñaquito 35-227 e Ignacio Santa María"
     },
     "document_loss": {
         "title": "",
@@ -276,7 +276,6 @@
     },
     "emergency": {
         "title": "",
-        "modal":{"body":"aca todala informacion del modal", "title":"Importante2!"},
         "type": "paragraph",
         "content1": "En caso de emergencias, comunícate con el Servicio Integrado de Seguridad ECU al:",
         "link1": {
@@ -284,7 +283,56 @@
             "name": "911",
             "url": "tel:911"
         },
-        "content2": "Esta institución centraliza las demandas de la ciudadanía y las refiere a los organimos de atención correspondientes (policía, bomberos, etc)"
+        "content2": "Esta institución centraliza las demandas de la ciudadanía y las refiere a los organimos de atención correspondientes (policía, bomberos, etc)\n\nLa llamada a este número no tiene costo."
+    },
+    "fiscaly": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "Puedes llamar a 1800 DELITO (335486)",
+        "link1": {
+            "type": "external",
+            "name": "1800 DELITO",
+            "url": "tel:1800335486"
+        },
+        "content2": "o realizar tu denuncia en línea en: ",
+        "link2": {
+            "type": "external",
+            "name": "Fiscalía",
+            "url": "https://www.fiscalia.gob.ec/denuncia-en-linea-de-violencia-basada-en-genero/ "
+        }
+    },
+    "ong_directory": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "En camiNOS.uio encontrarás un directorio de organizaciones de la sociedad que prestan ciertos servicios. Puedes explorar las diferentes categorías y comunicarte con alguna organización.",
+        "link1": {
+            "type": "internal",
+            "name": "Directorio",
+            "filter": {
+                "type": "ONG"
+            }
+        }
+    },
+    "metropolitan_heald": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Direcciones y contactos telefónicos para agendar citas de atención médica:\n"
+            },
+            {
+                "title": "Unidad Metropolitana de Salud Centro",
+                "text": "Horario de atención: 10h00 a 13h00\nDirección: Rocafuerte OE8-89 e Imbabura\nTeléfonos: 02 3 949-077"
+            },
+            {
+                "title": "Unidad Metropolitana de Salud Norte",
+                "text": "Horario de atención: 10h00 a 13h00\nDirección: Unión y Progreso OE4-353 y Av. Diego de Vásquez\nTeléfonos: 02 3 947-333"
+            },
+            {
+                "title": "Unidad Metropolitana de Salud Sur",
+                "text": "Horario de atención: 08h00 - 12h00\nDirección: Manuel Antonio Navarro 16-60 e José Hinostroza\nTeléfonos: 02 3 120-556 02 3 120-920"
+            }
+        ]
     },
     "government_platforms": {
         "type": "paragraph",
@@ -310,6 +358,22 @@
             "type": "external",
             "name": "Gobierno del Ecuador",
             "url": "https://www.gob.ec/ "
+        }
+    },
+    "sex_diversity": {
+        "type": "paragraph",
+        "content1": "El Consejo de Diversidades Sexo Genéricas es un organismo creado para consulta del Consejo de Protección de Derechos del DMQ. Es un espacio de participación ciudadana para formular, transversalizar, observar, dar seguimiento y evaluar las políticas públicas de las personas LGBTIQ+ en el DMQ. ",
+        "content2": "Dirección: Asuno N5108 y De los Alamos\n\nRedes sociales:",
+        "link2": {
+            "type": "external",
+            "name": "Facebook",
+            "url": "https://www.facebook.com/consejo.consultivo.de.diversidades.sex?mibextid=ZbWKwL"
+        },
+        "content3":" ",
+        "link3": {
+            "type": "external",
+            "name": "X",
+            "url": "https://x.com/CCDSDMQ"
         }
     },
     "public_area": {
@@ -480,7 +544,7 @@
     },
     "get_help": {
         "type": "paragraph",
-        "content1": "Acompañamiento en el proceso de aprestamiento por parte de las direcciones distritales de educación, la Unidad distrital de apoyo a la inclusión (UDAI) y/o el Departamento de Consejería Estudiantil correspondientes. El tiempo de este acompañamiento será definido y justificado por el tutor designado "
+        "content1": "El acceso al proceso de aprestamiento para la reinserción escolar en Ecuador, implica la adaptación y apoyo a estudiantes que regresan al sistema educativo después de un período de ausencia. Este proceso se facilita a través de acciones administrativas y pedagógicas, asegurando la integración efectiva de los estudiantes en el aprendizaje y garantizando su derecho a la educación.\n\nAcompañamiento en el proceso de aprestamiento por parte de las direcciones distritales de educación, la Unidad distrital de apoyo a la inclusión (UDAI) y/o el Departamento de Consejería Estudiantil correspondientes. El tiempo de este acompañamiento será definido y justificado por el tutor designado."
     },
     "police": {
         "type": "paragraph",

@@ -42,10 +42,18 @@ export default function Routing() {
 
     const rightsProtectionMenu: any = routes.rightsProtectionMenu;
     rightsProtectionMenu.buttons[0].buttons = violenceRoutes.buttons;
-    rightsProtectionMenu.buttons[1].buttons = routes.health.buttons;
+
     rightsProtectionMenu.buttons[2].buttons = routes.regularization.buttons;
     rightsProtectionMenu.buttons[3].buttons = scholarRoutes.buttons;
-    
+
+    violenceRoutes.buttons[2].buttons = [...violenceRoutes.buttons[2].buttons, ...rightsProtectionMenu.buttons[0].buttons[0].buttons];
+    violenceRoutes.buttons[2].buttons[1].buttonTittle = '';
+
+    const healthRoutes: any = routes.health;
+
+    healthRoutes.buttons[0].buttons[1].buttons = violenceRoutes.buttons;
+
+    rightsProtectionMenu.buttons[1].buttons = healthRoutes.buttons;
 
     return (
         <NavigationContainer>
@@ -62,7 +70,7 @@ export default function Routing() {
                 <Drawer.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
                 <Drawer.Screen name="Test" component={TestScreen} />
                 <Drawer.Screen name="Violence" component={GlobalContainer} initialParams={violenceRoutes} />
-                <Drawer.Screen name="Health" component={GlobalContainer} initialParams={routes.health} />
+                <Drawer.Screen name="Health" component={GlobalContainer} initialParams={healthRoutes} />
                 <Drawer.Screen name="Feeding" component={GlobalContainer} initialParams={routes.feeding} />
                 <Drawer.Screen name="Documents" component={GlobalContainer} initialParams={routes.documents} />
                 <Drawer.Screen name="City" component={GlobalContainer} initialParams={routes.city} />
