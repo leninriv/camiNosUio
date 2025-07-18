@@ -376,6 +376,17 @@
             "url": "https://x.com/CCDSDMQ"
         }
     },
+    "dd_hh": {
+        "type": "paragraph",
+        "content1": "¿Qué es la Declaración Universal de los Derechos Humanos?\n\nEs un documento adoptado por la Asamblea General de las Naciones Unidas en 1948. Reconoce que todas las personas, sin importar su nacionalidad, origen, género o situación migratoria, tienen derechos y libertades fundamentales que deben ser respetados y protegidos.",
+        "content2": "¿Por qué es importante para quienes están en situación de movilidad humana?\n\nPorque establece derechos clave como el acceso a la salud, educación, trabajo digno, protección contra la violencia y el derecho a buscar asilo. Es una herramienta internacional que respalda tu dignidad y tu acceso a una vida segura y justa, incluso si estás fuera de tu país de origen.",
+        "content3": "¿Cómo se aplica en Quito?\n\nEn la ciudad, varias instituciones públicas y organizaciones de la sociedad civil trabajan para que estos derechos se cumplan. Puedes acceder a servicios de salud, educación, justicia y protección, sin discriminación.",
+        "link3": {
+            "type": "external",
+            "name": "Conoce más",
+            "url": "https://www.un.org/es/about-us/universal-declaration-of-human-rights"
+        }
+    },
     "public_area": {
         "type": "paragraph",
         "content1": "Quito es una ciudad con una geografía única con plazas, parques, quebradas en todo su territorio.",

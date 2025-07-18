@@ -86,7 +86,7 @@
             "buttons": [
                 { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
                 { "title": "Convención internacional refugio",   "screen": "international_help" },
-                { "title": "Declaración Universal DDHH",   "screen": "coming_soon" }
+                { "title": "Declaración Universal DDHH",   "screen": "dd_hh" }
             ]
         },
         "regularization": {
