@@ -13,7 +13,8 @@ export default function GradientButton(props: any) {
     const opacity = props.opacity;
 
     useEffect(() => {
-        if (props?.modal?.body) setModalVisible(true);
+        // TODO: activate modal when needed in the future 
+        // if (props?.modal?.body) setModalVisible(true);
     }, []);
 
     const onToggleModal = () => {
