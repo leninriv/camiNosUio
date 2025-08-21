@@ -346,7 +346,7 @@
         "content3": "Al Sur: Plataforma Gubernamental de Desarrollo Social",
         "link3": {
             "type": "external",
-            "name": "Ubicación Plataforma Norte",
+            "name": "Ubicación Plataforma Sur",
             "url": "https://maps.app.goo.gl/QYpJbWgAVsuxf4po7"
         }
     },
@@ -369,7 +369,7 @@
             "name": "Facebook",
             "url": "https://www.facebook.com/consejo.consultivo.de.diversidades.sex?mibextid=ZbWKwL"
         },
-        "content3":" ",
+        "content3": " ",
         "link3": {
             "type": "external",
             "name": "X",
@@ -528,7 +528,7 @@
     "necessary_document": {
         "type": "paragraph",
         "content1": "Los documentos que se solicitan durante el proceso son:",
-        "content2": "Correo electrónico de representante legal de estudiante.\n Número de contacto (celular o fijo).\n Número de identificación del estudiante (opcional).\n Número de identificación del representante (opcional). ",
+        "content2": "- Correo electrónico de representante legal de estudiante.\n- Número de contacto (celular o fijo).\n- Número de identificación del estudiante (opcional).\n- Número de identificación del representante (opcional). ",
         "content3": "La unidad educativa asignada al estudiante dependerá la ubicación y residencia de la familia y su cercanía a los distritos educativos correspondientes"
     },
     "regular_process": {
@@ -683,48 +683,12 @@
                 "text": "La mejor forma para insertarse en una cultura distinta a la propia es abrazar su lenguaje. A continuación, te presentamos algunas expresiones conocidas en Ecuador, particularmente en Quito:"
             },
             {
-                "title": "“Acolita”:",
-                "text": "Pedir ayuda a alguien."
-            },
-            {
-                "title": "“Man”:",
-                "text": "Referencia al individuo como tal, sin importar el género. El artículo “el” o “la” será determinante para saber a qué sexo/género se hace referencia."
-            },
-            {
-                "title": "“Mijin”:",
-                "text": "Forma de referirse a un amigo."
-            },
-            {
-                "title": "“Turro”:",
-                "text": "Adjetivos para referirse a algo burrido o incómodo."
-            },
-            {
-                "title": "“Fresco”:",
-                "text": "Despreocupado, denota relajación."
-            },
-            {
-                "title": "“Full”: ",
-                "text": "Sinónimo de demasiado."
-            },
-            {
-                "title": "“De una”:",
-                "text": "Expresión que denota disposición, afirmación."
-            },
-            {
-                "title": "“De ley”:",
-                "text": "Expresión que denota seguridad, afirmación. "
-            },
-            {
-                "title": "“Simón”:",
-                "text": "Afirmación/aprobación."
-            },
-            {
-                "title": "“Qué cague”:",
-                "text": "Gracioso. Se utiliza para referirse a eventualidades."
-            },
-            {
                 "title": "“Achachay o chachay”:",
                 "text": "Sensación de frío."
+            },
+            {
+                "title": "“Acolita”:",
+                "text": "Pedir ayuda a alguien."
             },
             {
                 "title": "“Arraray”:",
@@ -735,8 +699,44 @@
                 "text": "Pobre. Sin dinero."
             },
             {
+                "title": "“De ley”:",
+                "text": "Expresión que denota seguridad, afirmación. "
+            },
+            {
+                "title": "“De una”:",
+                "text": "Expresión que denota disposición, afirmación."
+            },
+            {
+                "title": "“Fresco”:",
+                "text": "Despreocupado, denota relajación."
+            },
+            {
+                "title": "“Full”: ",
+                "text": "Sinónimo de demasiado."
+            },
+            {
                 "title": "“Guagua”:",
                 "text": "Traída del quichua y re-apropiada, significa niño/a."
+            },
+            {
+                "title": "“Man”:",
+                "text": "Referencia al individuo como tal, sin importar el género. El artículo “el” o “la” será determinante para saber a qué sexo/género se hace referencia."
+            },
+            {
+                "title": "“Mijin”:",
+                "text": "Forma de referirse a un amigo."
+            },
+            {
+                "title": "“Qué cague”:",
+                "text": "Gracioso. Se utiliza para referirse a eventualidades."
+            },
+            {
+                "title": "“Simón”:",
+                "text": "Afirmación/aprobación."
+            },
+            {
+                "title": "“Turro”:",
+                "text": "Adjetivos para referirse a algo burrido o incómodo."
             }
         ]
     },
