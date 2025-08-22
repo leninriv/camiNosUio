@@ -15,21 +15,21 @@
       "autoIncrement": true,
       "channel": "production",
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
       }
     },
     "main": {
       "autoIncrement": true,
       "channel": "main",
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
       }
     },
     "staging": {
       "autoIncrement": true,
       "channel": "staging",
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
       }
     }
   },
