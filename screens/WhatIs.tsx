@@ -52,8 +52,8 @@ const styles = StyleSheet.create({
         fontSize:20
     },
     stretch: {
-        width: 200,
-        height: 90,
+        width: 250,
+        height: 110,
         resizeMode: 'center',
     },
 });

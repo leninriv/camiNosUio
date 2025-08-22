@@ -142,8 +142,8 @@ const styles = StyleSheet.create({
         marginBottom: 15
     },
     stretch: {
-        width: 200,
-        height: 90,
+        width: 250,
+        height: 110,
         resizeMode: 'center',
         marginBottom: 15
     },

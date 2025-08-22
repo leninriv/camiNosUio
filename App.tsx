@@ -3,10 +3,13 @@ import Routing from './Routing';
 import * as Updates from 'expo-updates';
 import 'react-native-gesture-handler';
 import { ActivityIndicator, View } from "react-native";
+import * as SplashScreen from 'expo-splash-screen';
 //https://reactnativeelements.com/ 
 
 export default function App() {
+
   const [loading, setLoading] = useState(true);
+  SplashScreen.preventAutoHideAsync();
 
   useEffect(() => {
     checkUpdates();
@@ -23,12 +26,13 @@ export default function App() {
       console.log('checkUpdates error');
     }
     setLoading(false);
+    SplashScreen.hide();
   }
 
   if (loading) return (
-  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-    <ActivityIndicator size="large" />
-  </View>);
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <ActivityIndicator size="large" />
+    </View>);
 
   return (
     <Routing />
