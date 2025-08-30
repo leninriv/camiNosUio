@@ -58,6 +58,18 @@ export default function HomeScreen(props: any) {
             route: 'Feeding',
             iconName: 'nutrition'
         },
+        {
+            colors: ["#15496b", "#15496b"],
+            text: 'Directorio',
+            route: 'Search',
+            iconName: 'library'
+        },
+                {
+            colors: [],
+            text: 'Información Clave',
+            route: 'Information',
+            iconName: 'eye'
+        },
 
     ];
 
@@ -86,19 +98,19 @@ export default function HomeScreen(props: any) {
             <View style={styles.container}>
                 <FlatList
                     showsVerticalScrollIndicator={false}
-                    
+
                     data={buttons}
                     columnWrapperStyle={styles.row}
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
                     renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={hideIcons ? null : item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    ListFooterComponent={
-                        <View>
-                            <GradientButton text={'Directorio'} colors={["#15496b", "#15496b"]} onPres={() => { navigation.navigate('Search') }} />
-                            <View style={{ height: 30 }} />
-                        </View>
+                    // ListFooterComponent={
+                    //     <View>
+                    //         <GradientButton text={'Directorio'} colors={["#15496b", "#15496b"]} onPres={() => { navigation.navigate('Search') }} />
+                    //         <View style={{ height: 30 }} />
+                    //     </View>
 
-                    }
+                    // }
                     ListHeaderComponent={wellcomeImage()}
                 />
 
@@ -147,8 +159,8 @@ const styles = StyleSheet.create({
         resizeMode: 'center',
         marginBottom: 15
     },
-    popupText:{
-        textAlign:'justify',
-        fontSize:17
+    popupText: {
+        textAlign: 'justify',
+        fontSize: 17
     }
 });

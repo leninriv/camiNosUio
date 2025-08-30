@@ -32,7 +32,7 @@ export default function GlobalHeader(props: any) {
             <Header
                 ViewComponent={LinearGradient}
                 linearGradientProps={{
-                    colors: ['#a1a1a1', '#4d4d4d'],
+                    colors: ['#4d4d4d','#a1a1a1'],
                     start: { x: 0, y: 0.5 },
                     end: { x: 1, y: 0.5 },
                 }}
