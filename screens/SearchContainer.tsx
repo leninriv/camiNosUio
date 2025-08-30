@@ -23,7 +23,7 @@ export default function SearchContainer(props: any) {
         let globalList: any[] = [];
         if (params?.tag) {
             setCurrentTitle(params.tag);
-            globalList = database.filter(item => item.tag1 === params.tag || item.tag2 === params.tag || item.tag3 === params.tag);
+            globalList = database.filter(item => item.tag1 === params.tag || item.tag2 === params.tag || item.tag3 === params.tag || item.tag4 === params.tag || item.tag4 === params.tag);
         } else if (params?.type) {
             setCurrentTitle(params.type);
             globalList = database.filter(item => item.type === params.type);
@@ -35,6 +35,7 @@ export default function SearchContainer(props: any) {
             globalList = [...database];
         }
         globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));
+        globalList = globalList.filter(item=> !!item.name);
         setMainList(globalList);
         setDataList(globalList);
     }, []);

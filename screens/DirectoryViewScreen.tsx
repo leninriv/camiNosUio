@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { View, StyleSheet, ScrollView, } from 'react-native';
+import { View, StyleSheet, ScrollView, Linking, } from 'react-native';
 import { Chip, Text } from '@rneui/themed';
 import MainLayout from '../components/MainLayout';
 import { database } from '../data/directory.json';
@@ -22,7 +22,7 @@ export default function DirectoryViewScreen(props: any) {
                 <View style={styles.container}>
                     <View style={styles.space} />
                     <Text h3>{organization.name}</Text>
-                    <Chip title={organization.type} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm'  color={'gray'}/>
+                    <Chip title={organization.type} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' color={'gray'} />
                     <View style={styles.space} />
                     <Text h4>Quienes son / Que hacen?</Text>
                     <View style={styles.space} />
@@ -31,8 +31,8 @@ export default function DirectoryViewScreen(props: any) {
                     <Text h4>Canales:</Text>
                     <View style={styles.space} />
                     <Text>Telefono:  <Text>{organization.phone}</Text></Text>
-                    <Text>Correo:     <Text>{organization.email}</Text></Text>
-                    <Text>Web:         <Text>{organization.web}</Text></Text>
+                    <Text>Correo:    <Text>{organization.email}</Text></Text>
+                    <Text>Web:       {!!organization.web && <Text onPress={()=>{Linking.openURL(organization.web)}}>{organization.web}</Text>}</Text>
                     <View style={styles.space} />
                     <Text h4>Sector / Dirección:</Text>
                     <View style={styles.space} />
@@ -43,6 +43,8 @@ export default function DirectoryViewScreen(props: any) {
                     {!!organization.tag1 && <Chip title={organization.tag1} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag1 })} />}
                     {!!organization.tag2 && <Chip title={organization.tag2} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag2 })} />}
                     {!!organization.tag3 && <Chip title={organization.tag3} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag3 })} />}
+                    {!!organization.tag4 && <Chip title={organization.tag4} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag4 })} />}
+                    {!!organization.tag5 && <Chip title={organization.tag5} containerStyle={{ marginTop: 5, marginBottom: 5 }} size='sm' onPress={() => navigation.replace('TagFiltering', { tag: organization.tag5 })} />}
                 </View>
             </ScrollView>
         </MainLayout>

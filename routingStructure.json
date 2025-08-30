@@ -47,7 +47,7 @@
             "colors": ["#13689E","#13689E"],
             "title":"Documentos y denuncias",
             "buttons": [
-                { "title": "Documentos Ecuador",  "buttons": [
+                { "title": "Documentos Ecuador", "buttonTittle":"A continuación encontrarás las organizaciones e instituciones del directorio que prestan servicios relacionados a Asesoría Legal", "buttons": [
                     { "title": "Documentos de identidad",   "screen": "documents_identity"},
                     { "title": "Licencia de conducir",   "screen": "documents_driver"},
                     { "title": "Documentos Electorales",   "screen": "documents_elections"}
