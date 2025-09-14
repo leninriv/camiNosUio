@@ -71,14 +71,13 @@
             ]
         },        
         "live_together": {
-            "colors": ["#94114eff", "#94114eff"],
-            "title":"Habitar Quito",
+            "colors": ["#F79D2B", "#F79D2B"],
+            "title":"Convivir",
             "buttons": [
-                { "title": "Transporte Público",  "screen": "transportation", "buttonTittle":"Aquí podrás conocer datos para que puedas integrarte a los circuitos urbanos y apropiarte del espacio público. " },
+                { "title": "Sistema metropolitano de transporte público",  "screen": "ImageZoom", "buttonTittle":"Aquí podrás conocer datos para que puedas integrarte a los circuitos urbanos y apropiarte del espacio público. "  },
+                { "title": "Rutas de transporte público",  "screen": "transportation"},
                 { "title": "Espacios Públicos",   "screen": "public_area"},
-                { "title": "Glosario",    "screen": "glosary" },
-                { "title": "Rutas de transportes",    "screen": "ImageZoom" }
-                
+                { "title": "Glosario",    "screen": "glosary" } 
             ]
         },
         "scholar": {
@@ -93,11 +92,7 @@
         "rights": {
             "colors": ["#DD1868","#DD1868"],
             "title":"Mis Derechos",
-            "buttons": [
-                { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
-                { "title": "Convención internacional refugio",   "screen": "international_help" },
-                { "title": "Declaración Universal DDHH",   "screen": "dd_hh" }
-            ]
+            "buttons": []
         },
         "regularization": {
             "colors":  ["#14A5B1","#14A5B1"],
@@ -107,7 +102,6 @@
                 [
                     {"title":"Informacion respecto al ingreso al Ecuador", "buttonTittle":"Se recomienda consultar directamente en el sitio web de la Cansilleria puesto que la politica migratoria esta variando considerablemente.", "screen": "ecuador_comming" },
                     {"title":"Tipos de Visa",  "screen": "visa_type" }
-
                 ]},
                 { "title": "No tengo pasaporte",  "buttons": [
                     { "title": "Soy de Venezuela",   "screen": "venezuela_emb" },
@@ -119,84 +113,88 @@
             ]
         },
 
-"rightsProtectionMenu":{
-    "colors": ["#7a1194","#7a1194"],
-    "title":"Rutas",
-    "buttons": [  
-        {"title":"Violencia", "buttonTittle":"Aquí encuentras los pasos claros para ejercer tus derechos, presentar denuncias y acceder a apoyo institucional. Esta guía te acompaña paso a paso en cada proceso: atención a salud y casos de violencia, acceso a la educación y regularización de condición migratoria"},
-        {"title":"Salud integral" },
-        {"title":"Regularización" },
-        {"title":"Inserción escolar" }]
-},
-
-"rightsProtection": {
-    "colors": ["#7a1194","#7a1194"],
-    "title":"Protección de derechos",
-    "buttons": [
-        { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
-            { "title": "Es una emergencia*", "buttonTittle":"Es víctima o conoce de un caso de violencia basada en género", "screen": "emergency" },
-            { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
-            { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
-            { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
-                { "title": "Policía*", "buttonTittle":"Si no tienes certeza sobre qué hacer, contáctate con:",  "screen": "police" },
-                { "title": "Centros de Equidad y Justicia*",   "screen": "justice_places" },
-                { "title": "Directorio ONG",   "screen":"ong_directory" }
-            ]},
-            { "title": "No saben como ayudarme",   "screen": "ombudsman" }
-        ],
-        "modal":{"body":"aca todala informacion del modal", "title":"Importante!"} },
-        { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
-            { "title": "Es una emergencia",   "screen": "emergency" },
-            { "title": "Es víctima de violencia",  "buttons": [
-                { "title": "No necesita atención emergente",  "buttons": [
-                    { "title": "Policía",   "screen": "police" },
-                    { "title": "Centros de Equidad y Justicia",   "screen": "justice_places" }
-                ] },
-                { "title": "Necesito hacer una denuncia",  "buttons": [
-                    { "title": "Delitos\n(amenaza, agresiones, abuso)", "buttonTittle":"Se pueden hacer denuncias ante varias entidades dependiendo del tipo de vulneración:" , "buttons": [
-                        { "title": "Fiscalía", "buttonTittle":"Fiscalía interviene en procesos penales solicitando al juez medidas para garantizar la seguridad de víctimas y testigos; las Juntas Cantonales de Protección de Derechos dictan directamente medidas administrativas inmediatas para proteger a niños, niñas y adolescentes en riesgo; y los Juzgados de Familia, Mujer, Niñez y Adolescencia emiten medidas judiciales de protección en casos de violencia de género, intrafamiliar o vulneración de derechos, como boletas de auxilio, prohibición de acercamiento o salida del agresor del hogar.\n\nEn el caso de delitos, debemos poner en conocimiento de:",  "screen":"fiscaly"},
-                        { "title": "Junta cantonal de Protección de Derechos",  "route":"directory_result", "params": {"name":"Juntas"} },
-                        { "title": "Juzgados de Familia, Mujer, Niñez y Adolescencia",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
-                    ] },
-                    { "title": "Contravenciones\n(Insultos, escándalo)",  "buttons": [
-                        { "title": "Junta Cantonal de Protección de Derechos",  "buttonTittle":"En el caso de contravenciones, debemos poner en conocimiento de:", "route":"directory_result", "params": {"name":"Juntas"} },
-                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",   "route":"directory_result", "params": {"tag":"Ejercicio de justicia"}  },
-                        { "title": "Jueces de Contravenciones",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} },
-                        { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia", "route":"directory_result", "params": {"tag":"Unindad judicial"}}
+        "rightsProtectionMenu":{
+            "colors": ["#7a1194","#7a1194"],
+            "title":"Rutas",
+            "buttons": [  
+                {"title":"Violencia", "buttonTittle":"Aquí encuentras los pasos claros para ejercer tus derechos, presentar denuncias y acceder a apoyo institucional. Esta guía te acompaña paso a paso en cada proceso: atención a salud y casos de violencia, acceso a la educación y regularización de condición migratoria"},
+                {"title":"Salud integral" },
+                {"title":"Regularización" },
+                {"title":"Inserción escolar" }]
+        },
+        "rightsProtection": {
+            "colors": ["#7a1194","#7a1194"],
+            "title":"Protección de derechos",
+            "buttons": [
+                { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
+                    { "title": "Es una emergencia*", "buttonTittle":"Es víctima o conoce de un caso de violencia basada en género", "screen": "emergency" },
+                    { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
+                    { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
+                    { "title": "No tengo seguridad sobre qué hacer",  "buttons": [
+                        { "title": "Policía*", "buttonTittle":"Si no tienes certeza sobre qué hacer, contáctate con:",  "screen": "police" },
+                        { "title": "Centros de Equidad y Justicia*",   "screen": "justice_places" },
+                        { "title": "Directorio ONG",   "screen":"ong_directory" }
                     ]},
-                    { "title": "Otras vulneraciones",  "buttons": [
-                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**", "buttonTittle":"En el caso de otro tipo de vulneraciones, podemos acudir a:", "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
-                        ]},
-                    { "title": "Si el agresor es funcionario/a público",   "screen": "public_server" }
+                    { "title": "No saben como ayudarme",   "screen": "ombudsman" }
+                ],
+                "modal":{"body":"aca todala informacion del modal", "title":"Importante!"} },
+                { "title": "Protección a niños, niñas y adolescentes",  "buttons": [
+                    { "title": "Es una emergencia",   "screen": "emergency" },
+                    { "title": "Es víctima de violencia",  "buttons": [
+                        { "title": "No necesita atención emergente",  "buttons": [
+                            { "title": "Policía",   "screen": "police" },
+                            { "title": "Centros de Equidad y Justicia",   "screen": "justice_places" }
+                        ] },
+                        { "title": "Necesito hacer una denuncia",  "buttons": [
+                            { "title": "Delitos\n(amenaza, agresiones, abuso)", "buttonTittle":"Se pueden hacer denuncias ante varias entidades dependiendo del tipo de vulneración:" , "buttons": [
+                                { "title": "Fiscalía", "buttonTittle":"Fiscalía interviene en procesos penales solicitando al juez medidas para garantizar la seguridad de víctimas y testigos; las Juntas Cantonales de Protección de Derechos dictan directamente medidas administrativas inmediatas para proteger a niños, niñas y adolescentes en riesgo; y los Juzgados de Familia, Mujer, Niñez y Adolescencia emiten medidas judiciales de protección en casos de violencia de género, intrafamiliar o vulneración de derechos, como boletas de auxilio, prohibición de acercamiento o salida del agresor del hogar.\n\nEn el caso de delitos, debemos poner en conocimiento de:",  "screen":"fiscaly"},
+                                { "title": "Junta cantonal de Protección de Derechos",  "route":"directory_result", "params": {"name":"Juntas"} },
+                                { "title": "Juzgados de Familia, Mujer, Niñez y Adolescencia",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
+                            ] },
+                            { "title": "Contravenciones\n(Insultos, escándalo)",  "buttons": [
+                                { "title": "Junta Cantonal de Protección de Derechos",  "buttonTittle":"En el caso de contravenciones, debemos poner en conocimiento de:", "route":"directory_result", "params": {"name":"Juntas"} },
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia*",   "route":"directory_result", "params": {"tag":"Ejercicio de justicia"}  },
+                                { "title": "Jueces de Contravenciones",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} },
+                                { "title": "Unidades Judiciales de Violencia contra la Mujer y la Familia", "route":"directory_result", "params": {"tag":"Unindad judicial"}}
+                            ]},
+                            { "title": "Otras vulneraciones",  "buttons": [
+                                { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia**", "buttonTittle":"En el caso de otro tipo de vulneraciones, podemos acudir a:", "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
+                                ]},
+                            { "title": "Si el agresor es funcionario/a público",   "screen": "public_server" }
+                        ] }
+                    ]},
+                    { "title": "Necesita atención médica",   "screen": "need_medic_help" },
+                    { "title": "Requiere medidas de protección legal",  "buttons": [
+                        { "title": "DINAPEN",   "screen": "dinapen" }
+                    ] },
+                    { "title": "Seguimiento medidas de protección",   "screen": "follow_protection" }
+                ] },
+                { "title": "Inserción escolar",  "buttons": [
+                    { "title": "Documentación necesaria",   "screen": "necessary_document"  },
+                    { "title": "Proceso regular",   "screen": "regular_process" },
+                    { "title": "Situación de vulnerabilidad",  "buttons": [
+                        { "title": "Acceder al sistema educativo", "screen": "education_access", "buttonTittle":"Las personas en situación de movilidad humana son consideradas personas en situación de vulnerabilidad, contando con los siguientes beneficios de conformidad con el Acuerdo ministerial No. MINEDUC-MINEDUC-2021-00026-A. Con lo cual el estudiante puede:"},
+                        { "title": "Incorporación a otras instituciones",   "screen": "other_institution" },
+                        { "title": "Acceder al proceso de aprestamiento",   "screen": "apress_process" },
+                        { "title": "Recibir acompañamiento",   "screen": "get_help" }
+                    ] }
                 ] }
-            ]},
-            { "title": "Necesita atención médica",   "screen": "need_medic_help" },
-            { "title": "Requiere medidas de protección legal",  "buttons": [
-                { "title": "DINAPEN",   "screen": "dinapen" }
-            ] },
-            { "title": "Seguimiento medidas de protección",   "screen": "follow_protection" }
-        ] },
-        { "title": "Inserción escolar",  "buttons": [
-            { "title": "Documentación necesaria",   "screen": "necessary_document"  },
-            { "title": "Proceso regular",   "screen": "regular_process" },
-            { "title": "Situación de vulnerabilidad",  "buttons": [
-                { "title": "Acceder al sistema educativo", "screen": "education_access", "buttonTittle":"Las personas en situación de movilidad humana son consideradas personas en situación de vulnerabilidad, contando con los siguientes beneficios de conformidad con el Acuerdo ministerial No. MINEDUC-MINEDUC-2021-00026-A. Con lo cual el estudiante puede:"},
-                { "title": "Incorporación a otras instituciones",   "screen": "other_institution" },
-                { "title": "Acceder al proceso de aprestamiento",   "screen": "apress_process" },
-                { "title": "Recibir acompañamiento",   "screen": "get_help" }
-            ] }
-        ] }
-    ]
-},
+            ]
+        },
         "information": {
             "colors": ["white"],
             "title":"Información clave",
             "buttons": [
                 { "title": "Cambio divisas",   "screen": "money_exchange", "buttonTittle":"Aquí podrás conocer datos clave para moverte, orientarte, disfrutar e integrarte mejor en Quito. Explora esta sección pensada para ti." },
                 { "title": "Cuentas de banco",    "screen": "bank_account" },
-                { "title": "Consulados y embajadas",    "screen": "embassies" },
-                { "title": "Portales públicos de búsqueda de empleo",    "screen": "find_job" },
-                { "title": "Redes y comunidad",    "screen": "community_networs" }   
+                { "title": "Pico y placa",    "screen": "peak_and_plate" }
+            ]
+        },
+        "job_and_productivity": {
+            "colors": ["#b30040", "#b30040"],
+            "title":"Empleo y productividad",
+            "buttons": [
+                { "title": "Portales públicos de búsqueda de empleo", "screen": "find_job" }
             ]
         },
         "directory": {
@@ -208,6 +206,20 @@
                 { "title": "Organismos internacionales",   "route":"directory_result", "params": {"type":"Organismo internacional"} },
                 { "title": "Organizaciones religiosas",   "route":"directory_result", "params": {"type":"Organización religiosa"} }             
             ]
+        },
+        "regularization_level": {
+            "colors": ["#14A5B1", "#14A5B1"],
+            "title":"Movilidad humana",
+            "buttons": [
+                { "title": "Regularizacion",  "buttons":[]},
+                { "title": "Base legal", "buttons": [
+                    { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
+                    { "title": "Convención internacional refugio",   "screen": "international_help" },
+                    { "title": "Declaración Universal DDHH",   "screen": "dd_hh" } 
+            ]},
+                { "title": "Consulados y embajadas",    "screen": "embassies" },
+                { "title": "Redes y comunidad",    "screen": "community_networs" }  
+        ]
         }
     }
 }

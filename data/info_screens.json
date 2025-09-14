@@ -397,17 +397,21 @@
     },
     "public_area": {
         "type": "paragraph",
-        "content1": "Quito es una ciudad con una geografía única con plazas, parques, quebradas en todo su territorio.",
+        "content1": "Quito es una ciudad con una geografía única con quebradas, plazas, parques, museos y centros culturales en todo su territorio.\n",
         "link1": {
-            "type": "external",
-            "name": "Conoce espacios biodiversos",
-            "url": "https://www.quito-turismo.gob.ec/news/entornos-magicos-y-biodiversos-aguardan-en-quito-a-los-amantes-de-la-naturaleza/  "
+            "type": "internal",
+            "name": "Parques",
+            "filter": {
+                "tag": "Parques"
+            }
         },
-        "content2": "Conoce los parques metropolitanos y áreas verdes",
+        "content2":" ",
         "link2": {
-            "type": "external",
-            "name": "Mic",
-            "url": "https://www.micequito.ec/tipo_establecimiento/locaciones/parques-metropolitanos-y-areas-verdes/  "
+            "type": "internal",
+            "name": "Museos y centros culturales",
+            "filter": {
+                "tag": "Museos y centros culturales"
+            }
         }
     },
     "universal_city": {
@@ -764,5 +768,17 @@
             "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf "
         },
         "content3": "\nTambién te recomendamos visitar a través de la web portales privados y de universidades para ampliar tu búsqueda."
+    },
+    "peak_and_plate":{
+        "title": "Pico y placa",
+        "type": "paragraph",
+        "content1": "En el sistema de circulación vehicular dentro de la ciudad de Quito existe el plan de restricción vehicular ‘Pico y Placa’ donde los conductores deben evitar movilizarse en sus vehículos en los horarios restringidos por día y por placa.",
+        "link1": {},
+        "content2":"- Horario de la mañana: Desde las 06:00 hasta las 09:30\n-Horario de la tarde: Desde las 16:00 hasta las 20:00\n\n- Último número de placa: Lunes (1 y 2), Martes (3 y 4), Miércoles (5 y 6), Jueves (7 y 8), Viernes (9 y 10), Sábados-Domingos-Feriado (libre circulación)\n\n- Zona de restricción: Entre el perímetro definido por la Av. Mariscal Sucre (incluida) y Av. Simón Bolívar (excluida)\n",
+            "link2": {
+            "type": "external",
+            "name": "Agencia metropolitana de tránsito",
+            "url": "https://www.amt.gob.ec/index.php/informacion/pico-y-placa/ "
+        }
     }
 }

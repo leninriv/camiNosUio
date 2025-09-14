@@ -11,10 +11,10 @@ export default function HomeScreen(props: any) {
     const { navigation } = props;
     const buttons = [
         {
-            colors: ["#94114eff", '#94114eff'],
+            colors: ["#F79D2B", "#F79D2B"],
             text: 'Convivir',
             route: 'live_together',
-            iconName: 'bus-sharp',
+            iconName: 'people-outline',
         },
         {
             colors: ["#7a1194", '#7a1194'],
@@ -30,8 +30,8 @@ export default function HomeScreen(props: any) {
         },
         {
             colors: ["#14A5B1", "#14A5B1"],
-            text: 'Regularización',
-            route: 'Regularization',
+            text: 'Movilidad humana',
+            route: 'regularization_level',
             iconName: 'card'
         },
         {
@@ -70,13 +70,18 @@ export default function HomeScreen(props: any) {
             route: 'Directory',
             iconName: 'library'
         },
-                {
+        {
             colors: [],
             text: 'Información Clave',
             route: 'Information',
             iconName: 'eye'
         },
-
+        {
+            colors: ["#b30040", "#b30040"],
+            text: 'Empleo y productividad',
+            route: 'find_job',
+            iconName: 'eye'
+        },
     ];
 
     const windowWidth = Dimensions.get('window').width;

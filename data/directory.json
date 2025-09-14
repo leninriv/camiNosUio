@@ -506,7 +506,7 @@
       "area": "Centro-Norte",
       "tag1": "Integración socioeconómica",
       "tag2": "Inserción escolar",
-      "tag3": "Espacios Públicos",
+      "tag3": "",
       "tag4": "",
       "tag5": ""
     },
@@ -2171,7 +2171,7 @@
       "type": "Pública",
       "area": "",
       "tag1": "Integración socioeconómica",
-      "tag2": "Espacios Públicos",
+      "tag2": "",
       "tag3": "",
       "tag4": "",
       "tag5": ""
@@ -5129,9 +5129,9 @@
       "type": "Pública",
       "area": "Centro",
       "tag1": "Integración socioeconómica",
-      "tag2": "Espacios Públicos",
-      "tag3": "Información e investigación",
-      "tag4": "Ocio e inclusión social",
+      "tag2": "Información e investigación",
+      "tag3": "Ocio e inclusión social",
+      "tag4": "",
       "tag5": ""
     },
     {
@@ -5256,125 +5256,6 @@
     {
       "id": "307",
       "release": "",
-      "name": "Unidad Judicial",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "308",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "309",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "310",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "311",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "312",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "313",
-      "release": "",
-      "name": "",
-      "address": "",
-      "phone": "",
-      "email": "",
-      "web": "",
-      "description": "",
-      "type": "Pública",
-      "area": "",
-      "tag1": "Ejercicio de justicia",
-      "tag2": "",
-      "tag3": "",
-      "tag4": "",
-      "tag5": ""
-    },
-    {
-      "id": "314",
-      "release": "",
       "name": "Consejo de Diversidades Sexo Genéricas",
       "address": "Asuno N5108 y De los Alamos",
       "phone": "",
@@ -5390,7 +5271,7 @@
       "tag5": ""
     },
     {
-      "id": "315",
+      "id": "308",
       "release": "",
       "name": "Mercado Central",
       "address": "Av. Pichincha, entre calles Manabí y Esmeraldas",
@@ -5407,7 +5288,7 @@
       "tag5": ""
     },
     {
-      "id": "316",
+      "id": "309",
       "release": "",
       "name": "Mercado San Francisco",
       "address": "Sector San Francisco, junto a Plaza San Francisco",
@@ -5424,7 +5305,7 @@
       "tag5": ""
     },
     {
-      "id": "317",
+      "id": "310",
       "release": "",
       "name": "Mercado Santa Clara",
       "address": "Versalles y Ramírez Dávalos",
@@ -5441,7 +5322,7 @@
       "tag5": ""
     },
     {
-      "id": "318",
+      "id": "311",
       "release": "",
       "name": "Mercado Iñaquito (La Carolina)",
       "address": "Jorge Drom y Alfonso Pereira",
@@ -5458,7 +5339,7 @@
       "tag5": ""
     },
     {
-      "id": "319",
+      "id": "312",
       "release": "",
       "name": "Mercado América",
       "address": "Av. América y Av. Atahualpa",
@@ -5475,7 +5356,7 @@
       "tag5": ""
     },
     {
-      "id": "320",
+      "id": "313",
       "release": "",
       "name": "Mercado Rumiñahui",
       "address": "Av. Luis Tufiño y Hernando Chica",
@@ -5492,7 +5373,7 @@
       "tag5": ""
     },
     {
-      "id": "321",
+      "id": "314",
       "release": "",
       "name": "Mercado Cotocollao",
       "address": "Av. De La Prensa y Av. La Delicia",
@@ -5509,7 +5390,7 @@
       "tag5": ""
     },
     {
-      "id": "322",
+      "id": "315",
       "release": "",
       "name": "Mercado Kennedy",
       "address": "Gonzalo Zaldumbide y Blas Viveros",
@@ -5526,7 +5407,7 @@
       "tag5": ""
     },
     {
-      "id": "323",
+      "id": "316",
       "release": "",
       "name": "Mercado Calderón",
       "address": "Centro de Calderón (junto al parque central)",
@@ -5543,7 +5424,7 @@
       "tag5": ""
     },
     {
-      "id": "324",
+      "id": "317",
       "release": "",
       "name": "Mercado Carapungo",
       "address": "Calle Río Cayambe S/N (frente a Cancha de Carapungo)",
@@ -5560,7 +5441,7 @@
       "tag5": ""
     },
     {
-      "id": "325",
+      "id": "318",
       "release": "",
       "name": "Mercado La Roldós",
       "address": "Oe12C y N84",
@@ -5577,7 +5458,7 @@
       "tag5": ""
     },
     {
-      "id": "326",
+      "id": "319",
       "release": "",
       "name": "Mercado Cumbayá",
       "address": "Francisco de Orellana y El Ceibo",
@@ -5594,7 +5475,7 @@
       "tag5": ""
     },
     {
-      "id": "327",
+      "id": "320",
       "release": "",
       "name": "Mercado Tumbaco",
       "address": "Av. Interoceánica (junto al parque central de Tumbaco)",
@@ -5611,7 +5492,7 @@
       "tag5": ""
     },
     {
-      "id": "328",
+      "id": "321",
       "release": "",
       "name": "Mercado Puembo",
       "address": "Calle García Moreno (parque central de Puembo)",
@@ -5628,7 +5509,7 @@
       "tag5": ""
     },
     {
-      "id": "329",
+      "id": "322",
       "release": "",
       "name": "Mercado Yaruquí",
       "address": "Calle Simón Bolívar y Av. 5 de Junio (centro de Yaruquí)",
@@ -5645,7 +5526,7 @@
       "tag5": ""
     },
     {
-      "id": "330",
+      "id": "323",
       "release": "",
       "name": "Mercado Pifo",
       "address": "Av. Interoceánica y García Moreno (centro de Pifo)",
@@ -5662,7 +5543,7 @@
       "tag5": ""
     },
     {
-      "id": "331",
+      "id": "324",
       "release": "",
       "name": "Mercado Pintag",
       "address": "Calle Quishuar y Manuel Chili (plaza central de Pintag)",
@@ -5679,7 +5560,7 @@
       "tag5": ""
     },
     {
-      "id": "332",
+      "id": "325",
       "release": "",
       "name": "Mercado Amaguaña",
       "address": "García Moreno y Simón Bolívar (centro de Amaguaña)",
@@ -5696,7 +5577,7 @@
       "tag5": ""
     },
     {
-      "id": "333",
+      "id": "326",
       "release": "",
       "name": "Mercado San Roque",
       "address": "Cumandá y Rocafuerte",
@@ -5713,7 +5594,7 @@
       "tag5": ""
     },
     {
-      "id": "334",
+      "id": "327",
       "release": "",
       "name": "Mercado San Bartolo",
       "address": "Francisco Fuentes y Hernando de Benavente",
@@ -5730,7 +5611,7 @@
       "tag5": ""
     },
     {
-      "id": "335",
+      "id": "328",
       "release": "",
       "name": "Mercado Chimbacalle",
       "address": "Sangay e llliniza",
@@ -5747,7 +5628,7 @@
       "tag5": ""
     },
     {
-      "id": "336",
+      "id": "329",
       "release": "",
       "name": "Mercado La Magdalena",
       "address": "Puruhá y Quisquis",
@@ -5764,7 +5645,7 @@
       "tag5": ""
     },
     {
-      "id": "337",
+      "id": "330",
       "release": "",
       "name": "Mercado Solanda",
       "address": "Bonifacio Aguilar y Juan Barreiro",
@@ -5781,7 +5662,7 @@
       "tag5": ""
     },
     {
-      "id": "338",
+      "id": "331",
       "release": "",
       "name": "Mercado La Mena 2",
       "address": "Angamarca y Alonso de Bastidas",
@@ -5798,7 +5679,7 @@
       "tag5": ""
     },
     {
-      "id": "339",
+      "id": "332",
       "release": "",
       "name": "Mercado El Calzado",
       "address": "San Luis y Oe2L",
@@ -5815,7 +5696,7 @@
       "tag5": ""
     },
     {
-      "id": "340",
+      "id": "333",
       "release": "",
       "name": "Mercado Mayorista",
       "address": "Teniente Hugo y Av. Ayapamba",
@@ -5832,7 +5713,7 @@
       "tag5": ""
     },
     {
-      "id": "341",
+      "id": "334",
       "release": "",
       "name": "Bioferia ConQuito (AZ Calderón)",
       "address": "Plataforma AZ Calderón (Av. G. Calles y Padre Vaccari)",
@@ -5849,7 +5730,7 @@
       "tag5": ""
     },
     {
-      "id": "342",
+      "id": "335",
       "release": "",
       "name": "Bioferia AZ Eloy Alfaro",
       "address": "Av. Alonso de Angulo y César Chiriboga",
@@ -5866,7 +5747,7 @@
       "tag5": ""
     },
     {
-      "id": "343",
+      "id": "336",
       "release": "",
       "name": "Bioferia AZ Quitumbe",
       "address": "Av. Cóndor Ñan (junto Plataforma Gubernamental)",
@@ -5883,7 +5764,7 @@
       "tag5": ""
     },
     {
-      "id": "344",
+      "id": "337",
       "release": "",
       "name": "Bioferia AZ Los Chillos",
       "address": "Calle G. Miño s/n y Av. Ilaló",
@@ -5900,7 +5781,7 @@
       "tag5": ""
     },
     {
-      "id": "345",
+      "id": "338",
       "release": "",
       "name": "Bioferia AZ Eugenio Espejo",
       "address": "Av. Amazonas y Pereira",
@@ -5917,7 +5798,7 @@
       "tag5": ""
     },
     {
-      "id": "346",
+      "id": "339",
       "release": "",
       "name": "Bioferia AZ La Delicia",
       "address": "Av. La Prensa y Ramón Chiriboga",
@@ -5934,7 +5815,7 @@
       "tag5": ""
     },
     {
-      "id": "347",
+      "id": "340",
       "release": "",
       "name": "Bioferia ConQuito (Matriz)",
       "address": "Av. Maldonado Oe1-172 y Av. J. del Castillo",
@@ -5951,7 +5832,7 @@
       "tag5": ""
     },
     {
-      "id": "348",
+      "id": "341",
       "release": "",
       "name": "Bioferia Parque Bicentenario (Bomberos)",
       "address": "Junto Estación Bomberos",
@@ -5968,7 +5849,7 @@
       "tag5": ""
     },
     {
-      "id": "349",
+      "id": "342",
       "release": "",
       "name": "Bioferia Parque Bicentenario (Convenciones)",
       "address": "Acceso Av. Amazonas (Centro Convenciones)",
@@ -5985,7 +5866,7 @@
       "tag5": ""
     },
     {
-      "id": "350",
+      "id": "343",
       "release": "",
       "name": "Bioferia Parque Inglés",
       "address": "Parque Inglés, Av. Fernández Salvador y Av. Machala",
@@ -6002,7 +5883,7 @@
       "tag5": ""
     },
     {
-      "id": "351",
+      "id": "344",
       "release": "",
       "name": "Bioferia Parque La Carolina",
       "address": "Cruz del Papa",
@@ -6019,7 +5900,7 @@
       "tag5": ""
     },
     {
-      "id": "352",
+      "id": "345",
       "release": "",
       "name": "Bioferia Parque del Agua",
       "address": "Calle Alemania y Av. Mariana de Jesús",
@@ -6036,7 +5917,7 @@
       "tag5": ""
     },
     {
-      "id": "353",
+      "id": "346",
       "release": "",
       "name": "Bioferia Parque Las Cuadras",
       "address": "Av. Rumichaca Ñan y Matilde Pérez",
@@ -6053,7 +5934,7 @@
       "tag5": ""
     },
     {
-      "id": "354",
+      "id": "347",
       "release": "",
       "name": "Bioferia Parque Metropolitano La Armenia",
       "address": "Calle S. Benalcázar (Los Chillos)",
@@ -6070,7 +5951,7 @@
       "tag5": ""
     },
     {
-      "id": "355",
+      "id": "348",
       "release": "",
       "name": "Bioferia Parque Itchimbía",
       "address": "Junto oficinas administración",
@@ -6087,7 +5968,7 @@
       "tag5": ""
     },
     {
-      "id": "356",
+      "id": "349",
       "release": "",
       "name": "Bioferia Parque Padre Carollo",
       "address": "Sector La Ecuatoriana (ex Fundeporte)",
@@ -6104,7 +5985,7 @@
       "tag5": ""
     },
     {
-      "id": "357",
+      "id": "350",
       "release": "",
       "name": "Bioferia Parque Equinoccial",
       "address": "Av. Simón Bolívar (norte)",
@@ -6121,7 +6002,7 @@
       "tag5": ""
     },
     {
-      "id": "358",
+      "id": "351",
       "release": "",
       "name": "Bioferia Parque La Moya",
       "address": "Calle Julio Moreno y Pasaje C",
@@ -6138,7 +6019,7 @@
       "tag5": ""
     },
     {
-      "id": "359",
+      "id": "352",
       "release": "",
       "name": "Bioferia Cumbayá",
       "address": "Subcentro de Salud N°14 – Francisco de Orellana y Juan Montalvo",
@@ -6155,7 +6036,7 @@
       "tag5": ""
     },
     {
-      "id": "360",
+      "id": "353",
       "release": "",
       "name": "Bioferia Casa Somos Cotocollao",
       "address": "Calle Santa Teresa, entre Alfonso del Hierro y B. Quevedo",
@@ -6166,6 +6047,414 @@
       "type": "Pública",
       "area": "Norte",
       "tag1": "Alimentación",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "354",
+      "release": "",
+      "name": "Museo de la Ciudad",
+      "address": "García Moreno y Rocafuerte",
+      "phone": "",
+      "email": "",
+      "web": "https://fundacionmuseosquito.gob.ec/museo-de-la-ciudad/",
+      "description": "Museo de historia y memoria social. A través de sus investigaciones, exposiciones y programas educativos busca promover reflexiones sobre diversas problemáticas sociales del DMQ.\n \n Horarios:\n De miércoles a viernes, de 08h30 a 16h30 (último ingreso a las 15h45)\n Fines de semana y feriados, de 09h30 a 17h30 (último ingreso a las 16h45)",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "355",
+      "release": "",
+      "name": "Museo del Carmen Alto",
+      "address": "García Moreno y Rocafuerte",
+      "phone": "",
+      "email": "",
+      "web": "https://fundacionmuseosquito.gob.ec/mca1/",
+      "description": "El Museo del Carmen Alto fomenta el disfrute, la reflexión y la producción alrededor de narrativas críticas y reflexivas sobre el arte, la cultura, la religiosidad y el rol de las mujeres en la historia.\n \n De miércoles a viernes de 08h30 a 16h30 (último ingreso 16h00)\n Sábados desde las 09h30 hasta las 20h00 ( último ingreso 19h30) y Domingos desde las 09h30 hasta las 17H30 (último ingreso a las 16h45)",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "356",
+      "release": "",
+      "name": "Museo Interactivo de Ciencia (MIC)",
+      "address": "Sincholagua y Av. Maldonado.",
+      "phone": "",
+      "email": "",
+      "web": "https://fundacionmuseosquito.gob.ec/espacio-museo-interactivo-de-ciencia/",
+      "description": "El Museo Interactivo de Ciencia (MIC) busca mantener viva la curiosidad del ser humano mediante experiencias que trascienden e incentivan el pensamiento crítico y científico, y que invitan a la ciudadanía a descubrir, reflexionar y repensar lo cotidiano a través de la ciencia.\n \n Horario:\n De miércoles a viernes, de 08h00 a 16h00 (último ingreso a las 15h00)\n Fines de semana y feriados, de 09h00 a 17h00 (último ingreso a las 16h00)",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "357",
+      "release": "",
+      "name": "Yaku – Parque Museo del Agua",
+      "address": "Barrio El Placer Oe11 271 (Ingreso Peatonal)/ Calles Bolívar y Rocafuerte (Ingreso peatonal y vehicular).",
+      "phone": "",
+      "email": "",
+      "web": "https://fundacionmuseosquito.gob.ec/espacio-yaku-parque-museo-del-agua/",
+      "description": "Yaku es un lugar en donde se busca generar espacios de reflexión, diálogo y participación sobre nuestra relación individual y colectiva con el agua, en sus distintas dimensiones. A través del juego y el arte se busca la co-construcción de significados en torno al agua, a la reflexión y ejercicio de los derechos culturales.\n \n Horario:\n De martes a viernes, de 08h30 a 16h30 (último ingreso 15h45)\n Fines de semana y feriados, de 09h00 a 17h30 (último ingreso 16h00)",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "358",
+      "release": "",
+      "name": "Centro de Arte Contemporáneo (CAC)",
+      "address": "Montevideo y Luis Dávila Barrio San Juan",
+      "phone": "",
+      "email": "",
+      "web": "https://fundacionmuseosquito.gob.ec/centro-de-arte-contemporaneo/",
+      "description": "El Centro de Arte Contemporáneo (CAC) es un espacio que busca acoger las prácticas artísticas y las culturas contemporáneas en su amplia y compleja diversidad.\n \n Horario:\n De miércoles a Domingo de 10h00 a 17h30.\n (Último ingreso 16h45)",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "359",
+      "release": "",
+      "name": "Museo Nacional del Ecuador",
+      "address": "Av. 6 de diciembre y Av. Patria Edificio de la Casa de la Cultura Ecuatoriana Quito, Ecuador.",
+      "phone": "",
+      "email": "",
+      "web": "https://muna.culturaypatrimonio.gob.ec/",
+      "description": "El Museo Nacional del Ecuador (MuNA) conserva, expone y alimenta las colecciones artísticas y producciones culturales vinculadas a la historia del Ecuador.\n \n Horario:\n Martes a sábado (10h00 - 17h00)\n Domingo (10h00 - 16h00)",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "360",
+      "release": "",
+      "name": "Centro Cultural Metropolitano",
+      "address": "García Moreno y Espejo esquina.",
+      "phone": "",
+      "email": "",
+      "web": "",
+      "description": "El Centro Cultural Metropolitano es un espacio cultural, diverso y multidisciplinario que contribuye desde sus enfoques de interculturalidad, intergeneracionalidad, diversidades, género e inclusión a generar, proponer y crear procesos, servicios, actividades y experiencias que garanticen el ejercicio de los derechos culturales de quienes habitan el Distrito Metropolitano de Quito.\n \n Horario:\n lunes a domingo de 9:30 a 16:30.",
+      "type": "Pública",
+      "area": "Norte",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "361",
+      "release": "",
+      "name": "Ciudad Mitad del Mundo",
+      "address": "Av. Manuel Córdova Galarza SN.",
+      "phone": "",
+      "email": "",
+      "web": "https://mitaddelmundo.gob.ec/",
+      "description": "Ciudad Mitad del Mundo es un popular destino turístico de la ciudad de Quito proclamado Patrimonio Cultural del Ecuador. \n \n Horario:\n Abierto los 365 días del año.",
+      "type": "Pública",
+      "area": "Parroquias rurales",
+      "tag1": "Museos y centros culturales",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "362",
+      "release": "",
+      "name": "Teleférico de Quito",
+      "address": "Fulgencio Araujo y Av. Occidental, sector de La Comuna",
+      "phone": "",
+      "email": "",
+      "web": "https://teleferico.com.ec/",
+      "description": "TelefériQo de Quito es una experiencia turística que cuenta con un recorrido de 20 minutos en los que se asciende al complejo volcánico del Pichincha, serie de montañas que cobija la ciudad (Cruz Loma, Rucu Pichincha, Guagua Pichincha y Padre Encantado), a 4000 metros sobre el nivel de mar. Tarifas de entre USD 2.50 a USD 7.00.\n \n Horario:\n Lunes a Jueves (10h00 a 18h00)\n Viernes (08h00 a 18h00)\n Sábado y domingo (08h00 a 19h00)",
+      "type": "Pública",
+      "area": "Norte",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "363",
+      "release": "",
+      "name": "Parque La Armenia",
+      "address": "Ubicado en Av. Sebastián de Benalcázar y Gualberto Arcos",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-armenia/",
+      "description": "Parque metropolitano ubicado en el Valle de Los Chillos",
+      "type": "Pública",
+      "area": "Valle de los Chillos",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "364",
+      "release": "",
+      "name": "Parque El Ejido",
+      "address": "Ubicado entre Av. 10 de Agosto, Av. Patria, Av. Tarqui y Av. 6 de Diciembre",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-el-ejido/",
+      "description": "Parque metropolitano de 13,32 hectáreas ubicado en el centro de Quito.",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "365",
+      "release": "",
+      "name": "Parque La Carolina",
+      "address": "Ubicado entre Av. Amazonas, Av. República, Av. De los Shyris, y Av. Naciones Unidas",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-la-carolina/",
+      "description": "Parque metropolitano de 61,35 hectáreas ubicado en el centro norte de Quito.",
+      "type": "Pública",
+      "area": "Centro-Norte",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "366",
+      "release": "",
+      "name": "Parque Itchimbía",
+      "address": "Ubicado en el centro de Quito, entre Yaguachi e Iquique en el barrio de La Tola",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-itchimbia/",
+      "description": "Parque metropolitano de 54 hectáreas ubicado en el centro de Quito.",
+      "type": "Pública",
+      "area": "Centro",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "367",
+      "release": "",
+      "name": "Parque Cuscungo",
+      "address": "Ubicado en la Av. General Rumiñahui",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-cuscungo-2/",
+      "description": "Parque metropolitano ubicado en el sur de Quito.",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "368",
+      "release": "",
+      "name": "Parque de la Mujer y el Niño",
+      "address": "Ubicado en la Av. Mariana de Jesús",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-de-la-mujer/",
+      "description": "Parque metropolitano ubicado en el centro norte de Quito.",
+      "type": "Pública",
+      "area": "Centro-Norte",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "369",
+      "release": "",
+      "name": "Parque Bicentenario",
+      "address": "Ubicado entre la Av. Galo Plaza Lasso, Isaac Albeniz y Av. Amazonas",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-bicentenario/",
+      "description": "Parque metropolitano de 103,28 hectáreas ubicado en el norte de Quito, en el lugar donde se emplazó el antiguo aeropuerto de la ciudad",
+      "type": "Pública",
+      "area": "Norte",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "370",
+      "release": "",
+      "name": "Parque Guanguiltagua",
+      "address": "Ubicado sobre la Av. Guanguiltagua",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-guanguiltagua/",
+      "description": "Parque metropolitano de 558,43 hectáreas ubicado en el norte de Quito.",
+      "type": "Pública",
+      "area": "Centro-Norte",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "371",
+      "release": "",
+      "name": "Parque Las Cuadras",
+      "address": "Ubicado entre Avenida Quitumbe Ñan, Rumichaca Ñan y Amaru Ñan",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-las-cuadras/",
+      "description": "Parque metropolitano de 19,88 hectáreas ubicado en el sur de Quito.",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "372",
+      "release": "",
+      "name": "Parque La Alameda",
+      "address": "Ubicado entre la Av. Gran Colombia, Av. 10 de Agosto y Luis Sodiro",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-la-alameda/",
+      "description": "Parque metropolitano de 6,13 hectáreas ubicado en el centro de Quito.",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "373",
+      "release": "",
+      "name": "Parque Carollo",
+      "address": "Ubicado en la Av. Mariscal Sucre",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-carollo/",
+      "description": "Parque metropolitano de 29 hectáreas ubciado en el sur de Quito.",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "374",
+      "release": "",
+      "name": "Parque Metro Sur",
+      "address": "Ubicado sobre la Av. Simón Bolívar",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-metro-sur/",
+      "description": "Parque metropolitano de 667,53 hectáreas ubicado en el sur de Quito.",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "375",
+      "release": "",
+      "name": "Parque Chilibulo",
+      "address": "Ubicado sobre Chilibulo, en el Barrio La Mena",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-chilibulo/",
+      "description": "Parque metropolitano de 303,48 ubicada en el sur de Quito",
+      "type": "Pública",
+      "area": "Sur",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "376",
+      "release": "",
+      "name": "Parque Equinoccial",
+      "address": "Ubicado sobre la Av. Simón Bolívar",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-equinoccial/",
+      "description": "Parque metropolitano ubicado en el norte de Quito",
+      "type": "Pública",
+      "area": "Parroquias rurales",
+      "tag1": "Parques",
+      "tag2": "",
+      "tag3": "",
+      "tag4": "",
+      "tag5": ""
+    },
+    {
+      "id": "377",
+      "release": "",
+      "name": "Parque El Chaquiñán",
+      "address": "Ubicado en Tumbaco y Puembo",
+      "phone": "",
+      "email": "",
+      "web": "https://www.epmmop.gob.ec/parques/parque-el-chaquinan/",
+      "description": "Parque metropolitano ubicado en las parroquias de Puembo y Tumbaco sobre la antigua ruta del ferrocarril. Ruta de exploración y ciclismo.",
+      "type": "Pública",
+      "area": "Valles Cumbayá y Tumbaco",
+      "tag1": "Parques",
       "tag2": "",
       "tag3": "",
       "tag4": "",

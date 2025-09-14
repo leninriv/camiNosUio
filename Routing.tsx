@@ -55,6 +55,9 @@ export default function Routing() {
 
     rightsProtectionMenu.buttons[1].buttons = healthRoutes.buttons;
 
+    const regularizationLevel: any = routes.regularization_level;
+    regularizationLevel.buttons[0].buttons = routes.regularization.buttons;
+
     return (
         <NavigationContainer>
             <Drawer.Navigator
@@ -78,6 +81,8 @@ export default function Routing() {
                 <Drawer.Screen name="Rights" component={GlobalContainer} initialParams={routes.rights} />
                 <Drawer.Screen name="Regularization" component={GlobalContainer} initialParams={routes.regularization} />
                 <Drawer.Screen name="live_together" component={GlobalContainer} initialParams={routes.live_together} />
+                <Drawer.Screen name="find_job" component={GlobalContainer} initialParams={routes.job_and_productivity} />
+                <Drawer.Screen name="regularization_level" component={GlobalContainer} initialParams={regularizationLevel} />
                 <Drawer.Screen name="Search" component={SearchNav} />
             </Drawer.Navigator>
         </NavigationContainer>
