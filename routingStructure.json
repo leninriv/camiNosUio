@@ -22,7 +22,7 @@
             "colors": ["#4CA247","#4CA247"],
             "title":"Salud integral",
             "buttons": [
-                { "title": "Es una emergencia", "buttons":[
+                { "title": "Es una emergencia", "buttonTittle":"En las siguientes pantallas podrás encontrar información para la atención de salud.", "buttons":[
                     { "title": "Es una emergencia de salud",   "screen": "emergency" },
                     { "title": "Es un caso de violencia",   "buttons":[] }
                 ] },
@@ -67,7 +67,7 @@
             "colors": ["#F79D2B","#F79D2B"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Alojamiento y vivienda",  "screen": "home_and_hotel" }
+                { "title": "Alojamiento y vivienda", "buttonTittle":"En esta sección encontrarás información relacionada a vivienda y alojamiento.", "screen": "home_and_hotel" }
             ]
         },        
         "live_together": {
@@ -84,7 +84,7 @@
             "colors": ["#C52030","#C52030"],
             "title":"Inserción escolar",
             "buttons": [
-                { "title": "Derechos educativos",   "screen": "educational_rights" },
+                { "title": "Derechos educativos", "buttonTittle":"En esta pantalla encontrarás información sobre cómo vincularte a procesos de educación formal nacional y programas municipales específicos.",  "screen": "educational_rights" },
                 { "title": "Sistema educativo nacional",   "screen": "educational_system" },
                 { "title": "Programas municipales",   "screen": "municipal_programs" }
             ]
@@ -92,7 +92,9 @@
         "rights": {
             "colors": ["#DD1868","#DD1868"],
             "title":"Mis Derechos",
-            "buttons": []
+            "buttons": [
+                { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios del marco normativo universal de derechos humanos y artículos de la Constitución del Ecuador donde se garantizan los derechos humanos fundamentales."}
+            ]
         },
         "regularization": {
             "colors":  ["#14A5B1","#14A5B1"],
@@ -112,7 +114,6 @@
                 ] }
             ]
         },
-
         "rightsProtectionMenu":{
             "colors": ["#7a1194","#7a1194"],
             "title":"Rutas",
@@ -126,7 +127,7 @@
             "colors": ["#7a1194","#7a1194"],
             "title":"Protección de derechos",
             "buttons": [
-                { "title": "Violencia basada en género", "colors": ["#7a1194","#7a1194"],  "buttons": [
+                { "title": "Violencia basada en género", "buttonTittle":"En esta pantalla podrás encontrar información que te guiará sobre los pasos para seguir frente a casos específicos de violencia.", "colors": ["#7a1194","#7a1194"],  "buttons": [
                     { "title": "Es una emergencia*", "buttonTittle":"Es víctima o conoce de un caso de violencia basada en género", "screen": "emergency" },
                     { "title": "Necesito hacer una denuncia*",   "screen": "Necesito hacer una denuncia" },
                     { "title": "Necesita atención médica*",   "screen": "need_medic_help" },
@@ -194,7 +195,7 @@
             "colors": ["#b30040", "#b30040"],
             "title":"Empleo y productividad",
             "buttons": [
-                { "title": "Portales públicos de búsqueda de empleo", "screen": "find_job" }
+                { "title": "Portales públicos de búsqueda de empleo", "buttonTittle":"En esta sección encontrarás información sobre los portales públicos de búsqueda de empleo", "screen": "find_job" }
             ]
         },
         "directory": {
@@ -211,7 +212,7 @@
             "colors": ["#14A5B1", "#14A5B1"],
             "title":"Movilidad humana",
             "buttons": [
-                { "title": "Regularizacion",  "buttons":[]},
+                { "title": "Regularizacion", "buttonTittle":"En esta sección encontrarás información de utilidad para personas en situación de movilidad humana que habitan Quito.", "buttons":[]},
                 { "title": "Base legal", "buttons": [
                     { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
                     { "title": "Convención internacional refugio",   "screen": "international_help" },
