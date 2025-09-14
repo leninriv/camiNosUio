@@ -9,6 +9,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import InfoScreenContainer from './InfoScreenContainer';
 import SearchContainer from './SearchContainer';
 import DirectoryViewScreen from './DirectoryViewScreen';
+import ZoomImageViewer from '../components/ZoomImageViewer';
 
 const InspectionTabBarOptions = {
     headerShown: false,
@@ -58,6 +59,7 @@ export default function GlobalContainer(props: any) {
                     <Stack.Screen name='directory_result' component={SearchContainer} />
                     <Stack.Screen name="DirectoryView" component={DirectoryViewScreen} />
                     <Stack.Screen name='TagFiltering' component={SearchContainer} />
+                    <Stack.Screen name='ImageZoom' component={ZoomImageViewer} />
                 </Stack.Navigator>
             </NavigationContainer>
         </View>

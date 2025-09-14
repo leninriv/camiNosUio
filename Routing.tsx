@@ -77,6 +77,7 @@ export default function Routing() {
                 <Drawer.Screen name="Scholar" component={GlobalContainer} initialParams={scholarRoutes} />
                 <Drawer.Screen name="Rights" component={GlobalContainer} initialParams={routes.rights} />
                 <Drawer.Screen name="Regularization" component={GlobalContainer} initialParams={routes.regularization} />
+                <Drawer.Screen name="live_together" component={GlobalContainer} initialParams={routes.live_together} />
                 <Drawer.Screen name="Search" component={SearchNav} />
             </Drawer.Navigator>
         </NavigationContainer>

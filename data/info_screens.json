@@ -175,27 +175,31 @@
     "transportation": {
         "title": "",
         "type": "paragraph",
-        "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad (Ecovía, Trolebus, Metrobus y Alimentadores).",
-        "link1": {
-            "type": "external",
-            "name": "Transporte de pasajeros",
-            "url": "https:pasajeros.quito.gob.ec"
+        "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad:\n\n 1) Troncales: El costo del pasaje: $0.35 (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad). *Sujeto a cambios.\n\n  -Ecovía: Desde la Estación ‘Río Coca’ al ‘Terminal Interprovincial Quitumbe’.\n\n  -Trolebús: Desde la Estación ‘El Labrador’ al ‘Terminal Interprovincial Quitumbe’.\n\n  -Metrobus: Desde el ‘Terminal de la Ofelia’ – al ‘Terminal Interprovincial Quitumbe’.\n\n2) Alimentadores: Conecta las Troncales con diferentes áreas de la ciudad. El costo del pasaje: $0.35, pueden variar según el lugar de destino (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad). *Sujeto a cambios.\n\n3) METRO de Quito: Tren subterráneo desde ‘Estación del Labrador’ – ‘Terminal Interprovincial Quitumbe’. Costo del pasaje:  $0.45 (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad) *Sujeto a cambios. Compra los boletos en las estaciones, app móvil del Metro de Quito, con la Tarjeta Ciudad, o la aplicación ‘deUna’.\n",
+            "link1": {
+            "type": "nav_internal",
+            "name": "Revisa las rutas aquí",
+            "url": "ImageZoom"
         },
         "content2": " ",
         "link2": {
             "type": "external",
-            "name": "Alimentadores",
+            "name": "Transporte de pasajeros",
+            "url": "https:pasajeros.quito.gob.ec"
+        },
+        "content3":" ",
+        "link3": {
+            "type": "external",
+            "name": "Rutas de alimentadores ",
             "url": "https://pasajeros.quito.gob.ec/?page_id=4510"
         },
-        "content3": " ",
-        "link3": {
+        "content4": " ",
+        "link4": {
             "type": "external",
             "name": "METRO",
             "url": "https://metrodequito.gob.ec/"
         },
-        "content4": "\nExisten operadores privados de buses (azules) y empresas y cooperativas de taxis legales (amarillos). ",
-        "link4": {},
-        "content5": "Operan también plataformas como Digitaxi, Fedotaxi, Clip, Didi, Uber y otras. ",
+        "content5": "\n\nTerminales:\n\n1) Microrregionales: En La Marín 10 operadoras de transporte para el valle de Los Chillos, Cantón Mejía y Rumiñahui. En la Ofelia para los cantones del norte de Pichincha, y en la Río para el valle de Tumbaco.\n\n2) Interprovincial: Terminal Quitumbe (Sur) y Terminal Carcelén (Norte).\n\nExisten operadores privados de buses (azules) y empresas y cooperativas de taxis legales (amarillos). \n\nOperan también plataformas como Digitaxi, Fedotaxi, Clip, Didi, Uber y otras.",
         "link5": {}
     },
     "educational_rights": {
@@ -229,17 +233,21 @@
             "name": "Ministerio de Educación",
             "url": "https://educacion.gob.ec/"
         },
-        "content4": "y para la educación superior SENESCYT:",
-        "link4": {
-            "type": "external",
-            "name": "SENESCYT",
-            "url": "https://www.educacionsuperior.gob.ec/"
-        },
-        "content5": "y CES:",
+        "content5": "\nConsejo de educación superior:",
         "link5": {
             "type": "external",
             "name": "CES",
             "url": "https://www.ces.gob.ec/"
+        }
+    },
+    "municipal_programs": {
+        "title": "",
+        "type": "paragraph",
+        "content1": "\nLa Secretaría de Educación, Deporte y Recreación del Municipio de Quito, ofrece programas de bachillerato acelerado, unidades educativas municipales, educación virtual y otros.\n",
+        "link1": {
+            "type": "external",
+            "name": "Secretaría de Educación",
+            "url": "https://educacion.quito.gob.ec/bachillerato-acelerado/ "
         }
     },
     "coming_soon": {

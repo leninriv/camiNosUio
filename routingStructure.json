@@ -67,9 +67,18 @@
             "colors": ["#F79D2B","#F79D2B"],
             "title":"Habitar Quito",
             "buttons": [
-                { "title": "Alojamiento y vivienda",  "screen": "home_and_hotel", "buttonTittle":"Aquí podrás conocer datos para que puedas integrarte a los circuitos urbanos y apropiarte del espacio público. " },
-                { "title": "Transporte",   "screen": "transportation" },
-                { "title": "Espacios Públicos",   "screen": "public_area"}
+                { "title": "Alojamiento y vivienda",  "screen": "home_and_hotel" }
+            ]
+        },        
+        "live_together": {
+            "colors": ["#94114eff", "#94114eff"],
+            "title":"Habitar Quito",
+            "buttons": [
+                { "title": "Transporte Público",  "screen": "transportation", "buttonTittle":"Aquí podrás conocer datos para que puedas integrarte a los circuitos urbanos y apropiarte del espacio público. " },
+                { "title": "Espacios Públicos",   "screen": "public_area"},
+                { "title": "Glosario",    "screen": "glosary" },
+                { "title": "Rutas de transportes",    "screen": "ImageZoom" }
+                
             ]
         },
         "scholar": {
@@ -77,7 +86,8 @@
             "title":"Inserción escolar",
             "buttons": [
                 { "title": "Derechos educativos",   "screen": "educational_rights" },
-                { "title": "Sistema educativo",   "screen": "educational_system" }
+                { "title": "Sistema educativo nacional",   "screen": "educational_system" },
+                { "title": "Programas municipales",   "screen": "municipal_programs" }
             ]
         },
         "rights": {
@@ -95,9 +105,8 @@
             "buttons": [
                 { "title": "Tengo pasaporte",  "buttons":
                 [
-                    {"title":"Informacion respecto al ingreso al Ecuador",  "screen": "ecuador_comming" },
-                    {"title":"Tipos de Visa",  "screen": "visa_type" },
-                    {"title":"Proceso Excepcional de Regularización para personas Venezolanas",  "screen": "venezuelan_exception" }
+                    {"title":"Informacion respecto al ingreso al Ecuador", "buttonTittle":"Se recomienda consultar directamente en el sitio web de la Cansilleria puesto que la politica migratoria esta variando considerablemente.", "screen": "ecuador_comming" },
+                    {"title":"Tipos de Visa",  "screen": "visa_type" }
 
                 ]},
                 { "title": "No tengo pasaporte",  "buttons": [
@@ -145,9 +154,9 @@
                 ] },
                 { "title": "Necesito hacer una denuncia",  "buttons": [
                     { "title": "Delitos\n(amenaza, agresiones, abuso)", "buttonTittle":"Se pueden hacer denuncias ante varias entidades dependiendo del tipo de vulneración:" , "buttons": [
-                        { "title": "Fiscalía", "buttonTittle":"En el caso de delitos, debemos poner en conocimiento de:",  "screen":"fiscaly"},
+                        { "title": "Fiscalía", "buttonTittle":"Fiscalía interviene en procesos penales solicitando al juez medidas para garantizar la seguridad de víctimas y testigos; las Juntas Cantonales de Protección de Derechos dictan directamente medidas administrativas inmediatas para proteger a niños, niñas y adolescentes en riesgo; y los Juzgados de Familia, Mujer, Niñez y Adolescencia emiten medidas judiciales de protección en casos de violencia de género, intrafamiliar o vulneración de derechos, como boletas de auxilio, prohibición de acercamiento o salida del agresor del hogar.\n\nEn el caso de delitos, debemos poner en conocimiento de:",  "screen":"fiscaly"},
                         { "title": "Junta cantonal de Protección de Derechos",  "route":"directory_result", "params": {"name":"Juntas"} },
-                        { "title": "Jueces de Familia, Mujer, Niñez y Adolescencia",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
+                        { "title": "Juzgados de Familia, Mujer, Niñez y Adolescencia",  "route":"directory_result", "params": {"tag":"Ejercicio de justicia"} }
                     ] },
                     { "title": "Contravenciones\n(Insultos, escándalo)",  "buttons": [
                         { "title": "Junta Cantonal de Protección de Derechos",  "buttonTittle":"En el caso de contravenciones, debemos poner en conocimiento de:", "route":"directory_result", "params": {"name":"Juntas"} },
@@ -187,8 +196,7 @@
                 { "title": "Cuentas de banco",    "screen": "bank_account" },
                 { "title": "Consulados y embajadas",    "screen": "embassies" },
                 { "title": "Portales públicos de búsqueda de empleo",    "screen": "find_job" },
-                { "title": "Redes y comunidad",    "screen": "community_networs" },
-                { "title": "Glosario",    "screen": "glosary" }
+                { "title": "Redes y comunidad",    "screen": "community_networs" }   
             ]
         },
         "directory": {

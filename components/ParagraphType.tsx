@@ -13,6 +13,7 @@ export default function ParagraphType(props: any) {
         // link.url
         if (link.type === 'external') return <Button style={styles.button} title={link.name} color={'warning'} onPress={() => { Linking.openURL(link.url) }} />; // TODO: navigation its different
         if (link.type === 'internal') return <Button style={styles.button} title={link.name} onPress={() => { navigation.navigate('directory_result', { ...link.filter }); }} />;
+        if (link.type === 'nav_internal') return <Button style={styles.button} title={link.name} onPress={() => { navigation.navigate(link.url, { ...link.filter }); }} />;
         return <View />
     }
 

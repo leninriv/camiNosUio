@@ -11,6 +11,12 @@ export default function HomeScreen(props: any) {
     const { navigation } = props;
     const buttons = [
         {
+            colors: ["#94114eff", '#94114eff'],
+            text: 'Convivir',
+            route: 'live_together',
+            iconName: 'bus-sharp',
+        },
+        {
             colors: ["#7a1194", '#7a1194'],
             text: 'Violencia',
             route: 'Violence',
@@ -61,7 +67,7 @@ export default function HomeScreen(props: any) {
         {
             colors: ["#15496b", "#15496b"],
             text: 'Directorio',
-            route: 'Search',
+            route: 'Directory',
             iconName: 'library'
         },
                 {
