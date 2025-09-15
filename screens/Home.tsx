@@ -32,7 +32,7 @@ export default function HomeScreen(props: any) {
             colors: ["#14A5B1", "#14A5B1"],
             text: 'Movilidad humana',
             route: 'regularization_level',
-            iconName: 'card'
+            iconName: 'earth'
         },
         {
             colors: ["#C52030", "#C52030"],
@@ -80,7 +80,7 @@ export default function HomeScreen(props: any) {
             colors: ["#b30040", "#b30040"],
             text: 'Empleo y productividad',
             route: 'find_job',
-            iconName: 'eye'
+            iconName: 'build'
         },
     ];
 
