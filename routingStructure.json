@@ -195,7 +195,9 @@
             "colors": ["#b30040", "#b30040"],
             "title":"Empleo y productividad",
             "buttons": [
-                { "title": "Portales públicos de búsqueda de empleo", "buttonTittle":"En esta sección encontrarás información sobre los portales públicos de búsqueda de empleo", "screen": "find_job" }
+                { "title": "Portales públicos de búsqueda de empleo", "buttonTittle":"En esta sección encontrarás información sobre los portales públicos de búsqueda de empleo", "screen": "find_job" },
+                { "title": "Empresas privadas y universidades", "screen": "private_and_university" },
+                { "title": "Portales privados de búsqueda de empleo", "screen": "search_job" }
             ]
         },
         "directory": {

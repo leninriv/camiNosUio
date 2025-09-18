@@ -176,7 +176,7 @@
         "title": "",
         "type": "paragraph",
         "content1": "En Quito, el servicio de transporte público es prestado por el Municipio, a través del Sistema Metropolitano de Movilidad:\n\n 1) Troncales: El costo del pasaje: $0.35 (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad). *Sujeto a cambios.\n\n  -Ecovía: Desde la Estación ‘Río Coca’ al ‘Terminal Interprovincial Quitumbe’.\n\n  -Trolebús: Desde la Estación ‘El Labrador’ al ‘Terminal Interprovincial Quitumbe’.\n\n  -Metrobus: Desde el ‘Terminal de la Ofelia’ – al ‘Terminal Interprovincial Quitumbe’.\n\n2) Alimentadores: Conecta las Troncales con diferentes áreas de la ciudad. El costo del pasaje: $0.35, pueden variar según el lugar de destino (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad). *Sujeto a cambios.\n\n3) METRO de Quito: Tren subterráneo desde ‘Estación del Labrador’ – ‘Terminal Interprovincial Quitumbe’. Costo del pasaje:  $0.45 (valores preferenciales: estudiantes, tercera edad y usuarios con discapacidad) *Sujeto a cambios. Compra los boletos en las estaciones, app móvil del Metro de Quito, con la Tarjeta Ciudad, o la aplicación ‘deUna’.\n",
-            "link1": {
+        "link1": {
             "type": "nav_internal",
             "name": "Revisa las rutas aquí",
             "url": "ImageZoom"
@@ -187,7 +187,7 @@
             "name": "Transporte de pasajeros",
             "url": "https:pasajeros.quito.gob.ec"
         },
-        "content3":" ",
+        "content3": " ",
         "link3": {
             "type": "external",
             "name": "Rutas de alimentadores ",
@@ -405,7 +405,7 @@
                 "tag": "Parques"
             }
         },
-        "content2":" ",
+        "content2": " ",
         "link2": {
             "type": "internal",
             "name": "Museos y centros culturales",
@@ -755,27 +755,149 @@
     "find_job": {
         "title": "Portales Públicos de búsqueda de empleo",
         "type": "paragraph",
-        "content1": "A través de los siguientes portales puedes acceder a diferentes ofertas laborales. Sigue las indicaciones que cada uno te pide.\n",
+        "content1": "A través de los siguientes portales puedes acceder a diferentes ofertas laborales. Sigue las indicaciones que cada uno te pide.\n\nBolsa Metropolitana de Empleo – Labora UIO es una herramienta de ConQuito inclusiva, dinámica, multifuncional, amigable con el usuario, renovada y de acceso gratuito que conecta la oferta y demanda laboral en el Distrito Metropolitano. \n",
         "link1": {
             "type": "external",
             "name": "Labora UIO",
             "url": "https://www.conquito.org.ec/"
         },
-        "content2": "\n",
+        "content2": "\nEl sitio web oficial del Metro de Quito publica información sobre sus procesos de selección y vacantes disponibles. \n",
         "link2": {
             "type": "external",
-            "name": "Encuentra empleo",
-            "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf "
+            "name": "MetroEmpleo",
+            "url": "https://metrodequito.gob.ec/metroempleo/"
         },
-        "content3": "\nTambién te recomendamos visitar a través de la web portales privados y de universidades para ampliar tu búsqueda."
+        "content3": "\nBolsa Pública del Ecuador que posibilita el encuentro entre la oferta y demanda laboral; de manera gratuita, transparente y ágil a través de la cooperación interinstitucional con empresas privadas e instituciones públicas.\n",
+        "link3": {
+            "type": "external",
+            "name": "Encuentra empleo",
+            "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
+        },
+        "content4": "\nWeb de empleo líder en Latinoamérica con presencia en 19 países, incluido Ecuador. Conecta oferta y demanda laboral en doce provincias del país.\n",
+        "link4": {
+            "type": "external",
+            "name": "Computrabajo Ecuador",
+            "url": "https://ec.computrabajo.com/empleos-en-pichincha-en-quito"
+        },
+        "content5": "\nWeb de empleo presente en 7 países de Latinoamérica, incluido Ecuador. Conecta oferta y demanda laboral en las 24 provincias del país.\n",
+        "link5": {
+            "type": "external",
+            "name": "Multitrabajos",
+            "url": "https://www.multitrabajos.com/en-pichincha/quito/empleos.html"
+        }
     },
-    "peak_and_plate":{
+    "private_and_university": {
+        "title": "Empresas privadas y universidades",
+        "type": "law",
+        "articles": [
+            {
+                "text": "También te recomendamos visitar las páginas web de distintas empresas privadas en el país y de universidades para ampliar tu búsqueda (muchas de ellas publican directamente sus vacantes)."
+            },
+            {
+                "title": "\nPronaca",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://career4.successfactors.com/career?company=C0004326754P"
+                }
+            },
+            {
+                "title": "\nCorporacion Favorita",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.cfavorita.ec/iam/realms/XTN/protocol/openid-connect/auth?client_id=SOT-WEB&redirect_uri=https%3A%2F%2Fwww.cfavorita.ec%2Fofertalaboral%2F%23%2Fhome&state=e8d77c86-6ead-4f35-a000-8d245d5e392e&response_mode=fragment&response_type=code&scope=openid&nonce=2dba6335-c4d8-4745-bfa7-4224b522bb22&code_challenge=TQwOC_JUYMx39WNfeWXV9_-WgmolUq9yi2KJ8ivot4U&code_challenge_method=S256"
+                }
+            },
+            {
+                "title": "\nBanco Pichincha",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://vacantes.pichincha.com/"
+                }
+            },
+            {
+                "title": "\nBanco Internacional",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.bancointernacional.com.ec/trabaja-con-nosotros/"
+                }
+            },
+            {
+                "title": "\nPUCE",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.puce.edu.ec/adn-puce/unete-a-nuestro-equipo/"
+                }
+            },
+            {
+                "title": "\nUDLA",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://empleos.udla.edu.ec/viewalljobs/?creative=&keyword=&matchtype=&network=x&device=c&gad_source=1&gad_campaignid=22855897903&gbraid=0AAAAABiamlhqWAWfhFi1DDJ9Oky7jtAVY&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ1Yh-UcQdHjsn-xgwfgqtt7rfm4Uzk58r-Cva5vTCPjCK1UP28iTFgaAkABEALw_wcB"
+                }
+            },
+            {
+                "text": " "
+            }
+        ]
+    },
+    "search_job": {
+        "title": "Empresas privadas y universidades",
+        "type": "law",
+        "articles": [
+            {
+                "text": "Estos son algunos de los portales privados de búsqueda de empleo más grandes, incluso internacionales. Revisa atentamente las indicaciones de cada portal y las condiciones de cada vacante"
+            },
+            {
+                "title": "\nMultitrabajos",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.multitrabajos.com/en-pichincha/quito/empleos.html"
+                }
+            },
+            {
+                "title": "\nHiring Room",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://hiringroom.com/"
+                }
+            },
+            {
+                "title": "\nLinkedIn",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.linkedin.com/"
+                }
+            },
+            {
+                "text": " "
+            }
+        ]
+    },
+    "peak_and_plate": {
         "title": "Pico y placa",
         "type": "paragraph",
         "content1": "En el sistema de circulación vehicular dentro de la ciudad de Quito existe el plan de restricción vehicular ‘Pico y Placa’ donde los conductores deben evitar movilizarse en sus vehículos en los horarios restringidos por día y por placa.",
         "link1": {},
-        "content2":"- Horario de la mañana: Desde las 06:00 hasta las 09:30\n-Horario de la tarde: Desde las 16:00 hasta las 20:00\n\n- Último número de placa: Lunes (1 y 2), Martes (3 y 4), Miércoles (5 y 6), Jueves (7 y 8), Viernes (9 y 10), Sábados-Domingos-Feriado (libre circulación)\n\n- Zona de restricción: Entre el perímetro definido por la Av. Mariscal Sucre (incluida) y Av. Simón Bolívar (excluida)\n",
-            "link2": {
+        "content2": "- Horario de la mañana: Desde las 06:00 hasta las 09:30\n-Horario de la tarde: Desde las 16:00 hasta las 20:00\n\n- Último número de placa: Lunes (1 y 2), Martes (3 y 4), Miércoles (5 y 6), Jueves (7 y 8), Viernes (9 y 10), Sábados-Domingos-Feriado (libre circulación)\n\n- Zona de restricción: Entre el perímetro definido por la Av. Mariscal Sucre (incluida) y Av. Simón Bolívar (excluida)\n",
+        "link2": {
             "type": "external",
             "name": "Agencia metropolitana de tránsito",
             "url": "https://www.amt.gob.ec/index.php/informacion/pico-y-placa/ "
