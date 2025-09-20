@@ -428,6 +428,140 @@
             }
         ]
     },
+    "universal_city_movility": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Declaración Universal de Derechos Humanos (1948) (Artículo 13):",
+                "text": "toda persona tiene derecho a circular libremente y elegir su residencia dentro de un Estado, así como a salir de cualquier país y regresar al propio."
+            },
+            {
+                "title": "Pacto Mundial para una Migración Segura, Ordenada y Regular (2018):",
+                "text": "establece principios y compromisos para proteger los derechos de las personas migrantes, promover su inclusión en las sociedades de destino y asegurar que la movilidad se dé en condiciones de seguridad, dignidad y respeto a los derechos humanos."
+            },
+            {
+                "title": "Constitución (Artículo 66, numeral 14): ",
+                "text": "reconoce el derecho de todas las personas al libre tránsito por el territorio nacional y a salir e ingresar libremente al país."
+            },
+            {
+                "title": "Constitución (Artículo 416): ",
+                "text": "establece la ciudadanía universal y el derecho de todas las personas a migrar, sin ningún tipo de discriminación."
+            }
+        ]
+    },
+    "rigth_citysent": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Constitución del Ecuador (Artículo 31):",
+                "text": "El derecho a la ciudad se ejercerá en condiciones de sustentabilidad, justicia social, respeto a las diferentes culturas urbanas y equilibrio entre lo urbano y lo rural. El ejercicio del derecho a la ciudad se concreta cuando se garantiza el pleno usufructo de la ciudad y de sus espacios, la gestión democrática de la misma y la función social y ambiental de la propiedad y de la ciudad."
+            },
+            {
+                "title": "Agenda 2030 – ODS 11:",
+                "text": "plantea “lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.”"
+            }
+        ]
+    },
+    "equality_non_discrimination": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Declaración Universal de Derechos Humanos (1948) (Artículo 2):",
+                "text": "todos los derechos corresponden a todas las personas, sin ningún tipo de discriminación por raza, color, sexo, idioma, religión, opinión política o de cualquier otra índole, origen nacional o social, posición económica, nacimiento o cualquier otra condición."
+            },
+            {
+                "title": "Pacto Internacional de Derechos Civiles y Políticos (1976) (Artículo 26):",
+                "text": "todas las personas son iguales ante la ley y tienen derecho a igual protección contra toda forma de discriminación."
+            },
+            {
+                "title": "Constitución del Ecuador (Artículo 11):",
+                "text": "todas las personas son iguales y gozarán de los mismos derechos; se prohíbe toda forma de discriminación por razones de etnia, género, edad, orientación sexual, identidad cultural, condición migratoria u otras."
+            }
+        ]
+    },
+    "home_and_rigths": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Pacto Internacional de Derechos Económicos, Sociales y Culturales (1976) (Artículo 11):",
+                "text": "reconoce el derecho de toda persona a un nivel de vida adecuado, incluyendo alimentación, vestido y vivienda adecuados."
+            },
+            {
+                "title": "Constitución (Artículo 30):",
+                "text": "Toda persona tiene derecho a una vivienda adecuada y digna, con independencia de su situación social o económica."
+            },
+            {
+                "title": "Constitución (Artículo 31):",
+                "text": "El derecho a la ciudad se ejercerá en condiciones de sustentabilidad, justicia social, respeto a las diferentes culturas urbanas y equilibrio entre lo urbano y lo rural."
+            },
+            {
+                "title": "Nueva Agenda Urbana (2016):",
+                "text": "llama a los Estados a garantizar ciudades inclusivas y acceso universal a vivienda adecuada"
+            }
+        ]
+    },
+    "rigth_heald": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Pacto Internacional de Derechos Económicos, Sociales y Culturales (1976)  (Artículo 12): ",
+                "text": "derecho de toda persona al disfrute del más alto nivel posible de salud física y mental."
+            },
+            {
+                "title": "Constitución (Artículo 32):",
+                "text": "La salud es un derecho que garantiza el Estado, cuya realización se vincula al ejercicio de otros derechos, entre ellos el derecho al agua, la alimentación, la educación, la cultura física, el trabajo, la seguridad social, los ambientes sanos y otros que sustentan el buen vivir."
+            },
+            {
+                "title": "Objetivo de Desarrollo Sostenible #3:",
+                "text": "garantizar una vida sana y promover el bienestar para todas las personas."
+            }
+        ]
+    },
+    "culture_education": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Declaración Universal de Derechos Humanos (1948) (Artículo 26):",
+                "text": "toda persona tiene derecho a la educación, que debe ser gratuita en sus etapas elemental y fundamental, siendo esta última obligatoria."
+            },
+            {
+                "title": "Pacto Internacional de Derechos Económicos, Sociales y Culturales (1976) (Arts. 13 y 15):",
+                "text": "derecho a la educación y a participar en la vida cultural, gozar de los beneficios del progreso científico."
+            },
+            {
+                "title": "Constitución (Artículo 26):",
+                "text": "la educación es un derecho y un deber ineludible e inexcusable del Estado."
+            },
+            {
+                "title": "Constitución (Artículo 27):",
+                "text": "La educación se centrará en el ser humano y garantizará su desarrollo holístico, en el marco del respeto a los derechos humanos, al medio ambiente sustentable y a la democracia; será participativa, obligatoria, intercultural, democrática, incluyente y diversa, de calidad y calidez; impulsará la equidad de género, la justicia, la solidaridad y la paz; estimulará el sentido crítico, el arte y la cultura física, la iniciativa individual y comunitaria, y el desarrollo de competencias y capacidades para crear y trabajar."
+            }
+        ]
+    },
+    "security_and_free": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "title": "Declaración Universal de Derechos Humanos (Artículo 3):",
+                "text": "toda persona tiene derecho a la vida, a la libertad y a la seguridad de su persona."
+            },
+            {
+                "title": "Convención de Belém do Pará (1994):",
+                "text": "reconoce el derecho de las mujeres a vivir libres de violencia, tanto en el ámbito público como privado."
+            },
+            {
+                "title": "Constitución (Artículo 66, numeral 3):",
+                "text": "reconoce el derecho a la integridad personal, incluyendo la integridad física, psíquica, moral y sexual; garantiza una vida libre de violencia en el ámbito público y privado."
+            }
+        ]
+    },
     "international_help": {
         "type": "paragraph",
         "content1": "Conveción sobre el estatuto de los refugiados",

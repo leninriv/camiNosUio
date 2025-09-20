@@ -93,7 +93,14 @@
             "colors": ["#DD1868","#DD1868"],
             "title":"Mis Derechos",
             "buttons": [
-                { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios del marco normativo universal de derechos humanos y artículos de la Constitución del Ecuador donde se garantizan los derechos humanos fundamentales."}
+                { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"Vivir en la ciudad es más que habitar un espacio: es ejercer derechos y convivir con respeto y solidaridad. En esta sección puedes revisar los principios del marco normativo universal de derechos humanos y artículos de la Constitución del Ecuador que amparan el derecho a la ciudad y a la buena convivencia."},
+                { "title": "Ciudadanía Universal y movilidad",   "screen":"universal_city_movility"},
+                { "title": "Derecho a la Ciudad",   "screen":"rigth_citysent"},
+                { "title": "Igualdad y no discriminación",   "screen":"equality_non_discrimination"},
+                { "title": "Vivienda digna y adecuada",   "screen":"home_and_rigths"},
+                { "title": "Salud",   "screen":"rigth_heald"},
+                { "title": "Educación y cultura",   "screen":"culture_education"},
+                { "title": "Seguridad y vida libre de violencia",   "screen":"security_and_free"}
             ]
         },
         "regularization": {
@@ -196,7 +203,6 @@
             "title":"Empleo y productividad",
             "buttons": [
                 { "title": "Portales públicos de búsqueda de empleo", "buttonTittle":"En esta sección encontrarás información sobre los portales públicos de búsqueda de empleo", "screen": "find_job" },
-                { "title": "Empresas privadas y universidades", "screen": "private_and_university" },
                 { "title": "Portales privados de búsqueda de empleo", "screen": "search_job" }
             ]
         },
@@ -216,7 +222,7 @@
             "buttons": [
                 { "title": "Regularizacion", "buttonTittle":"En esta sección encontrarás información de utilidad para personas en situación de movilidad humana que habitan Quito.", "buttons":[]},
                 { "title": "Base legal", "buttons": [
-                    { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"En esta sección descubrirás los principios fundamentales del marco normativo universal de derechos humanos y del derecho al refugio. También encontrarás el artículo de la Constitución del Ecuador que garantiza el derecho a la libre movilidad de todas las personas. " },
+                    { "title": "Ciudadanía universal",   "screen":"universal_city", "buttonTittle":"Vivir en la ciudad es más que habitar un espacio: es ejercer derechos y convivir con respeto y solidaridad. En esta sección puedes revisar los principios del marco normativo universal de derechos humanos y artículos de la Constitución del Ecuador que amparan el derecho a la ciudad y a la buena convivencia." },
                     { "title": "Convención internacional refugio",   "screen": "international_help" },
                     { "title": "Declaración Universal DDHH",   "screen": "dd_hh" } 
             ]},
