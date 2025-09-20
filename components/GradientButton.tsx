@@ -21,6 +21,9 @@ export default function GradientButton(props: any) {
         setModalVisible(!modalVisible)
     }
 
+    const updateButtonTitle = (title: string) => {
+        return title.replace('*', '');
+    }
 
     if (opacity && colors[0].length < 9) { colors[0] = colors[0] + 'cc'; colors[1] = colors[1] + 'cc'; }
     return <View style={[styles.container, props.style]}>
@@ -34,7 +37,7 @@ export default function GradientButton(props: any) {
                 colors={colors}
                 style={[styles.button, opacity ? styles.opacity : {}]}>
                 {!!iconName && <Ionicons name={iconName} size={32} color={globalColor[0]} />}
-                <Text style={[styles.text, { color: globalColor[0] }]}>{props.text}</Text>
+                <Text style={[styles.text, { color: globalColor[0] }]}>{updateButtonTitle(props.text)}</Text>
             </LinearGradient>
         </TouchableOpacity>
 
@@ -72,6 +75,6 @@ const styles = StyleSheet.create({
     },
     buttonTitle: {
         fontSize: 20,
-        textAlign:'justify'
+        textAlign: 'justify'
     }
 });

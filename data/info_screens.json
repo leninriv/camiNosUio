@@ -5,7 +5,7 @@
         "content1": "En caso de robo de documentos, se debe reportar inmediatamente al Consejo de la Judicatura en el enlace:",
         "link1": {
             "type": "external",
-            "name": "Funcion Judicial",
+            "name": "Consejo de la Judicatura",
             "url": "https://appsj.funcionjudicial.gob.ec/documentosExtraviados/publico/formulario.jsf"
         },
         "content2": "Aquí se genera un formulario que funciona como evidencia del robo. ",
@@ -51,7 +51,7 @@
     "home_and_hotel": {
         "title": "",
         "type": "paragraph",
-        "content1": "A continuación encontrarás las organizaciones e instituciones del directorio que prestan servicios relacionados a Alojamiento y Vivienda",
+        "content1": "A continuación encontrarás las organizaciones e instituciones del directorio que prestan servicios relacionados a Alojamiento emergente.",
         "link1": {
             "type": "internal",
             "name": "Directorio Alojamiento y Vivienda",
@@ -59,6 +59,45 @@
                 "tag": "Alojamiento y vivienda"
             }
         }
+    },
+    "rent_buy_home": {
+        "title": "",
+        "type": "law",
+        "articles": [
+            {
+                "text": "Existen varios portales en línea que están activos para la búsqueda de inmuebles en venta o arriendo en Quito. Los más populares son:"
+            },
+            {
+                "title": "Plusvalía",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.plusvalia.com/"
+                }
+            },
+            {
+                "title": "\nTrovit EC",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.trovit.com.ec/"
+                }
+            },
+            {
+                "title": "\niCasas",
+                "text": "",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.icasas.ec/"
+                }
+            },
+            {
+                "text": "\nIgualmente puedes buscar oferta de arrendamientos en Facebook Marketplace y grupos específicos de Facebook."
+            }
+        ]
     },
     "ferias": {
         "title": "",
@@ -80,7 +119,7 @@
             "type": "internal",
             "name": "Directorio Mercados",
             "filter": {
-                "tag": "Alojamiento y vivienda"
+                "tag": "Alimentación"
             }
         }
     },
@@ -108,7 +147,7 @@
     },
     "documents_identity": {
         "type": "paragraph",
-        "content1": "Cédula de identidad y pasaporte, emitidos por el Registro Civil. Sitio:",
+        "content1": "Cédula de identidad y pasaporte, emitidos por el Registro Civil:",
         "link1": {
             "type": "external",
             "name": "Registro Civil",
@@ -117,7 +156,7 @@
     },
     "documents_driver": {
         "type": "paragraph",
-        "content1": "Licencia de conducir, emitida por la Agencia Nacional de Tránsito. Sitio:",
+        "content1": "Licencia de conducir, emitida por la Agencia Nacional de Tránsito:",
         "link1": {
             "type": "external",
             "name": "Agencia Nacional de Tránsito",
@@ -126,7 +165,7 @@
     },
     "documents_elections": {
         "type": "paragraph",
-        "content1": "La función electoral está compuesta por el Consejo Nacional Electoral (CNE) y el Tribunal Contencioso Electoral (TCE). Revisa la página del CNE para acceder a los distintos servicios",
+        "content1": "Los ciudadanos y ciudadanas de entre 18 y 65 años habilitadas para votar deben acudir de manera obligatoria a los procesos electorales y tras participar en ellos recibirán un certificado de votación por ejercer su derecho al voto. A pesar de no ser obligatorio, este documento muchas veces es requerido para diversos trámites. Si no lo tienes por no haber participado en las votaciones, puedes tramitarlo en la Delegación provincial electoral de Pichincha (Iñaquito N35-227 e Ignacio San María), tras el pago de una multa. Además, no te olvides de revisar tu domicilio electoral antes del próximo proceso electoral. Más información en el siguiente botón:",
         "link1": {
             "type": "external",
             "name": "Servicios CNE",
@@ -137,13 +176,13 @@
     "document_loss": {
         "title": "",
         "type": "paragraph",
-        "content1": "En caso de pérdida de documentos, se debe reportar inmediatamente al Consejo de la Judicatura en el enlace:",
+        "content1": "En caso de robo o pérdida de documentos, se debe reportar inmediatamente al Consejo de la Judicatura en el enlace:",
         "link1": {
             "type": "external",
-            "name": "Funcion Judicial",
+            "name": "Consejo de la Judicatura",
             "url": "https://appsj.funcionjudicial.gob.ec/documentosExtraviados/publico/formulario.jsf"
         },
-        "content2": "Aquí se genera un formulario que funciona como evidencia del robo.",
+        "content2": "\nAquí se genera un formulario que funciona como evidencia del robo.",
         "link2": {},
         "content3": "Es recomendable hacerlo lo más pronto posible.",
         "link3": {}
@@ -151,7 +190,7 @@
     "complaints": {
         "title": "",
         "type": "paragraph",
-        "content1": "Si quieres hacer una denuncia sobre un delito o violación de derechos, debes acudir a la fiscalía correspondiente. Antes de ir directamente, consulta las rutas de protección de derechos y comunícate con las organizaciones que prestan asesoría legal.",
+        "content1": "Antes de ir directamente, consulta el boton de violencia y comunícate con las organizaciones que prestan asesoría legal.\n\nSi quieres hacer una denuncia sobre un delito o violación de derechos, debes acudir a la fiscalía correspondiente.",
         "link1": {
             "type": "external",
             "name": "Fiscalías de Pichincha",
@@ -364,7 +403,7 @@
         "content2": "En este portal se pueden realizar consultas de trámites, denuncias y consultas de información.",
         "link2": {
             "type": "external",
-            "name": "Gobierno del Ecuador",
+            "name": "Ventanilla Digital de Trámites",
             "url": "https://www.gob.ec/ "
         }
     },
@@ -689,11 +728,11 @@
     },
     "education_access": {
         "type": "paragraph",
-        "title": "Acceso al servicio educativo en cualquier momento del año lectivo"
+        "content1": "Las personas en situación de movilidad humana son consideradas personas en situación de vulnerabilidad, contando con los siguientes beneficios de conformidad con el Acuerdo ministerial No. MINEDUC-MINEDUC-2021-00026-A. Con lo cual el estudiante puede:"
     },
     "other_institution": {
         "type": "paragraph",
-        "title": "La incorporación a otra institución del Sistema Nacional de Educación producto de traslados imprevistos y de acuerdo con la disponibilidad de la oferta educativa."
+        "content1": "La incorporación a otra institución del Sistema Nacional de Educación producto de traslados imprevistos y de acuerdo con la disponibilidad de la oferta educativa."
     },
     "apress_process": {
         "type": "paragraph",
@@ -706,21 +745,55 @@
     "police": {
         "type": "paragraph",
         "content1": "Pon el caso en conocimiento de la Policía a través de la UPC más cercana a tu domicilio, trabajo o lugar del incidente.",
-        "content2": "Mira también: Dirección Nacional de Policía Comunitaria",
         "content3": "Email: dnpolco.servicios@gmail.com",
         "link3": {
             "type": "external",
             "name": "Teléfono: 022233283",
             "url": "tel:022233283"
+        },
+        "content4": "\nRecuerda que puedes acceder tambien a la policia en:",
+        "link4": {
+            "type": "external",
+            "name": "Teléfono: 911",
+            "url": "tel:911"
         }
     },
     "justice_places": {
-        "type": "paragraph",
-        "content1": "Los Chillos\nCorreo:\ncejloschillos@gmail.com\nTeléfono: 0987025619\n\nCalderón, Llano Chico\nCorreo:\nc.equidadyjusticiacalderon@gmail.com\nTeléfono: 0984404605\n\nQuitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros\nCorreo: c.equidadyjusticiaquitumbe@gmail.com\nTeléfono: 0987554185\n\nTumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.\nCorreo: cej.tumbaco@quito.gob.ec\nTeléfono: 0994336974\n\nLa Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros\nCorreo: cej.ladelicia@quito.gob.ec\nTeléfono: 0984154102\n\nEloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.\nCorreo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038\n\n"
+        "title": "Centros de equidad y justicia",
+        "type": "law",
+        "articles": [
+            {
+                "text": "Los CEJ´s del Municipio de Quito, se crearon con la finalidad de brindar gratuitamente atención, acompañamiento, asesoría legal, patrocinio, apoyo psicológico y protección integral a víctimas de violencia intrafamiliar, género, maltrato infantil y violencia sexual."
+            },
+            {
+                "title": "Los Chillos",
+                "text": "Correo:\ncejloschillos@gmail.com\nTeléfono: 0987025619"
+            },
+            {
+                "title": "Calderón, Llano Chico",
+                "text": "Correo:\nc.equidadyjusticiacalderon@gmail.com\nTeléfono: 0984404605"
+            },
+            {
+                "title": "Quitumbe, La Ecuatoriana, Chillogallo, Guamaní y otros",
+                "text": "Correo: equidadyjusticiaquitumbe@gmail.com\nTeléfono: 0987554185"
+            },
+            {
+                "title": "Tumbaco, Cumbayá, Puembo, Pifo, Tababela, Yaruquí, Checa y Quinche.",
+                "text": "Correo: cej.tumbaco@quito.gob.ec\nTeléfono: 0994336974"
+            },
+            {
+                "title": "La Delicia, Cotocollao, La Kennedy, San Carlos, Mitad del Mundo, Calacalí, Comité del Pueblo, Amagasí del Inca, Zámbiza, Pisulí, Velasco, Quito Tennis, Carcelén, El Condado, Pomasqui, La Ofelia, Nanegal, Nenegalito, Gualea, Pacto, Nono y otros",
+                "text": "Correo: cej.ladelicia@quito.gob.ec\nTeléfono: 0984154102"
+            },
+            {
+                "title": "Eloy Alfaro, La Magdalena, Chimbacalle, San Bartolo, Solanda, La Argelia, La Mena, Ferroviaria, Lloa.",
+                "text": "Correo: cej.eloyalfaro@quito.gob.ec\nTeléfono: 0983714038"
+            }
+        ]
     },
     "public_server": {
         "type": "paragraph",
-        "title": "En el caso de que el o la agresor/a labore en una institución pública, debe poner en conocimiento de la unidad de talento humano de esta institución la agresión."
+        "content1": "En el caso de que el o la agresor/a labore en una institución pública, debe poner en conocimiento de la unidad de talento humano de esta institución la agresión."
     },
     "need_medic_help": {
         "type": "paragraph",
@@ -733,8 +806,33 @@
         }
     },
     "dinapen": {
-        "type": "paragraph",
-        "content1": "Jefatura Provincial DINAPEN\nDir: Av. 10 de Agosto y Santa Prisca\nTelf: 2572605, 2950214\n\nDistrito Quitumbe\nDir: Av. Huayanan Ñan y calle Oe3E\nTelf: 3660697\n\nDistrito Eloy Alfaro Sector de la Mena 2\nDir: calles Angamarca y Hnoiner\nTelf: 2840706 2631341\n\nDistrito La Delicia Casa de la Justicia de Carcelén\nDir: calles Tadeo Benítez y Joaquín Mancheno\nTelf: 285573 Ext.  175076\n\nDistrito Calderón\nDir: Av. Capitán Giovanny calles y Nápoles\nTelf: 3814850 Ext.  1181\n\nDistrito Los Chillos Conocoto\nDir: calles José de Ascazubi y Oriente\nTelf: 2075167\n\n"
+        "type": "law",
+        "articles": [
+            {
+                "title": "Jefatura Provincial DINAPEN",
+                "text": "Dir: Av. 10 de Agosto y Santa Prisca\nTelf: 2572605, 2950214"
+            },
+            {
+                "title": "Distrito Quitumbe",
+                "text": "Dir: Av. Huayanan Ñan y calle Oe3E\nTelf: 3660697"
+            },
+            {
+                "title": "Distrito Eloy Alfaro Sector de la Mena 2",
+                "text": "Dir: calles Angamarca y Hnoiner\nTelf: 2840706 2631341"
+            },
+            {
+                "title": "Distrito La Delicia Casa de la Justicia de Carcelén",
+                "text": "Dir: calles Tadeo Benítez y Joaquín Mancheno\nTelf: 285573 Ext.  175076"
+            },
+            {
+                "title": "Distrito Calderón",
+                "text": "Dir: Av. Capitán Giovanny calles y Nápoles\nTelf: 3814850 Ext.  1181"
+            },
+            {
+                "title": "Distrito Los Chillos Conocoto",
+                "text": "Dir: calles José de Ascazubi y Oriente\nTelf: 2075167"
+            }
+        ]
     },
     "follow_protection": {
         "type": "paragraph",
@@ -888,25 +986,39 @@
     },
     "find_job": {
         "title": "Portales Públicos de búsqueda de empleo",
-        "type": "paragraph",
-        "content1": "A través de los siguientes portales puedes acceder a diferentes ofertas laborales. Sigue las indicaciones que cada uno te pide.\n\nBolsa Metropolitana de Empleo – Labora UIO es una herramienta de ConQuito inclusiva, dinámica, multifuncional, amigable con el usuario, renovada y de acceso gratuito que conecta la oferta y demanda laboral en el Distrito Metropolitano. \n",
-        "link1": {
-            "type": "external",
-            "name": "Labora UIO",
-            "url": "https://www.conquito.org.ec/"
-        },
-        "content2": "\nEl sitio web oficial del Metro de Quito publica información sobre sus procesos de selección y vacantes disponibles. \n",
-        "link2": {
-            "type": "external",
-            "name": "MetroEmpleo",
-            "url": "https://metrodequito.gob.ec/metroempleo/"
-        },
-        "content3": "\nBolsa Pública del Ecuador que posibilita el encuentro entre la oferta y demanda laboral; de manera gratuita, transparente y ágil a través de la cooperación interinstitucional con empresas privadas e instituciones públicas.\n",
-        "link3": {
-            "type": "external",
-            "name": "Encuentra empleo",
-            "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
-        }
+        "type": "law",
+        "articles": [
+            {
+                "title": "\nLabora UIO",
+                "text": "Bolsa Metropolitana de Empleo – Labora UIO es una herramienta de ConQuito inclusiva, dinámica, multifuncional, amigable con el usuario, renovada y de acceso gratuito que conecta la oferta y demanda laboral en el Distrito Metropolitano.",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.conquito.org.ec/"
+                }
+            },
+            {
+                "title": "\nMetroEmpleo",
+                "text": "El sitio web oficial del Metro de Quito publica información sobre sus procesos de selección y vacantes disponibles.",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://metrodequito.gob.ec/metroempleo/"
+                }
+            },
+            {
+                "title": "\nEncuentra empleo",
+                "text": "Bolsa Pública del Ecuador que posibilita el encuentro entre la oferta y demanda laboral; de manera gratuita, transparente y ágil a través de la cooperación interinstitucional con empresas privadas e instituciones públicas.",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
+                }
+            },
+            {
+                "text": ""
+            }
+        ]
     },
     "private_and_university": {
         "title": "Empresas privadas y universidades",
@@ -1030,5 +1142,41 @@
             "name": "Agencia metropolitana de tránsito",
             "url": "https://www.amt.gob.ec/index.php/informacion/pico-y-placa/ "
         }
+    },
+    "economic_job": {
+        "title": "Empresas privadas y universidades",
+        "type": "law",
+        "articles": [
+            {
+                "title": "SRI",
+                "text": "Para ejercer tu actividad económica de modo formal es necesario que abras el Registro Único de Contribuyentes que te habilita a emitir facturas y notas de venta. Consulta en el Registro de Rentas Internas:",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://www.sri.gob.ec/servicios-y-tramites"
+                }
+            },
+            {
+                "title": "\nPatente municipal",
+                "text": "Cuando abres un RUC y estás domiciliado en Quito, se habilita tu Patente Municipal. Consulta como activarla en:",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://pam.quito.gob.ec/Consultaobligaciones/"
+                }
+            },
+            {
+                "title": "\nLUAE",
+                "text": "Si quieres abrir un local en Quito, debes tener una Licencia Metropolitana Única para el Ejercicio de Actividades Económicas. Conoce:",
+                "link": {
+                    "type": "external",
+                    "name": "Ver aqui",
+                    "url": "https://pam.quito.gob.ec/MDMQ_PORTAL_LUAE_WEB/Autenticacion/AutenticacionPatentes.aspx"
+                }
+            },
+            {
+                "text": " "
+            }
+        ]
     }
 }

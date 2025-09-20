@@ -12,15 +12,15 @@ export default function HomeScreen(props: any) {
     const buttons = [
         {
             colors: ["#F79D2B", "#F79D2B"],
-            text: 'Convivir',
+            text: 'Hola UIO',
             route: 'live_together',
             iconName: 'people-outline',
         },
         {
-            colors: ["#7a1194", '#7a1194'],
-            text: 'Violencia',
-            route: 'Violence',
-            iconName: 'hand-right',
+            colors: ["#DD1868", "#DD1868"],
+            text: 'Mis derechos',
+            route: 'Rights',
+            iconName: 'megaphone'
         },
         {
             colors: ["#4CA247", "#4CA247"],
@@ -29,20 +29,26 @@ export default function HomeScreen(props: any) {
             iconName: 'fitness'
         },
         {
-            colors: ["#14A5B1", "#14A5B1"],
-            text: 'Movilidad humana',
-            route: 'regularization_level',
-            iconName: 'earth'
+            colors: ["#DDA73B", "#DDA73B"],
+            text: 'Alimentación',
+            route: 'Feeding',
+            iconName: 'nutrition'
         },
         {
-            colors: ["#C52030", "#C52030"],
-            text: 'Inserción escolar',
-            route: 'Scholar',
-            iconName: 'school'
+            colors: ["#7a1194", '#7a1194'],
+            text: 'Violencia',
+            route: 'Violence',
+            iconName: 'hand-right',
+        },
+        {
+            colors: ["#b30040", "#b30040"],
+            text: 'Empleo y productividad',
+            route: 'find_job',
+            iconName: 'build'
         },
         {
             colors: ["#F79D2B", "#F79D2B"],
-            text: 'Habitar Quito',
+            text: 'Alojamiento y vivienda',
             route: 'City',
             iconName: 'business'
         },
@@ -53,35 +59,18 @@ export default function HomeScreen(props: any) {
             iconName: 'document-text'
         },
         {
-            colors: ["#DD1868", "#DD1868"],
-            text: 'Mis derechos',
-            route: 'Rights',
-            iconName: 'megaphone'
+            colors: ["#14A5B1", "#14A5B1"],
+            text: 'Movilidad humana',
+            route: 'regularization_level',
+            iconName: 'earth'
         },
         {
-            colors: ["#DDA73B", "#DDA73B"],
-            text: 'Alimentación',
-            route: 'Feeding',
-            iconName: 'nutrition'
+            colors: ["#C52030", "#C52030"],
+            text: 'Educación',
+            route: 'Scholar',
+            iconName: 'school'
         },
-        {
-            colors: ["#15496b", "#15496b"],
-            text: 'Directorio',
-            route: 'Directory',
-            iconName: 'library'
-        },
-        {
-            colors: [],
-            text: 'Información Clave',
-            route: 'Information',
-            iconName: 'eye'
-        },
-        {
-            colors: ["#b30040", "#b30040"],
-            text: 'Empleo y productividad',
-            route: 'find_job',
-            iconName: 'build'
-        },
+
     ];
 
     const windowWidth = Dimensions.get('window').width;
@@ -115,13 +104,12 @@ export default function HomeScreen(props: any) {
                     numColumns={2}
                     keyExtractor={(item: any) => item.text}
                     renderItem={(item: any) => <GradientButton style={styles.columButtonStyle} text={item.item.text} colors={item.item.colors} iconName={hideIcons ? null : item.item.iconName} onPres={() => { navigation.navigate(item.item.route) }} />}
-                    // ListFooterComponent={
-                    //     <View>
-                    //         <GradientButton text={'Directorio'} colors={["#15496b", "#15496b"]} onPres={() => { navigation.navigate('Search') }} />
-                    //         <View style={{ height: 30 }} />
-                    //     </View>
-
-                    // }
+                    ListFooterComponent={
+                        <View>
+                            <GradientButton text={'Directorio'} colors={["#15496b", "#15496b"]} onPres={() => { navigation.navigate('Search') }} />
+                            <View style={{ height: 30 }} />
+                        </View>
+                    }
                     ListHeaderComponent={wellcomeImage()}
                 />
 
