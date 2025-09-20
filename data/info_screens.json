@@ -906,18 +906,6 @@
             "type": "external",
             "name": "Encuentra empleo",
             "url": "https://encuentraempleo.trabajo.gob.ec/socioEmpleo-war/paginas/index.jsf"
-        },
-        "content4": "\nWeb de empleo líder en Latinoamérica con presencia en 19 países, incluido Ecuador. Conecta oferta y demanda laboral en doce provincias del país.\n",
-        "link4": {
-            "type": "external",
-            "name": "Computrabajo Ecuador",
-            "url": "https://ec.computrabajo.com/empleos-en-pichincha-en-quito"
-        },
-        "content5": "\nWeb de empleo presente en 7 países de Latinoamérica, incluido Ecuador. Conecta oferta y demanda laboral en las 24 provincias del país.\n",
-        "link5": {
-            "type": "external",
-            "name": "Multitrabajos",
-            "url": "https://www.multitrabajos.com/en-pichincha/quito/empleos.html"
         }
     },
     "private_and_university": {
@@ -995,7 +983,7 @@
             },
             {
                 "title": "\nMultitrabajos",
-                "text": "",
+                "text": "Texto sugerido: Web de empleo presente en 7 países de Latinoamérica, incluido Ecuador. Conecta oferta y demanda laboral en las 24 provincias del país.",
                 "link": {
                     "type": "external",
                     "name": "Ver aqui",
@@ -1004,7 +992,7 @@
             },
             {
                 "title": "\nHiring Room",
-                "text": "",
+                "text": "Texto sugerido: Plataforma de software de recursos humanos que funciona como un Sistema de Seguimiento de Postulantes y una herramienta de atracción de talento para las empresas. Permite a las organizaciones publicar vacantes, gestionar postulantes, centralizar la información.",
                 "link": {
                     "type": "external",
                     "name": "Ver aqui",
@@ -1013,12 +1001,18 @@
             },
             {
                 "title": "\nLinkedIn",
-                "text": "",
+                "text": "Texto sugerido: la mayor red profesional online a nivel mundial. Puedes utilizar LinkedIn para encontrar trabajo o prácticas profesionales, conectar y fortalecer las relaciones profesionales, y aprender las aptitudes necesarias. Para usarla deberás crear tu perfil profesional.",
                 "link": {
                     "type": "external",
                     "name": "Ver aqui",
                     "url": "https://www.linkedin.com/"
                 }
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "También te recomendamos visitar las páginas web de distintas empresas privadas en el país y de universidades para ampliar tu búsqueda (muchas de ellas publican directamente sus vacantes). "
             },
             {
                 "text": " "
