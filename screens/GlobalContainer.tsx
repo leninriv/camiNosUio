@@ -1,7 +1,5 @@
 import React from 'react';
-import { FlatList, StyleSheet, View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-
+import { FlatList, StyleSheet, View } from 'react-native';
 import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
 import { useEffect, useState } from 'react';
@@ -33,13 +31,9 @@ export default function GlobalContainer(props: any) {
     const { title, colors, buttons, modal } = route.params;
     const [screenArray, setScreenArray]: any = useState([]);
     const [loading, setLoading]: any = useState(true);
-    // const screenArray = 
 
     useEffect(() => {
-        // const routes = navigation.getState().routeNames;
-        // console.log('routes', route.params);
         setScreenArray(returnLevelScreens(buttons) ?? []);
-
     }, []);
 
     useEffect(() => {
@@ -52,16 +46,16 @@ export default function GlobalContainer(props: any) {
 
     return (
         <View style={styles.subNavContainer}>
-            <NavigationContainer independent={true}>
-                <Stack.Navigator screenOptions={InspectionTabBarOptions} initialRouteName="initial">
-                    {renderInitial(title, buttons, navigation, colors, modal)}
-                    {renderDynamicScreens(navigation, screenArray, colors, modal)}
-                    <Stack.Screen name='directory_result' component={SearchContainer} />
-                    <Stack.Screen name="DirectoryView" component={DirectoryViewScreen} />
-                    <Stack.Screen name='TagFiltering' component={SearchContainer} />
-                    <Stack.Screen name='ImageZoom' component={ZoomImageViewer} />
-                </Stack.Navigator>
-            </NavigationContainer>
+            {/* <NavigationContainer independent={true}> */}
+            <Stack.Navigator screenOptions={InspectionTabBarOptions} initialRouteName="initial">
+                {renderInitial(title, buttons, navigation, colors, modal)}
+                {renderDynamicScreens(navigation, screenArray, colors, modal)}
+                <Stack.Screen name='directory_result' component={SearchContainer} />
+                <Stack.Screen name="DirectoryView" component={DirectoryViewScreen} />
+                <Stack.Screen name='TagFiltering' component={SearchContainer} />
+                <Stack.Screen name='ImageZoom' component={ZoomImageViewer} />
+            </Stack.Navigator>
+            {/* </NavigationContainer> */}
         </View>
     );
 }
@@ -111,7 +105,7 @@ function ButtonListScreen(props: any) {
     }, []);
 
 
-    if (org.isFirst) props.navigation = mainNav;
+    // if (org.isFirst) props.navigation = mainNav;
     if (org.buttons?.length) org.buttons = org.buttons.filter((v: any, i: any, a: any) => a.findIndex((t: any) => (t.title === v.title)) === i);
     return <MainLayout  {...props} headerTitle={org.title} backButton>
         <View style={styles.container}>
