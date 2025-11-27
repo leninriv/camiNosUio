@@ -47,7 +47,9 @@
         {
           "username": "leninriv"
         }
-      ]
+      ],
+      "expo-asset",
+      "expo-font"
     ]
   }
 }

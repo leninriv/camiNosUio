@@ -5,10 +5,14 @@ import MainLayout from '../components/MainLayout';
 import GradientButton from '../components/GradientButton';
 import { useState } from 'react';
 import { Dialog } from '@rneui/themed';
+import { useNavigation } from '@react-navigation/native';
 
 export default function HomeScreen(props: any) {
     const [modalVisible, setModalVisible] = useState(true);
-    const { navigation } = props;
+    // const { navigation } = props;
+    const navigation = useNavigation();
+
+
     const buttons = [
         {
             colors: ["#F79D2B", "#F79D2B"],

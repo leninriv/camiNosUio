@@ -1,25 +1,35 @@
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { View, TouchableOpacity } from 'react-native';
+import { View, TouchableOpacity, BackHandler } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { Header } from '@rneui/themed'; // https://reactnativeelements.com/
 
 import Colors from '../constants/Colors';
 import { LinearGradient } from 'expo-linear-gradient';
+import { mainNavigation } from '../Routing';
 
 function DrawerMenuIcon(data: any) {
     const { props } = data;
     return (
         <TouchableOpacity onPress={() => { props.navigation.toggleDrawer() }}>
-            <Ionicons name="ios-menu" size={32} color="white" />
+            <Ionicons name="menu" size={32} color="white" />
         </TouchableOpacity>
     );
 }
 
 function BackMenuIcon(data: any) {
     const { props } = data;
+
+    function goBack() {
+        if (props.navigation.canGoBack()) {
+            props.navigation.goBack();
+        } else {
+            mainNavigation('Home');
+        }
+    }
+
     return (
-        <TouchableOpacity onPress={() => { props.navigation.goBack() }}>
+        <TouchableOpacity onPress={goBack}>
             <Ionicons name="arrow-back" size={32} color="white" />
         </TouchableOpacity>
     );
@@ -28,11 +38,11 @@ function BackMenuIcon(data: any) {
 export default function GlobalHeader(props: any) {
     return (
         <View>
-            <StatusBar style="light" translucent={true} animated={true}/>
+            <StatusBar style="light" translucent={true} animated={true} />
             <Header
                 ViewComponent={LinearGradient}
                 linearGradientProps={{
-                    colors: ['#4d4d4d','#a1a1a1'],
+                    colors: ['#4d4d4d', '#a1a1a1'],
                     start: { x: 0, y: 0.5 },
                     end: { x: 1, y: 0.5 },
                 }}

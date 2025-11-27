@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
-import { Text, SearchBar } from '@rneui/themed';
+import { SearchBar } from '@rneui/themed';
 
 
 import { database } from '../data/directory.json';
@@ -35,7 +35,7 @@ export default function SearchContainer(props: any) {
             globalList = [...database];
         }
         globalList = globalList.sort((a, b) => ((a.name < b.name) ? -1 : 1));
-        globalList = globalList.filter(item=> !!item.name);
+        globalList = globalList.filter(item => !!item.name);
         setMainList(globalList);
         setDataList(globalList);
     }, []);
@@ -58,7 +58,7 @@ export default function SearchContainer(props: any) {
                         placeholder="Nombre, Categoria, etc..."
                         onChangeText={updateSearch}
                         value={search}
-                        platform='ios'
+                        platform='android'
                         containerStyle={{ backgroundColor: 'transparent' }}
                     />
                     <FlatList

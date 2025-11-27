@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -14,11 +16,17 @@ import { routes } from './routingStructure.json';
 import PrivacyTermsContainer from './screens/PrivacyTermsContainer';
 
 const GlobalStack = createNativeStackNavigator();
-const Drawer = createDrawerNavigator();
+const DrawerStack = createDrawerNavigator();
 
 const InspectionTabBarOptions = {
     headerShown: false,
 };
+
+export const navigationRef = React.createRef();
+
+export function mainNavigation(name: string, params?: any) {
+    navigationRef.current?.navigate(name, params);
+}
 
 function SearchNav(props: any) {
     return (
@@ -59,32 +67,32 @@ export default function Routing() {
     regularizationLevel.buttons[0].buttons = routes.regularization.buttons;
 
     return (
-        <NavigationContainer>
-            <Drawer.Navigator
+        <NavigationContainer ref={navigationRef}>
+            <DrawerStack.Navigator
                 initialRouteName="Home"
                 screenOptions={{ headerShown: false }}
                 drawerContent={(props) => <DrawerMenuContent {...props} />} >
-                <Drawer.Screen name="Home" component={HomeScreen} />
-                <Drawer.Screen name="WhatIs" component={WhatIsContainer} />
-                <Drawer.Screen name="Organization" component={OrganizationContainer} />
-                <Drawer.Screen name="PrivacyTerms" component={PrivacyTermsContainer} />
-                <Drawer.Screen name="RightsProtection" component={GlobalContainer} initialParams={rightsProtectionMenu} />
-                <Drawer.Screen name="Information" component={GlobalContainer} initialParams={routes.information} />
-                <Drawer.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
-                <Drawer.Screen name="Test" component={TestScreen} />
-                <Drawer.Screen name="Violence" component={GlobalContainer} initialParams={violenceRoutes} />
-                <Drawer.Screen name="Health" component={GlobalContainer} initialParams={healthRoutes} />
-                <Drawer.Screen name="Feeding" component={GlobalContainer} initialParams={routes.feeding} />
-                <Drawer.Screen name="Documents" component={GlobalContainer} initialParams={routes.documents} />
-                <Drawer.Screen name="City" component={GlobalContainer} initialParams={routes.city} />
-                <Drawer.Screen name="Scholar" component={GlobalContainer} initialParams={scholarRoutes} />
-                <Drawer.Screen name="Rights" component={GlobalContainer} initialParams={routes.rights} />
-                <Drawer.Screen name="Regularization" component={GlobalContainer} initialParams={routes.regularization} />
-                <Drawer.Screen name="live_together" component={GlobalContainer} initialParams={routes.live_together} />
-                <Drawer.Screen name="find_job" component={GlobalContainer} initialParams={routes.job_and_productivity} />
-                <Drawer.Screen name="regularization_level" component={GlobalContainer} initialParams={regularizationLevel} />
-                <Drawer.Screen name="Search" component={SearchNav} />
-            </Drawer.Navigator>
+                <DrawerStack.Screen name="Home" component={HomeScreen} />
+                <DrawerStack.Screen name="WhatIs" component={WhatIsContainer} />
+                <DrawerStack.Screen name="Organization" component={OrganizationContainer} />
+                <DrawerStack.Screen name="PrivacyTerms" component={PrivacyTermsContainer} />
+                <DrawerStack.Screen name="RightsProtection" component={GlobalContainer} initialParams={rightsProtectionMenu} />
+                <DrawerStack.Screen name="Information" component={GlobalContainer} initialParams={routes.information} />
+                <DrawerStack.Screen name="Directory" component={GlobalContainer} initialParams={routes.directory} />
+                <DrawerStack.Screen name="Test" component={TestScreen} />
+                <DrawerStack.Screen name="Violence" component={GlobalContainer} initialParams={violenceRoutes} />
+                <DrawerStack.Screen name="Health" component={GlobalContainer} initialParams={healthRoutes} />
+                <DrawerStack.Screen name="Feeding" component={GlobalContainer} initialParams={routes.feeding} />
+                <DrawerStack.Screen name="Documents" component={GlobalContainer} initialParams={routes.documents} />
+                <DrawerStack.Screen name="City" component={GlobalContainer} initialParams={routes.city} />
+                <DrawerStack.Screen name="Scholar" component={GlobalContainer} initialParams={scholarRoutes} />
+                <DrawerStack.Screen name="Rights" component={GlobalContainer} initialParams={routes.rights} />
+                <DrawerStack.Screen name="Regularization" component={GlobalContainer} initialParams={routes.regularization} />
+                <DrawerStack.Screen name="live_together" component={GlobalContainer} initialParams={routes.live_together} />
+                <DrawerStack.Screen name="find_job" component={GlobalContainer} initialParams={routes.job_and_productivity} />
+                <DrawerStack.Screen name="regularization_level" component={GlobalContainer} initialParams={regularizationLevel} />
+                <DrawerStack.Screen name="Search" component={SearchNav} />
+            </DrawerStack.Navigator>
         </NavigationContainer>
     );
 }
