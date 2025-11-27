@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "dev": "npx expo start --offline "
+    "dev": "npx expo start --offline ",
+    "eas-build-pre-install": "npm config set legacy-peer-deps true"
   },
   "dependencies": {
     "@react-navigation/drawer": "^7.0.0",
@@ -37,5 +38,10 @@
     "@types/react": "~19.1.0",
     "typescript": "~5.9.2"
   },
-  "private": true
+  "private": true,
+  "eas": {
+    "build": {
+      "pre-install": "npm config set legacy-peer-deps true"
+    }
+  }
 }
